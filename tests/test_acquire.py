@@ -116,6 +116,25 @@ class AcquisitionTests(unittest.TestCase):
         rows = read_un_csv(archive([HEADER, production]))
         validate_rows(rows, expected_count=1)
 
+    def test_old_industry_classification_uses_gdp_item_16(self):
+        for group in ('201', '202'):
+            production = ROW.copy()
+            production[0], production[3], production[5] = group, '2.1' if group == '201' else '2.2', '16'
+            validate_rows(read_un_csv(archive([HEADER, production])), expected_count=1)
+
+    def test_real_telecommunications_counterexample_is_never_accepted_as_gdp(self):
+        wrong = ROW.copy()
+        wrong[0], wrong[3], wrong[5] = '201', '2.1', '26'
+        wrong[6], wrong[7], wrong[14] = 'Post and telecommunications', '64', '124621816573.678'
+        with self.assertRaisesRegex(ValueError, 'GDP'):
+            validate_rows(read_un_csv(archive([HEADER, wrong])), expected_count=1)
+
+    def test_matching_numeric_code_without_gdp_concept_is_rejected(self):
+        wrong = ROW.copy()
+        wrong[6], wrong[7] = 'Post and telecommunications', '64'
+        with self.assertRaisesRegex(ValueError, 'GDP'):
+            validate_rows(read_un_csv(archive([HEADER, wrong])), expected_count=1)
+
 
 if __name__ == '__main__':
     unittest.main()

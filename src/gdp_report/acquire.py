@@ -15,11 +15,11 @@ from urllib.request import Request, urlopen
 import zipfile
 
 BASE = 'https://data.un.org/legacy/'
-TABLES = {101: 24, 102: 24, 201: 26, 202: 26, 204: 26, 205: 26}
+TABLES = {101: 24, 102: 24, 201: 16, 202: 16, 204: 26, 205: 26}
 FX_URL = 'https://unstats.un.org/unsd/amaapi/api/file/30'
 WORLD_URL = 'https://unstats.un.org/unsd/amaapi/api/file/7'
 REQUIRED = {'Country or Area Code', 'Country or Area', 'Fiscal Year', 'Series',
-            'Currency', 'SNA System', 'Fiscal Year Type', 'Value', 'Item Code'}
+            'Currency', 'SNA System', 'Fiscal Year Type', 'Value', 'Item Code', 'SNA93 Item Code'}
 IDENTITY = ('Group Code', 'Country or Area Code', 'Fiscal Year', 'Series',
             'Currency', 'SNA System', 'Fiscal Year Type', 'Base Year')
 
@@ -70,7 +70,8 @@ def validate_rows(rows: list[dict], expected_count: int) -> None:
     seen = set()
     for row in rows:
         expected_item = str(TABLES.get(int(row.get('Group Code', '0')), 24))
-        if row['Item Code'] != expected_item:
+        if (row['Item Code'] != expected_item or row['SNA93 Item Code'] != 'B.1*g'
+                or 'gross domestic product' not in row['Item'].casefold()):
             raise ValueError('Export includes an item other than GDP')
         key = tuple(row.get(k, '') for k in IDENTITY)
         if key in seen:

@@ -55,7 +55,7 @@ def export_report(root: Path, model: dict, static: bool = True) -> None:
     (site / 'plotly.min.js').write_text(get_plotlyjs(), encoding='utf-8')
     model = {**model, 'plotly_python_version': plotly.__version__}
     columns = ['id', 'country_code', 'country', 'table', 'series_number', 'currency',
-               'base_year', 'fiscal_year_type', 'year', 'value', 'index', 'growth', 'notes']
+               'base_year', 'fiscal_year_type', 'price_basis_verified', 'year', 'value', 'index', 'growth', 'notes']
     for kind, key in [('real', 'series'), ('nominal', 'nominal_series')]:
         rows = [{**s, **point} for s in model[key] for point in s['points']]
         write_csv(downloads / f'{kind}-gdp.csv', columns, rows)
@@ -63,7 +63,7 @@ def export_report(root: Path, model: dict, static: bool = True) -> None:
               'longest_run_first': s['longest_run']['first'], 'longest_run_last': s['longest_run']['last']}
              for s in model['series'] + model['nominal_series']]
     write_csv(downloads / 'series-audit.csv', ['kind', 'id', 'country_code', 'country', 'table', 'series_number',
-              'currency', 'base_year', 'fiscal_year_type', 'first', 'last', 'observations',
+              'currency', 'base_year', 'fiscal_year_type', 'price_basis_verified', 'first', 'last', 'observations',
               'invalid_values', 'missing_years', 'longest_run_first', 'longest_run_last', 'preferred'], audit)
     write_csv(downloads / 'aggregate.csv', ['panel_id', 'country_count', 'year', 'value', 'index', 'growth'],
               [{'panel_id': p['id'], 'country_count': p['country_count'], **point}

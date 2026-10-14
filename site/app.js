@@ -46,6 +46,7 @@ function chooseCurrent() {
       ? '国連AMAの2020年価格米ドル系列。欠測補完・接続推計を含み、2008SNA公式値だけの集計ではありません。'
       : `表 ${current.table} / 系列 ${current.series_number} / ${baseLabel(current)} / ${current.currency} / ${current.fiscal_year_type}。指数は${current.index_base}年を100とします。`;
   $('chart-description').textContent = description;
+  if (mode === 'country' && !current.price_basis_verified) $('chart-description').textContent += ' 固定価格で比較できる基準年を確認できないため、指数・前年比は未算出です。元の値は表とCSVに保存しています。';
   const notes = mode === 'country' ? [...new Set(current.points.map(p => p.notes).filter(Boolean))] : [];
   $('series-notes').textContent = notes.length ? `原資料の注記：${notes.join(' / ')}` : '';
   $('members-details').hidden = mode !== 'panel';
@@ -77,17 +78,20 @@ function renderCharts() {
     hoverlabel:{bgcolor:'#ffffff',font:{size:12,color:'#163940'},bordercolor:color},
   };
   const config = {responsive:true,displaylogo:false,scrollZoom:false,modeBarButtonsToRemove:['select2d','lasso2d'],toImageButtonOptions:{format:'svg',filename:'gdp-report'}};
+  const emptyAnnotations = field => points.some(p=>p[field]!==null) ? [] : [{text:'比較に必要な価格基準または値を確認できません',xref:'paper',yref:'paper',x:.5,y:.5,showarrow:false,font:{size:11,color:'#647274'}}];
   Plotly.react('index-chart', [{type:'scatter',mode:'lines+markers',x:points.map(p=>p.year),y:points.map(p=>p.index),connectgaps:false,
     line:{color,width:2.5},marker:{size:4,color},customdata:data,
-    hovertemplate:`<b>%{x}年</b><br>指数：%{y:,.2f}<br>実質GDP：%{customdata[0]} ${currency}<br>前年比：%{customdata[1]}<extra></extra>`}], layout, config);
+    hovertemplate:`<b>%{x}年</b><br>指数：%{y:,.2f}<br>実質GDP：%{customdata[0]} ${currency}<br>前年比：%{customdata[1]}<extra></extra>`}], {...layout,annotations:emptyAnnotations('index')}, config);
   Plotly.react('growth-chart', [{type:'bar',x:points.map(p=>p.year),y:points.map(p=>p.growth),customdata:data,
     marker:{color:points.map(p=>p.growth < 0 ? '#b75946' : color)},
-    hovertemplate:`<b>%{x}年</b><br>前年比：%{y:+.2f}%<br>実質GDP：%{customdata[0]} ${currency}<extra></extra>`}], {...layout,yaxis:{...layout.yaxis,ticksuffix:'%'}}, config);
+    hovertemplate:`<b>%{x}年</b><br>前年比：%{y:+.2f}%<br>実質GDP：%{customdata[0]} ${currency}<extra></extra>`}], {...layout,annotations:emptyAnnotations('growth'),yaxis:{...layout.yaxis,ticksuffix:'%'}}, config);
   $('point-table').replaceChildren();
   points.forEach(p => cellRow($('point-table'),[p.year,format(p.value,4),format(p.index),p.growth===null?'欠測':format(p.growth),p.notes || '']));
   const valid = points.filter(p=>p.value!==null && p.value>0);
   $('reading').replaceChildren();
-  if (valid.length) {
+  if (current.price_basis_verified === false) {
+    $('reading').textContent = '価格の比較基準を確認できないため、増加率は算出していません。';
+  } else if (valid.length) {
     const begin=valid[0], end=valid[valid.length-1];
     const stats = [[`${end.year}年の前年比`,signed(end.growth)],
       [`${begin.year}→${end.year}年の増加率`,signed(100*(end.value/begin.value-1))],

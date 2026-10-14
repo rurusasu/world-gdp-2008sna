@@ -56,11 +56,12 @@ def _make_series(rows: list[dict], kind: str) -> list[dict]:
             notes[year] = row.get('Footnote text', '')
         first, last = min(values), max(values)
         baseline = values[first]
+        price_verified = kind == 'nominal' or (key[4].isdigit() and 1800 <= int(key[4]) <= 2200)
         points = []
         for year in range(first, last + 1):
             value, prior = values.get(year), values.get(year - 1)
-            growth = 100 * (value / prior - 1) if value is not None and value > 0 and prior is not None and prior > 0 else None
-            index = 100 * value / baseline if value is not None and value > 0 and baseline is not None and baseline > 0 else None
+            growth = 100 * (value / prior - 1) if price_verified and value is not None and value > 0 and prior is not None and prior > 0 else None
+            index = 100 * value / baseline if price_verified and value is not None and value > 0 and baseline is not None and baseline > 0 else None
             points.append({'year': year, 'value': value, 'growth': growth, 'index': index,
                            'notes': notes.get(year, '')})
         run = _longest_run(values)
@@ -69,6 +70,7 @@ def _make_series(rows: list[dict], kind: str) -> list[dict]:
                        'group': key[1], 'table': example.get('SNA93 Table Code', ''),
                        'series_number': key[2], 'currency': example['Currency'],
                        'base_year': key[4], 'fiscal_year_type': key[5], 'sna': '2008',
+                       'price_basis_verified': price_verified,
                        'first': first, 'last': last, 'index_base': first,
                        'observations': len(records), 'invalid_values': sum(v is None for v in values.values()),
                        'missing_years': [y for y in range(first, last + 1) if y not in values or values[y] is None],
@@ -78,9 +80,9 @@ def _make_series(rows: list[dict], kind: str) -> list[dict]:
     for series in output:
         by_country[series['country_code']].append(series)
     for candidates in by_country.values():
-        best = max((s['longest_run']['length'], s['longest_run']['last']) for s in candidates)
+        best = max((s['price_basis_verified'], s['longest_run']['length'], s['longest_run']['last']) for s in candidates)
         for series in candidates:
-            series['preferred'] = (series['longest_run']['length'], series['longest_run']['last']) == best
+            series['preferred'] = (series['price_basis_verified'], series['longest_run']['length'], series['longest_run']['last']) == best
     return output
 
 
@@ -112,6 +114,8 @@ def aggregate_panel(series: list[dict], weights: dict, start: int, end: int, bas
         seen.add(code)
         if item['fiscal_year_type'] != CALENDAR:
             raise ValueError('Non-calendar series cannot enter this panel')
+        if not item.get('price_basis_verified', False):
+            raise ValueError('Unverified price reference cannot enter this panel')
         weight = weights.get(code)
         if weight is None or not math.isfinite(weight) or weight <= 0:
             raise ValueError('Missing or invalid weight')
@@ -155,7 +159,9 @@ def choose_panels(result: dict, rates: dict, starts: list | None = None, ends: l
         code = item['country_code']
         rate = rates.get(code)
         reason = None
-        if item['fiscal_year_type'] != CALENDAR:
+        if not item['price_basis_verified']:
+            reason = 'unverified fixed-price reference year'
+        elif item['fiscal_year_type'] != CALENDAR:
             reason = 'non-calendar fiscal year'
         elif any('factor cost' in p['notes'].lower() for p in item['points']):
             reason = 'factor-cost valuation'

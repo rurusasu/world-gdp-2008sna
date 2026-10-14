@@ -3,10 +3,10 @@ Bulgaria,real|100|102|1000|lev|2010|Western calendar year,currency mismatch with
 Bulgaria,real|100|102|1000|lev|2015|Western calendar year,currency mismatch with exchange rate
 Bulgaria,real|100|205|1000|lev|2010|Western calendar year,currency mismatch with exchange rate
 Bulgaria,real|100|205|1000|lev|2015|Western calendar year,currency mismatch with exchange rate
-Belarus,real|112|102|1000|belarussian rouble (re-denom. 1:1000)|-1|Western calendar year,currency mismatch with exchange rate
-Belarus,real|112|102|1100|belarussian rouble (re-denom. 1:10000)|-1|Western calendar year,currency mismatch with exchange rate
-Belarus,real|112|205|1000|belarussian rouble (re-denom. 1:1000)|-1|Western calendar year,currency mismatch with exchange rate
-Belarus,real|112|205|1100|belarussian rouble (re-denom. 1:10000)|-1|Western calendar year,currency mismatch with exchange rate
+Belarus,real|112|102|1000|belarussian rouble (re-denom. 1:1000)|-1|Western calendar year,unverified fixed-price reference year
+Belarus,real|112|102|1100|belarussian rouble (re-denom. 1:10000)|-1|Western calendar year,unverified fixed-price reference year
+Belarus,real|112|205|1000|belarussian rouble (re-denom. 1:1000)|-1|Western calendar year,unverified fixed-price reference year
+Belarus,real|112|205|1100|belarussian rouble (re-denom. 1:10000)|-1|Western calendar year,unverified fixed-price reference year
 Cameroon,real|120|102|1000|cfa franc|2005|Western calendar year,currency mismatch with exchange rate
 Cameroon,real|120|102|1100|cfa franc|2016|Western calendar year,currency mismatch with exchange rate
 Cameroon,real|120|205|1000|cfa franc|2005|Western calendar year,currency mismatch with exchange rate
@@ -22,12 +22,13 @@ Andorra,real|20|102|1000|euro|2000|Western calendar year,no matching official no
 Andorra,real|20|205|1000|euro|2000|Western calendar year,no matching official nominal 2020 GDP
 Benin,real|204|102|1000|cfa franc|2015|Western calendar year,currency mismatch with exchange rate
 Benin,real|204|205|1000|cfa franc|2015|Western calendar year,currency mismatch with exchange rate
+Ethiopia [from 1993],real|231|202|1000|ethiopian birr|2016|Fiscal year ending 7 July,non-calendar fiscal year
 Estonia,real|233|102|1000|euro|2010|Western calendar year,no matching official nominal 2020 GDP
 Estonia,real|233|205|1000|euro|2010|Western calendar year,no matching official nominal 2020 GDP
 Faroe Islands,real|234|102|1000|danish krone|2010|Western calendar year,missing verified IMF 2020 exchange rate
 Faroe Islands,real|234|205|1000|danish krone|2010|Western calendar year,missing verified IMF 2020 exchange rate
-Angola,real|24|102|1000|(second) kwanza|-1|Western calendar year,currency mismatch with exchange rate
-Angola,real|24|205|1000|(second) kwanza|-1|Western calendar year,currency mismatch with exchange rate
+Angola,real|24|102|1000|(second) kwanza|-1|Western calendar year,unverified fixed-price reference year
+Angola,real|24|205|1000|(second) kwanza|-1|Western calendar year,unverified fixed-price reference year
 Antigua and Barbuda,real|28|205|1000|ec dollar|2018|Western calendar year,currency mismatch with exchange rate
 Ghana,real|288|102|1000|cedi (third)|2013|Western calendar year,currency mismatch with exchange rate
 Ghana,real|288|205|1000|cedi (third)|2013|Western calendar year,currency mismatch with exchange rate
@@ -57,6 +58,8 @@ Australia,real|36|102|1000|australian dollar|2019|Fiscal year beginning 1 July,n
 Australia,real|36|102|1000|australian dollar|2020|Fiscal year beginning 1 July,non-calendar fiscal year
 Australia,real|36|102|1000|australian dollar|2021|Fiscal year beginning 1 July,non-calendar fiscal year
 Australia,real|36|102|1000|australian dollar|2022|Fiscal year beginning 1 July,non-calendar fiscal year
+Australia,real|36|202|1000|australian dollar|2010|Fiscal year beginning 1 July,non-calendar fiscal year
+Australia,real|36|202|1000|australian dollar|2011|Fiscal year beginning 1 July,non-calendar fiscal year
 Australia,real|36|205|1000|australian dollar|2010|Fiscal year beginning 1 July,non-calendar fiscal year
 Australia,real|36|205|1000|australian dollar|2011|Fiscal year beginning 1 July,non-calendar fiscal year
 Australia,real|36|205|1000|australian dollar|2012|Fiscal year beginning 1 July,non-calendar fiscal year
@@ -71,6 +74,7 @@ Australia,real|36|205|1000|australian dollar|2020|Fiscal year beginning 1 July,n
 Australia,real|36|205|1000|australian dollar|2021|Fiscal year beginning 1 July,non-calendar fiscal year
 Australia,real|36|205|1000|australian dollar|2022|Fiscal year beginning 1 July,non-calendar fiscal year
 Indonesia,real|360|102|1000|indonesian rupiah|2010|Western calendar year,currency mismatch with exchange rate
+Indonesia,real|360|202|1000|indonesian rupiah|2010|Western calendar year,currency mismatch with exchange rate
 Indonesia,real|360|205|1000|indonesian rupiah|2010|Western calendar year,currency mismatch with exchange rate
 Iran (Islamic Republic of),real|364|102|1000|iranian rial|2016|Fiscal year beginning 21 March,non-calendar fiscal year
 Iran (Islamic Republic of),real|364|205|1000|iranian rial|2016|Fiscal year beginning 21 March,non-calendar fiscal year
@@ -80,8 +84,8 @@ Israel,real|376|102|1100|new sheqel|2015|Western calendar year,currency mismatch
 Israel,real|376|205|1000|new sheqel|2010|Western calendar year,currency mismatch with exchange rate
 Israel,real|376|205|1000|new sheqel|2015|Western calendar year,currency mismatch with exchange rate
 Israel,real|376|205|1100|new sheqel|2015|Western calendar year,currency mismatch with exchange rate
-Côte d'Ivoire,real|384|102|1000|cfa franc|-1|Western calendar year,currency mismatch with exchange rate
-Côte d'Ivoire,real|384|205|1000|cfa franc|-1|Western calendar year,currency mismatch with exchange rate
+Côte d'Ivoire,real|384|102|1000|cfa franc|-1|Western calendar year,unverified fixed-price reference year
+Côte d'Ivoire,real|384|205|1000|cfa franc|-1|Western calendar year,unverified fixed-price reference year
 Afghanistan,real|4|102|1100|afghani|2016|Fiscal year beginning 21 March,non-calendar fiscal year
 Afghanistan,real|4|205|1100|afghani|2016|Fiscal year beginning 21 March,non-calendar fiscal year
 Kenya,real|404|102|1000|kenya shillings|2009|Western calendar year,currency mismatch with exchange rate
@@ -94,8 +98,8 @@ Republic of Korea,real|410|102|1100|korean won|2020|Western calendar year,curren
 Republic of Korea,real|410|205|1000|korean won|2010|Western calendar year,currency mismatch with exchange rate
 Republic of Korea,real|410|205|1100|korean won|2015|Western calendar year,currency mismatch with exchange rate
 Republic of Korea,real|410|205|1100|korean won|2020|Western calendar year,currency mismatch with exchange rate
-Kyrgyzstan,real|417|102|1000|kyrgyz som|-1|Western calendar year,currency mismatch with exchange rate
-Kyrgyzstan,real|417|205|1000|kyrgyz som|-1|Western calendar year,currency mismatch with exchange rate
+Kyrgyzstan,real|417|102|1000|kyrgyz som|-1|Western calendar year,unverified fixed-price reference year
+Kyrgyzstan,real|417|205|1000|kyrgyz som|-1|Western calendar year,unverified fixed-price reference year
 "China, Macao Special Administrative Region",real|446|102|1000|pataca|2011|Western calendar year,no matching official nominal 2020 GDP
 "China, Macao Special Administrative Region",real|446|102|1000|pataca|2013|Western calendar year,no matching official nominal 2020 GDP
 "China, Macao Special Administrative Region",real|446|202|1000|pataca|2013|Western calendar year,no matching official nominal 2020 GDP
@@ -103,7 +107,7 @@ Malaysia,real|458|102|1000|ringgit|2010|Western calendar year,currency mismatch 
 Malaysia,real|458|102|1000|ringgit|2015|Western calendar year,currency mismatch with exchange rate
 Malaysia,real|458|205|1000|ringgit|2010|Western calendar year,currency mismatch with exchange rate
 Malaysia,real|458|205|1000|ringgit|2015|Western calendar year,currency mismatch with exchange rate
-Mali,real|466|102|1000|cfa franc|-1|Western calendar year,currency mismatch with exchange rate
+Mali,real|466|102|1000|cfa franc|-1|Western calendar year,unverified fixed-price reference year
 Mauritius,real|480|102|1000|mauritian rupee|2006|Western calendar year,currency mismatch with exchange rate
 Mauritius,real|480|102|1000|mauritian rupee|2018|Western calendar year,currency mismatch with exchange rate
 Mauritius,real|480|205|1000|mauritian rupee|2006|Western calendar year,currency mismatch with exchange rate
@@ -111,6 +115,7 @@ Mauritius,real|480|205|1000|mauritian rupee|2018|Western calendar year,currency 
 Mexico,real|484|102|1000|mexican new peso|2008|Western calendar year,currency mismatch with exchange rate
 Mexico,real|484|102|1000|mexican new peso|2013|Western calendar year,currency mismatch with exchange rate
 Mexico,real|484|102|1000|mexican new peso|2018|Western calendar year,currency mismatch with exchange rate
+Mexico,real|484|202|1000|mexican new peso|2008|Western calendar year,currency mismatch with exchange rate
 Mexico,real|484|205|1000|mexican new peso|2008|Western calendar year,currency mismatch with exchange rate
 Mexico,real|484|205|1000|mexican new peso|2013|Western calendar year,currency mismatch with exchange rate
 Mexico,real|484|205|1000|mexican new peso|2018|Western calendar year,currency mismatch with exchange rate
@@ -118,11 +123,15 @@ Mongolia,real|496|102|1000|togrog|2010|Western calendar year,currency mismatch w
 Mongolia,real|496|102|1100|togrog|2015|Western calendar year,currency mismatch with exchange rate
 Mongolia,real|496|205|1000|togrog|2010|Western calendar year,currency mismatch with exchange rate
 Mongolia,real|496|205|1100|togrog|2015|Western calendar year,currency mismatch with exchange rate
+Republic of Moldova,real|498|102|1000|moldovan leu|-1|Western calendar year,unverified fixed-price reference year
+Republic of Moldova,real|498|205|1000|moldovan leu|-1|Western calendar year,unverified fixed-price reference year
+Montenegro,real|499|102|1000|euro|-1|Western calendar year,unverified fixed-price reference year
+Montenegro,real|499|205|1000|euro|-1|Western calendar year,unverified fixed-price reference year
 Bangladesh,real|50|102|1000|taka|2016|Fiscal year ending 30 June,non-calendar fiscal year
 Bangladesh,real|50|205|1000|taka|2016|Fiscal year ending 30 June,non-calendar fiscal year
 Montserrat,real|500|205|1000|ec dollar|2018|Western calendar year,currency mismatch with exchange rate
-Armenia,real|51|102|1000|dram|-1|Western calendar year,currency mismatch with exchange rate
-Armenia,real|51|205|1000|dram|-1|Western calendar year,currency mismatch with exchange rate
+Armenia,real|51|102|1000|dram|-1|Western calendar year,unverified fixed-price reference year
+Armenia,real|51|205|1000|dram|-1|Western calendar year,unverified fixed-price reference year
 Namibia,real|516|102|1000|namibia dollar|2015|Western calendar year,currency mismatch with exchange rate
 Namibia,real|516|205|1000|namibia dollar|2015|Western calendar year,currency mismatch with exchange rate
 Nepal,real|524|102|1000|nepalese rupee|2011|Fiscal year ending 15 July,non-calendar fiscal year
@@ -139,8 +148,10 @@ Niger,real|562|102|1000|cfa franc|2015|Western calendar year,currency mismatch w
 Niger,real|562|102|1100|cfa franc|2015|Western calendar year,currency mismatch with exchange rate
 Niger,real|562|205|1000|cfa franc|2015|Western calendar year,currency mismatch with exchange rate
 Niger,real|562|205|1100|cfa franc|2015|Western calendar year,currency mismatch with exchange rate
+Niue,real|570|202|1000|new zealand dollar|2009|Fiscal year ending 30 June,non-calendar fiscal year
 Pakistan,real|586|102|1000|pakistan rupee|2006|Fiscal year ending 30 June,non-calendar fiscal year
 Pakistan,real|586|102|1100|pakistan rupee|2016|Fiscal year ending 30 June,non-calendar fiscal year
+Pakistan,real|586|202|1000|pakistan rupee|2006|Fiscal year ending 30 June,non-calendar fiscal year
 Pakistan,real|586|205|1000|pakistan rupee|2006|Fiscal year ending 30 June,non-calendar fiscal year
 Pakistan,real|586|205|1100|pakistan rupee|2016|Fiscal year ending 30 June,non-calendar fiscal year
 Papua New Guinea,real|598|205|1000|kina|2013|Western calendar year,no matching official nominal 2020 GDP
@@ -157,10 +168,10 @@ Timor-Leste,real|626|202|1000|us dollars|2010|Western calendar year,currency mis
 Timor-Leste,real|626|205|1000|us dollars|2010|Western calendar year,currency mismatch with exchange rate
 Timor-Leste,real|626|205|1100|us dollars|2015|Western calendar year,currency mismatch with exchange rate
 Timor-Leste,real|626|205|1200|us dollars|2015|Western calendar year,currency mismatch with exchange rate
-Romania,real|642|102|1000|new romanian leu|-1|Western calendar year,currency mismatch with exchange rate
+Romania,real|642|102|1000|new romanian leu|-1|Western calendar year,unverified fixed-price reference year
 Romania,real|642|102|1000|new romanian leu|2010|Western calendar year,currency mismatch with exchange rate
 Romania,real|642|102|1000|new romanian leu|2015|Western calendar year,currency mismatch with exchange rate
-Romania,real|642|205|1000|new romanian leu|-1|Western calendar year,currency mismatch with exchange rate
+Romania,real|642|205|1000|new romanian leu|-1|Western calendar year,unverified fixed-price reference year
 Romania,real|642|205|1000|new romanian leu|2010|Western calendar year,currency mismatch with exchange rate
 Romania,real|642|205|1000|new romanian leu|2015|Western calendar year,currency mismatch with exchange rate
 Russian Federation,real|643|102|1000|russian ruble|2011|Western calendar year,no matching official nominal 2020 GDP
@@ -176,6 +187,7 @@ Saint Vincent and the Grenadines,real|670|205|1000|ec dollar|2018|Western calend
 Saudi Arabia,real|682|102|1000|saudi arabian riyal|2010|Western calendar year,currency mismatch with exchange rate
 Saudi Arabia,real|682|102|1100|saudi arabian riyal|2010|Western calendar year,currency mismatch with exchange rate
 Saudi Arabia,real|682|102|1100|saudi arabian riyal|2018|Western calendar year,currency mismatch with exchange rate
+Saudi Arabia,real|682|202|1000|saudi arabian riyal|2010|Western calendar year,currency mismatch with exchange rate
 Saudi Arabia,real|682|205|1000|saudi arabian riyal|2010|Western calendar year,currency mismatch with exchange rate
 Saudi Arabia,real|682|205|1100|saudi arabian riyal|2010|Western calendar year,currency mismatch with exchange rate
 Saudi Arabia,real|682|205|1100|saudi arabian riyal|2018|Western calendar year,currency mismatch with exchange rate
@@ -187,27 +199,38 @@ Serbia,real|688|102|1000|dinar|2021|Western calendar year,currency mismatch with
 Serbia,real|688|205|1000|dinar|2010|Western calendar year,currency mismatch with exchange rate
 Serbia,real|688|205|1000|dinar|2015|Western calendar year,currency mismatch with exchange rate
 Serbia,real|688|205|1000|dinar|2021|Western calendar year,currency mismatch with exchange rate
-Slovenia,real|705|102|1000|euro|-1|Western calendar year,no matching official nominal 2020 GDP
-Slovenia,real|705|205|1000|euro|-1|Western calendar year,no matching official nominal 2020 GDP
+Bosnia and Herzegovina,real|70|102|1000|convertible marks|-1|Western calendar year,unverified fixed-price reference year
+Bosnia and Herzegovina,real|70|102|1100|convertible marks|-1|Western calendar year,unverified fixed-price reference year
+Bosnia and Herzegovina,real|70|205|1000|convertible marks|-1|Western calendar year,unverified fixed-price reference year
+Bosnia and Herzegovina,real|70|205|1100|convertible marks|-1|Western calendar year,unverified fixed-price reference year
+Slovenia,real|705|102|1000|euro|-1|Western calendar year,unverified fixed-price reference year
+Slovenia,real|705|205|1000|euro|-1|Western calendar year,unverified fixed-price reference year
 Somalia,real|706|102|1000|us dollar|2022|Western calendar year,missing verified IMF 2020 exchange rate
 Zimbabwe,real|716|102|1000|zimbabwe dollar|2023|Western calendar year,currency mismatch with exchange rate
 Zimbabwe,real|716|102|1100|zimbabwe gold|2023|Western calendar year,currency mismatch with exchange rate
 Zimbabwe,real|716|205|1000|zimbabwe dollar|2023|Western calendar year,currency mismatch with exchange rate
 Zimbabwe,real|716|205|1100|zimbabwe gold|2023|Western calendar year,currency mismatch with exchange rate
 Suriname,real|740|205|1000|suriname dollar|2015|Western calendar year,currency mismatch with exchange rate
-Brazil,real|76|102|1000|real|-1|Western calendar year,currency mismatch with exchange rate
+Brazil,real|76|102|1000|real|-1|Western calendar year,unverified fixed-price reference year
 Brazil,real|76|102|1000|real|1995|Western calendar year,currency mismatch with exchange rate
-Brazil,real|76|202|1000|real|-1|Western calendar year,currency mismatch with exchange rate
-Brazil,real|76|205|1000|real|-1|Western calendar year,currency mismatch with exchange rate
+Brazil,real|76|202|1000|real|-1|Western calendar year,unverified fixed-price reference year
+Brazil,real|76|205|1000|real|-1|Western calendar year,unverified fixed-price reference year
 Brazil,real|76|205|1000|real|1995|Western calendar year,currency mismatch with exchange rate
-Tajikistan,real|762|102|1000|samoni|-1|Western calendar year,currency mismatch with exchange rate
-Tajikistan,real|762|205|1000|samoni|-1|Western calendar year,currency mismatch with exchange rate
+Tajikistan,real|762|102|1000|samoni|-1|Western calendar year,unverified fixed-price reference year
+Tajikistan,real|762|205|1000|samoni|-1|Western calendar year,unverified fixed-price reference year
 Togo,real|768|102|1000|cfa franc|2016|Western calendar year,currency mismatch with exchange rate
 Togo,real|768|205|1000|cfa franc|2016|Western calendar year,currency mismatch with exchange rate
 Tonga,real|776|102|1000|pa'anga|2017|Fiscal year ending 30 June,non-calendar fiscal year
 Tonga,real|776|205|1000|pa'anga|2017|Fiscal year ending 30 June,non-calendar fiscal year
+Tunisia,real|788|102|1000|tunisian dinar|-1|Western calendar year,unverified fixed-price reference year
+Tunisia,real|788|205|1000|tunisian dinar|-1|Western calendar year,unverified fixed-price reference year
+Albania,real|8|102|1000|lek|-1|Western calendar year,unverified fixed-price reference year
+Albania,real|8|202|1000|lek|-1|Western calendar year,unverified fixed-price reference year
+Albania,real|8|205|1000|lek|-1|Western calendar year,unverified fixed-price reference year
 Uganda,real|800|102|1000|uganda shilling|2010|Fiscal year ending 30 June,non-calendar fiscal year
 Uganda,real|800|205|1000|uganda shilling|2010|Fiscal year ending 30 June,non-calendar fiscal year
+Ukraine,real|804|102|1000|hryvnia|-1|Western calendar year,unverified fixed-price reference year
+Ukraine,real|804|205|1000|hryvnia|-1|Western calendar year,unverified fixed-price reference year
 North Macedonia,real|807|102|1000|tfyr macedonian denar|2005|Western calendar year,currency mismatch with exchange rate
 North Macedonia,real|807|205|1000|tfyr macedonian denar|2005|Western calendar year,currency mismatch with exchange rate
 Burkina Faso,real|854|102|1000|cfa franc|2015|Western calendar year,currency mismatch with exchange rate

@@ -90,6 +90,15 @@ class AnalysisTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'overlap'):
             aggregate_panel(analyze_rows([], real)['series'], {'250': 100, '312': 10}, 2020, 2020, 2020)
 
+    def test_unverified_price_base_cannot_be_ratioed_as_a_fixed_price_series(self):
+        result = analyze_rows([], [row(2020, 100, base='-1'), row(2021, 110, base='-1')])
+        series = result['series'][0]
+        self.assertEqual(series['points'][1]['value'], 110)
+        self.assertIsNone(series['points'][1]['growth'])
+        self.assertIsNone(series['points'][1]['index'])
+        with self.assertRaisesRegex(ValueError, 'price'):
+            aggregate_panel([series], {'392': 100}, 2020, 2021, 2020)
+
 
 if __name__ == '__main__':
     unittest.main()

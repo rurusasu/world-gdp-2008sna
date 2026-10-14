@@ -34,11 +34,11 @@
 
 **Interfaces:** `read_un_csv(blob: bytes) -> list[dict]`; `fetch_snapshot(root: Path) -> Path`. Immutable raw snapshot contains table 101/102 GDP rows, count-verification source pages, and manifest with URL, SHA-256, timestamp, row counts. Supplemental exchange-rate source must be separately identified if used.
 
-- [ ] Write tests with a small literal ZIP/CSV fixture: valid rows parsed, HTML rejected, record-count mismatch rejected, duplicate observation keys rejected.
-- [ ] Run `python -m unittest discover -s tests -v`; expected failures before implementation.
-- [ ] Implement strict ZIP parsing, bounded retries, GDP item filter `item_code:24`, all metadata columns, count checks, immutable raw files and manifest.
-- [ ] Run the tests, then fetch both tables and compare counts. Log earliest/latest available metadata without assuming all rows are 2008.
-- [ ] Commit acquisition, configuration, source notes and raw snapshot if each file fits GitHub limits.
+- [x] Write tests with a small literal ZIP/CSV fixture: valid rows parsed, HTML rejected, record-count mismatch rejected, duplicate observation keys rejected.
+- [x] Run `python -m unittest discover -s tests -v`; expected failures before implementation.
+- [x] Implement strict ZIP parsing, bounded retries, GDP item filters `101/102:24`, `201/202:16`, `204/205:26`, with concept `B.1*g` and GDP label checks, all metadata columns, count checks, immutable raw files and manifest.
+- [x] Run the tests, then fetch both tables and compare counts. Log earliest/latest available metadata without assuming all rows are 2008.
+- [x] Commit acquisition, configuration, source notes and raw snapshot if each file fits GitHub limits.
 
 ### Task 2: Normalization, audit and growth
 
@@ -46,12 +46,12 @@
 
 **Interfaces:** `analyze_rows(nominal: list[dict], real: list[dict]) -> dict`; `aggregate_panel(series: list[dict], weights: dict, start: int, end: int, base: int) -> dict`. Report model includes series identities, points with real GDP/index/growth, series audit, source manifest, aggregate availability and exclusions.
 
-- [ ] Write tests for literal 100→110→missing→121: growth 10%, missing year and the following year's growth absent, fixed index 121. Test 1993 exclusion, duplicate conflicts, non-positive bases, and metadata segmentation.
-- [ ] Add fixed-panel tests with two hand-calculated country weights; reject missing countries/FX, invalid fiscal periods, currency mismatch, and overlapping economic territories.
-- [ ] Run tests RED; implement conversion/validation, metadata identities, explicit missing-year points, longest-contiguous preferred series and full series audit.
-- [ ] Explore actual official series and supplemental FX metadata. Only produce a comparable fixed-base aggregate after required weight provenance is confirmed. If not confirmed, emit a clear unavailable status and required inputs; no substituted world series.
-- [ ] Run GREEN suite and generate reproducible UTF-8 CSV/JSON; document factual coverage and aggregation decision.
-- [ ] Commit normalized calculations, source notes and audit output.
+- [x] Write tests for literal 100→110→missing→121: growth 10%, missing year and the following year's growth absent, fixed index 121. Test 1993 exclusion, duplicate conflicts, non-positive bases, and metadata segmentation.
+- [x] Add fixed-panel tests with two hand-calculated country weights; reject missing countries/FX, invalid fiscal periods, currency mismatch, and overlapping economic territories.
+- [x] Run tests RED; implement conversion/validation, metadata identities, explicit missing-year points, longest-contiguous preferred series and full series audit.
+- [x] Explore actual official series and supplemental FX metadata. Only produce a comparable fixed-base aggregate after required weight provenance is confirmed. If not confirmed, emit a clear unavailable status and required inputs; no substituted world series.
+- [x] Run GREEN suite and generate reproducible UTF-8 CSV/JSON; document factual coverage and aggregation decision.
+- [x] Commit normalized calculations, source notes and audit output.
 
 ### Task 3: Interactive report and static exports
 
@@ -59,11 +59,11 @@
 
 **Interfaces:** `build_report(root: Path, snapshot: Path) -> dict`; `python -m gdp_report build` creates site/index.html, report.json, download CSVs, version-pinned plotly.min.js and SVG/PNG exports. `python -m gdp_report fetch` only acquires sources; `python -m gdp_report refresh` fetches then builds.
 
-- [ ] Write integration tests using literal source fixtures: exported values match expected numbers, missing points remain null, no NaN/Infinity, snapshot-only rebuild is deterministic, no incorrect world label.
-- [ ] Run RED; implement responsive Japanese report with aggregate status, two separate plots (index/growth), country/series selection, date filter, data table, provenance, audit and CSV downloads.
-- [ ] Bundle Plotly locally; use escaped text/JSON; draw source-aware static SVG/PNG with Matplotlib.
-- [ ] Run GREEN tests, build on actual raw data and inspect the report at desktop and mobile widths. Check hover value against source CSV, period filtering, zoom reset, gaps and subpath asset loading.
-- [ ] Commit report and generated assets.
+- [x] Write integration tests using literal source fixtures: exported values match expected numbers, missing points remain null, no NaN/Infinity, snapshot-only rebuild is deterministic, no incorrect world label.
+- [x] Run RED; implement responsive Japanese report with aggregate status, two separate plots (index/growth), country/series selection, date filter, data table, provenance, audit and CSV downloads.
+- [x] Bundle Plotly locally; use escaped text/JSON; draw source-aware static SVG/PNG with Matplotlib.
+- [x] Run GREEN tests, build on actual raw data and inspect the report at desktop and mobile widths. Check hover value against source CSV, period filtering, zoom reset, gaps and subpath asset loading.
+- [x] Commit report and generated assets.
 
 ### Task 4: Review, deployment and live verification
 

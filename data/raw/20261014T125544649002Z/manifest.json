@@ -1,0 +1,143 @@
+{
+  "retrieved_at": "2026-10-14T12:55:44.649002+00:00",
+  "database": "UN National Accounts Official Country Data",
+  "files": [
+    {
+      "file": "exchange-rates.xlsx",
+      "url": "https://unstats.un.org/unsd/amaapi/api/file/30",
+      "bytes": 466053,
+      "sha256": "e15fcbcf64e74016b3be63d6a0a1d837fe570287867e2a3d9ac0bec89c91bc6e",
+      "role": "supporting_exchange_rates",
+      "benchmark_year": 2020,
+      "verified_countries": 212,
+      "measure": "IMF based exchange rate",
+      "retrieved_at": "2026-10-14T12:41:54.347863+00:00"
+    },
+    {
+      "file": "table-101-gdp.zip",
+      "url": "https://data.un.org/legacy/Handlers/DownloadHandler.ashx?DataFilter=group_code%3A101%3Bitem_code%3A24&DataMartId=SNA&Format=csv&c=0%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13",
+      "bytes": 185897,
+      "sha256": "44b3ae94064391daa7d2075bb6bccb62d13f260619fb1e05d98c607154dab9cf",
+      "group": 101,
+      "verified_rows": 17836,
+      "expected_rows": 17836,
+      "retrieved_at": "2026-10-14T12:41:54.347863+00:00"
+    },
+    {
+      "file": "table-101-selection.html",
+      "url": "https://data.un.org/legacy/Data.aspx?d=SNA&f=group_code%3A101%3Bitem_code%3A24",
+      "bytes": 108440,
+      "sha256": "baff46247b5f229bd995edd0a199db645ec2ad9ef2a078b752520f8d7fd29887",
+      "expected_rows": 17836,
+      "source_update": "2025/10/14",
+      "retrieved_at": "2026-10-14T12:41:54.347863+00:00"
+    },
+    {
+      "file": "table-102-gdp.zip",
+      "url": "https://data.un.org/legacy/Handlers/DownloadHandler.ashx?DataFilter=group_code%3A102%3Bitem_code%3A24&DataMartId=SNA&Format=csv&c=0%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C14",
+      "bytes": 218158,
+      "sha256": "fbf7d61a09bcb55a561d4a720a5ad92bda9494366fa82dfe108cf3258b914af5",
+      "group": 102,
+      "verified_rows": 20852,
+      "expected_rows": 20852,
+      "retrieved_at": "2026-10-14T12:41:54.347863+00:00"
+    },
+    {
+      "file": "table-102-selection.html",
+      "url": "https://data.un.org/legacy/Data.aspx?d=SNA&f=group_code%3A102%3Bitem_code%3A24",
+      "bytes": 103541,
+      "sha256": "f618d4c1a3bcd7cf0ad0b88caecb358180dd7d30461d296ee2475042c33a0605",
+      "expected_rows": 20852,
+      "source_update": "2025/10/14",
+      "retrieved_at": "2026-10-14T12:41:54.347863+00:00"
+    },
+    {
+      "file": "table-201-gdp.zip",
+      "url": "https://data.un.org/legacy/Handlers/DownloadHandler.ashx?DataFilter=group_code%3A201%3Bitem_code%3A16&DataMartId=SNA&Format=csv&c=0%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13",
+      "bytes": 140351,
+      "sha256": "7f8ed83db4285665a03510e0d8175bf8a4fbcc5553c507c6cc464b00c5da32ae",
+      "group": 201,
+      "verified_rows": 13394,
+      "expected_rows": 13394,
+      "retrieved_at": "2026-10-14T12:55:44.649002+00:00"
+    },
+    {
+      "file": "table-201-selection.html",
+      "url": "https://data.un.org/legacy/Data.aspx?d=SNA&f=group_code%3A201%3Bitem_code%3A16",
+      "bytes": 110406,
+      "sha256": "e484e4627be0bd6ea5c821706f6df3ea8235937991905a061584f64d7e11f89a",
+      "expected_rows": 13394,
+      "retrieved_at": "2026-10-14T12:55:44.649002+00:00",
+      "source_update": "2025/10/14"
+    },
+    {
+      "file": "table-202-gdp.zip",
+      "url": "https://data.un.org/legacy/Handlers/DownloadHandler.ashx?DataFilter=group_code%3A202%3Bitem_code%3A16&DataMartId=SNA&Format=csv&c=0%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C14",
+      "bytes": 152661,
+      "sha256": "d90be0165167cb3832c43045671cb8e3e62a2088a6305ff8d1925057e63f3965",
+      "group": 202,
+      "verified_rows": 14232,
+      "expected_rows": 14232,
+      "retrieved_at": "2026-10-14T12:55:44.649002+00:00"
+    },
+    {
+      "file": "table-202-selection.html",
+      "url": "https://data.un.org/legacy/Data.aspx?d=SNA&f=group_code%3A202%3Bitem_code%3A16",
+      "bytes": 108607,
+      "sha256": "3bdfb3b052378a6f5d2998cf83c51038fd158ab06d0acd79e7405a5d91a84a17",
+      "expected_rows": 14232,
+      "retrieved_at": "2026-10-14T12:55:44.649002+00:00",
+      "source_update": "2025/10/14"
+    },
+    {
+      "file": "table-204-gdp.zip",
+      "url": "https://data.un.org/legacy/Handlers/DownloadHandler.ashx?DataFilter=group_code%3A204%3Bitem_code%3A26&DataMartId=SNA&Format=csv&c=0%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13",
+      "bytes": 73892,
+      "sha256": "93ea410b3e05d68509ee4ea7fc025b5f3b96c94d80bc5b64e11d36f4c033c5dd",
+      "group": 204,
+      "verified_rows": 6358,
+      "expected_rows": 6358,
+      "retrieved_at": "2026-10-14T12:41:54.347863+00:00"
+    },
+    {
+      "file": "table-204-selection.html",
+      "url": "https://data.un.org/legacy/Data.aspx?d=SNA&f=group_code%3A204%3Bitem_code%3A26",
+      "bytes": 100095,
+      "sha256": "6b9ecdcb39fa10e8491519726d9e6592c52036b3281af5d97d25f2700e290990",
+      "expected_rows": 6358,
+      "source_update": "2025/10/14",
+      "retrieved_at": "2026-10-14T12:41:54.347863+00:00"
+    },
+    {
+      "file": "table-205-gdp.zip",
+      "url": "https://data.un.org/legacy/Handlers/DownloadHandler.ashx?DataFilter=group_code%3A205%3Bitem_code%3A26&DataMartId=SNA&Format=csv&c=0%2C1%2C2%2C3%2C4%2C5%2C6%2C7%2C8%2C9%2C10%2C11%2C12%2C13%2C14",
+      "bytes": 109247,
+      "sha256": "404ceaf05aed870c08df7770a8d66bda4d25aede3ae44b0affd80023104ecfdb",
+      "group": 205,
+      "verified_rows": 9714,
+      "expected_rows": 9714,
+      "retrieved_at": "2026-10-14T12:41:54.347863+00:00"
+    },
+    {
+      "file": "table-205-selection.html",
+      "url": "https://data.un.org/legacy/Data.aspx?d=SNA&f=group_code%3A205%3Bitem_code%3A26",
+      "bytes": 100143,
+      "sha256": "684d7270451b22a4bb94849826246894bb9d93b1390f6ca70acd2a566d54514e",
+      "expected_rows": 9714,
+      "source_update": "2025/10/14",
+      "retrieved_at": "2026-10-14T12:41:54.347863+00:00"
+    },
+    {
+      "file": "world-reference.xlsx",
+      "url": "https://unstats.un.org/unsd/amaapi/api/file/7",
+      "bytes": 444306,
+      "sha256": "45a5fd388b8b3179ef8768e4b1dc008549f80b6029701953db7f730a85a126e5",
+      "role": "reference_world_estimates",
+      "direct_2008_only": false,
+      "first": 1970,
+      "last": 2024,
+      "retrieved_at": "2026-10-14T12:41:54.347863+00:00"
+    }
+  ],
+  "notes": "Official GDP with concept B.1*g; supporting FX and separate AMA reference. Unchanged original bytes retain per-file acquisition timestamps."
+}
