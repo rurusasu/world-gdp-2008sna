@@ -2,7 +2,7 @@
 
 作成日: 2026-10-14（Asia/Tokyo）
 プロジェクト: D:\world-gdp-2008sna
-状態: 会話上の分析方針は承認済み。GitHub Pages公開と動的グラフの追加要望を反映。本書のレビュー後に実装計画を作成する。
+状態: ユーザー承認済み。2026-10-14に実装・データ取得・計算・GitHub Pages公開と公開URL上の検証を完了。実際の収録範囲と制約は docs/validation.md を参照。
 
 ## 目的と承認済み方針
 
@@ -135,4 +135,4 @@ GitHub Actionsで公開用成果物を生成し、GitHub Pagesへ配備する。
 
 ## 現在の作業状態
 
-本書は設計成果物。GitHub上のpublicリポジトリ rurusasu/world-gdp-2008sna を作成済み。GDPデータの一括取得、分析コード、計算結果、グラフ、Pagesサイトはまだ作成していない。本書のレビュー後に実装計画を作り、計画の実行方法を確認して実装する。
+GDPデータの取得・監査・計算・動的グラフ・CSV・静止画の生成を実装し、GitHub Pagesに公開済み。公開URL: https://rurusasu.github.io/world-gdp-2008sna/ 。旧産業分類のGDP項目コード照合と、未確認の価格基準を除外する条件を実装時に強化した。取得・検証の記録は docs/validation.md に保存。

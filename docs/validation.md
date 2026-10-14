@@ -53,7 +53,9 @@ ChromeによるローカルHTTPのサブパス `/site/` で、次を操作して
 - 幅390pxのスマートフォン表示でページ全体の横はみ出しなし。
 - JavaScriptの実行エラーなし。
 
-GitHub Pagesの配備結果と公開URLの確認結果は、配備後に追記する。
+GitHub Pages公開済み: https://rurusasu.github.io/world-gdp-2008sna/
+
+[配備ワークフロー](https://github.com/rurusasu/world-gdp-2008sna/actions/runs/38568520635)はbuild/deployともに成功。Linux上で28テスト、原本チェックサム照合、再計算、150か国の静止画生成を実行した。公開URLでのブラウザ操作も、ホバー・期間変更・指数の起点保持・国別/参考表示・価格基準未確認の未算出表示・CSV・スマートフォン幅が成功。公開JSONの数値と出典メタデータはローカル再計算結果と一致。JavaScript実行エラーなし。
 
 ## 独立レビューと修正
 

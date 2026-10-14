@@ -1,6 +1,6 @@
 # World GDP Report Implementation Plan
 
-> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [ ]`) syntax for tracking.
+> **For agentic workers:** REQUIRED SUB-SKILL: Use superpowers:subagent-driven-development (recommended) or superpowers:executing-plans to implement this plan task-by-task. Steps use checkbox (`- [x]`) syntax for tracking.
 
 **Goal:** Download official 2008 SNA GDP, calculate comparable growth, and publish a Japanese interactive report on GitHub Pages.
 
@@ -71,8 +71,8 @@
 
 **Interfaces:** main push / manual workflow runs tests, rebuilds from committed raw snapshot, checks artifacts, then deploys site/ using official GitHub Pages actions. No source request is required for snapshot deployment.
 
-- [ ] Configure tests/build/deploy with minimum permissions and Pages environment; failure before deploy preserves the previous deployment.
-- [ ] Run the full suite and deterministic build locally. Request an independent final code review using the requesting-code-review skill; fix important findings with RED→GREEN regressions.
-- [ ] Record limitations and review evidence. Merge the implementation branch into main locally, push and configure Pages for Actions (publication already authorized).
-- [ ] Wait for successful workflow completion, verify public URL, asset URLs and representative live hover values.
-- [ ] Save a concise Japanese results summary under the chat outputs directory and return the report and repository URLs.
+- [x] Configure tests/build/deploy with minimum permissions and Pages environment; failure before deploy preserves the previous deployment.
+- [x] Run the full suite and deterministic build locally. Request an independent final code review using the requesting-code-review skill; fix important findings with RED→GREEN regressions.
+- [x] Record limitations and review evidence. Merge the implementation branch into main locally, push and configure Pages for Actions (publication already authorized).
+- [x] Wait for successful workflow completion, verify public URL, asset URLs and representative live hover values.
+- [x] Save a concise Japanese results summary under the chat outputs directory and return the report and repository URLs.
