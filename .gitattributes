@@ -1,0 +1,8 @@
+* text=auto eol=lf
+data/raw/** -text -diff
+data/raw/**/manifest.json text eol=lf diff
+data/raw/LATEST text eol=lf diff
+site/plotly.min.js -diff
+site/figures/*.svg -diff
+*.zip binary
+*.png binary
