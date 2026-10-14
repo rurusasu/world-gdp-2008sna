@@ -1,0 +1,956 @@
+﻿kind,id,country_code,country,table,series_number,currency,base_year,fiscal_year_type,first,last,observations,invalid_values,missing_years,longest_run_first,longest_run_last,preferred
+real,real|100|102|1000|lev|2010|Western calendar year,100,Bulgaria,1.2,1000,lev,2010,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|100|102|1000|lev|2015|Western calendar year,100,Bulgaria,1.2,1000,lev,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|100|205|1000|lev|2010|Western calendar year,100,Bulgaria,2.5,1000,lev,2010,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|100|205|1000|lev|2015|Western calendar year,100,Bulgaria,2.5,1000,lev,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|112|102|1000|belarussian rouble (re-denom. 1:1000)|-1|Western calendar year,112,Belarus,1.2,1000,Belarussian rouble (re-denom. 1:1000),-1,Western calendar year,2010,2015,6,0,,2010,2015,False
+real,real|112|102|1100|belarussian rouble (re-denom. 1:10000)|-1|Western calendar year,112,Belarus,1.2,1100,Belarussian rouble (re-denom. 1:10000),-1,Western calendar year,2010,2024,15,0,,2010,2024,True
+real,real|112|205|1000|belarussian rouble (re-denom. 1:1000)|-1|Western calendar year,112,Belarus,2.5,1000,Belarussian rouble (re-denom. 1:1000),-1,Western calendar year,2010,2015,6,0,,2010,2015,False
+real,real|112|205|1100|belarussian rouble (re-denom. 1:10000)|-1|Western calendar year,112,Belarus,2.5,1100,Belarussian rouble (re-denom. 1:10000),-1,Western calendar year,2010,2024,15,0,,2010,2024,True
+real,real|120|102|1000|cfa franc|2005|Western calendar year,120,Cameroon,1.2,1000,CFA franc,2005,Western calendar year,2005,2019,15,0,,2005,2019,False
+real,real|120|102|1100|cfa franc|2016|Western calendar year,120,Cameroon,1.2,1100,CFA franc,2016,Western calendar year,1993,2023,31,0,,1993,2023,True
+real,real|120|205|1000|cfa franc|2005|Western calendar year,120,Cameroon,2.5,1000,CFA franc,2005,Western calendar year,2005,2019,15,0,,2005,2019,False
+real,real|120|205|1100|cfa franc|2016|Western calendar year,120,Cameroon,2.5,1100,CFA franc,2016,Western calendar year,1993,2023,31,0,,1993,2023,True
+real,real|124|102|1000|canadian dollar|2007|Western calendar year,124,Canada,1.2,1000,Canadian dollar,2007,Western calendar year,1970,2017,48,0,,1970,2017,True
+real,real|124|102|1000|canadian dollar|2012|Western calendar year,124,Canada,1.2,1000,Canadian dollar,2012,Western calendar year,1995,2022,28,0,,1995,2022,False
+real,real|124|102|1000|canadian dollar|2017|Western calendar year,124,Canada,1.2,1000,Canadian dollar,2017,Western calendar year,1995,2024,30,0,,1995,2024,False
+real,real|124|205|1000|canadian dollar|2007|Western calendar year,124,Canada,2.5,1000,Canadian dollar,2007,Western calendar year,1970,2017,48,0,,1970,2017,True
+real,real|124|205|1000|canadian dollar|2012|Western calendar year,124,Canada,2.5,1000,Canadian dollar,2012,Western calendar year,1995,2022,28,0,,1995,2022,False
+real,real|124|205|1000|canadian dollar|2017|Western calendar year,124,Canada,2.5,1000,Canadian dollar,2017,Western calendar year,1995,2024,30,0,,1995,2024,False
+real,real|132|102|1000|escudo|2015|Western calendar year,132,Cabo Verde,1.2,1000,escudo,2015,Western calendar year,2007,2024,18,0,,2007,2024,True
+real,real|132|205|1000|escudo|2015|Western calendar year,132,Cabo Verde,2.5,1000,escudo,2015,Western calendar year,2007,2024,18,0,,2007,2024,True
+real,real|136|102|1000|cayman islands dollar|2015|Western calendar year,136,Cayman Islands,1.2,1000,Cayman Islands dollar,2015,Western calendar year,2015,2023,9,0,,2015,2023,False
+real,real|136|205|1000|cayman islands dollar|2015|Western calendar year,136,Cayman Islands,2.5,1000,Cayman Islands dollar,2015,Western calendar year,2006,2023,18,0,,2006,2023,True
+real,real|144|102|1000|sri lanka rupee|2010|Western calendar year,144,Sri Lanka,1.2,1000,Sri Lanka rupee,2010,Western calendar year,2010,2021,12,0,,2010,2021,False
+real,real|144|102|1000|sri lanka rupee|2015|Western calendar year,144,Sri Lanka,1.2,1000,Sri Lanka rupee,2015,Western calendar year,2010,2023,14,0,,2010,2023,True
+real,real|144|205|1000|sri lanka rupee|2010|Western calendar year,144,Sri Lanka,2.5,1000,Sri Lanka rupee,2010,Western calendar year,2010,2021,12,0,,2010,2021,False
+real,real|144|205|1000|sri lanka rupee|2015|Western calendar year,144,Sri Lanka,2.5,1000,Sri Lanka rupee,2015,Western calendar year,2010,2023,14,0,,2010,2023,True
+real,real|148|102|1000|cfa franc|2017|Western calendar year,148,Chad,1.2,1000,CFA franc,2017,Western calendar year,2017,2018,2,0,,2017,2018,True
+real,real|148|205|1000|cfa franc|2017|Western calendar year,148,Chad,2.5,1000,CFA franc,2017,Western calendar year,2017,2018,2,0,,2017,2018,True
+real,real|152|102|1000|chilean peso|2013|Western calendar year,152,Chile,1.2,1000,Chilean peso,2013,Western calendar year,2005,2020,16,0,,2005,2020,False
+real,real|152|102|1000|chilean peso|2018|Western calendar year,152,Chile,1.2,1000,Chilean peso,2018,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|152|205|1000|chilean peso|2013|Western calendar year,152,Chile,2.5,1000,Chilean peso,2013,Western calendar year,2005,2020,16,0,,2005,2020,False
+real,real|152|205|1000|chilean peso|2018|Western calendar year,152,Chile,2.5,1000,Chilean peso,2018,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|156|205|1000|yuan renminbi|2015|Western calendar year,156,China,2.5,1000,Yuan Renminbi,2015,Western calendar year,2015,2020,6,0,,2015,2020,True
+real,real|156|205|1000|yuan renminbi|2020|Western calendar year,156,China,2.5,1000,Yuan Renminbi,2020,Western calendar year,2020,2021,2,0,,2020,2021,False
+real,real|170|102|1000|colombian peso|2015|Western calendar year,170,Colombia,1.2,1000,Colombian peso,2015,Western calendar year,2005,2024,20,0,,2005,2024,True
+real,real|170|205|1000|colombian peso|2015|Western calendar year,170,Colombia,2.5,1000,Colombian peso,2015,Western calendar year,2005,2024,20,0,,2005,2024,True
+real,real|184|205|1000|new zealander dollars|2016|Western calendar year,184,Cook Islands,2.5,1000,New Zealander Dollars,2016,Western calendar year,2006,2022,17,0,,2006,2022,True
+real,real|188|102|1100|costa rican colon|2017|Western calendar year,188,Costa Rica,1.2,1100,Costa Rican colon,2017,Western calendar year,1991,2024,34,0,,1991,2024,True
+real,real|188|205|1100|costa rican colon|2017|Western calendar year,188,Costa Rica,2.5,1100,Costa Rican colon,2017,Western calendar year,1991,2024,34,0,,1991,2024,True
+real,real|191|102|1000|kuna|2010|Western calendar year,191,Croatia,1.2,1000,kuna,2010,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|191|102|1100|euro|2015|Western calendar year,191,Croatia,1.2,1100,Euro,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|191|205|1000|kuna|2010|Western calendar year,191,Croatia,2.5,1000,kuna,2010,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|191|205|1100|euro|2015|Western calendar year,191,Croatia,2.5,1100,Euro,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|196|102|1000|euro|2005|Western calendar year,196,Cyprus,1.2,1000,Euro,2005,Western calendar year,2003,2014,12,0,,2003,2014,False
+real,real|196|102|1000|euro|2010|Western calendar year,196,Cyprus,1.2,1000,Euro,2010,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|196|102|1000|euro|2015|Western calendar year,196,Cyprus,1.2,1000,Euro,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|196|205|1000|euro|2005|Western calendar year,196,Cyprus,2.5,1000,Euro,2005,Western calendar year,2003,2014,12,0,,2003,2014,False
+real,real|196|205|1000|euro|2010|Western calendar year,196,Cyprus,2.5,1000,Euro,2010,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|196|205|1000|euro|2015|Western calendar year,196,Cyprus,2.5,1000,Euro,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|20|102|1000|euro|2000|Western calendar year,20,Andorra,1.2,1000,Euro,2000,Western calendar year,2006,2018,13,0,,2006,2018,False
+real,real|20|102|1100|euro|2010|Western calendar year,20,Andorra,1.2,1100,Euro,2010,Western calendar year,2000,2024,25,0,,2000,2024,True
+real,real|20|205|1000|euro|2000|Western calendar year,20,Andorra,2.5,1000,Euro,2000,Western calendar year,2006,2018,13,0,,2006,2018,False
+real,real|20|205|1100|euro|2010|Western calendar year,20,Andorra,2.5,1100,Euro,2010,Western calendar year,2000,2024,25,0,,2000,2024,True
+real,real|203|102|1000|czech koruna|2010|Western calendar year,203,Czechia,1.2,1000,Czech koruna,2010,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|203|102|1000|czech koruna|2015|Western calendar year,203,Czechia,1.2,1000,Czech koruna,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|203|102|1000|czech koruna|2020|Western calendar year,203,Czechia,1.2,1000,Czech koruna,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|203|205|1000|czech koruna|2010|Western calendar year,203,Czechia,2.5,1000,Czech koruna,2010,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|203|205|1000|czech koruna|2015|Western calendar year,203,Czechia,2.5,1000,Czech koruna,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|203|205|1000|czech koruna|2020|Western calendar year,203,Czechia,2.5,1000,Czech koruna,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|204|102|1000|cfa franc|2015|Western calendar year,204,Benin,1.2,1000,CFA franc,2015,Western calendar year,2015,2024,10,0,,2015,2024,True
+real,real|204|205|1000|cfa franc|2015|Western calendar year,204,Benin,2.5,1000,CFA franc,2015,Western calendar year,2015,2024,10,0,,2015,2024,True
+real,real|208|102|1000|danish krone|2010|Western calendar year,208,Denmark,1.2,1000,Danish krone,2010,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|208|102|1000|danish krone|2020|Western calendar year,208,Denmark,1.2,1000,Danish krone,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|208|205|1000|danish krone|2010|Western calendar year,208,Denmark,2.5,1000,Danish krone,2010,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|208|205|1000|danish krone|2020|Western calendar year,208,Denmark,2.5,1000,Danish krone,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|214|102|1000|dominican peso|2007|Western calendar year,214,Dominican Republic,1.2,1000,Dominican peso,2007,Western calendar year,2007,2023,17,0,,2007,2023,True
+real,real|214|102|1100|dominican peso|2018|Western calendar year,214,Dominican Republic,1.2,1100,Dominican peso,2018,Western calendar year,2010,2024,15,0,,2010,2024,False
+real,real|214|205|1000|dominican peso|2007|Western calendar year,214,Dominican Republic,2.5,1000,Dominican peso,2007,Western calendar year,2007,2023,17,0,,2007,2023,True
+real,real|214|205|1100|dominican peso|2018|Western calendar year,214,Dominican Republic,2.5,1100,Dominican peso,2018,Western calendar year,2010,2024,15,0,,2010,2024,False
+real,real|218|102|1000|us dollar|2007|Western calendar year,218,Ecuador,1.2,1000,US dollar,2007,Western calendar year,1965,2022,58,0,,1965,2022,False
+real,real|218|102|1100|us dollar|2018|Western calendar year,218,Ecuador,1.2,1100,US dollar,2018,Western calendar year,2010,2024,15,0,,2010,2024,False
+real,real|218|202|1000|us dollar|2007|Western calendar year,218,Ecuador,2.2,1000,US dollar,2007,Western calendar year,1995,2016,22,0,,1995,2016,False
+real,real|218|205|1000|us dollar|2007|Western calendar year,218,Ecuador,2.5,1000,US dollar,2007,Western calendar year,1965,2022,58,0,,1965,2022,False
+real,real|218|205|1100|us dollar|2018|Western calendar year,218,Ecuador,2.5,1100,US dollar,2018,Western calendar year,1965,2024,60,0,,1965,2024,True
+real,real|233|102|1000|euro|2010|Western calendar year,233,Estonia,1.2,1000,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|233|102|1100|euro|2010|Western calendar year,233,Estonia,1.2,1100,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|233|102|1100|euro|2015|Western calendar year,233,Estonia,1.2,1100,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|233|102|1100|euro|2020|Western calendar year,233,Estonia,1.2,1100,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|233|205|1000|euro|2010|Western calendar year,233,Estonia,2.5,1000,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|233|205|1100|euro|2010|Western calendar year,233,Estonia,2.5,1100,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|233|205|1100|euro|2015|Western calendar year,233,Estonia,2.5,1100,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|233|205|1100|euro|2020|Western calendar year,233,Estonia,2.5,1100,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|234|102|1000|danish krone|2010|Western calendar year,234,Faroe Islands,1.2,1000,Danish Krone,2010,Western calendar year,2008,2023,16,0,,2008,2023,True
+real,real|234|205|1000|danish krone|2010|Western calendar year,234,Faroe Islands,2.5,1000,Danish Krone,2010,Western calendar year,2008,2023,16,0,,2008,2023,True
+real,real|24|102|1000|(second) kwanza|-1|Western calendar year,24,Angola,1.2,1000,(second) Kwanza,-1,Western calendar year,2003,2024,22,0,,2003,2024,True
+real,real|24|205|1000|(second) kwanza|-1|Western calendar year,24,Angola,2.5,1000,(second) Kwanza,-1,Western calendar year,2010,2024,15,0,,2010,2024,False
+real,real|242|205|1000|fiji dollar|2014|Western calendar year,242,Fiji,2.5,1000,Fiji dollar,2014,Western calendar year,2014,2023,10,0,,2014,2023,True
+real,real|246|102|1000|euro|2010|Western calendar year,246,Finland,1.2,1000,Euro,2010,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|246|102|1000|euro|2015|Western calendar year,246,Finland,1.2,1000,Euro,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|246|205|1000|euro|2010|Western calendar year,246,Finland,2.5,1000,Euro,2010,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|246|205|1000|euro|2015|Western calendar year,246,Finland,2.5,1000,Euro,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|250|102|1000|euro|2010|Western calendar year,250,France,1.2,1000,Euro,2010,Western calendar year,1995,2016,22,0,,1995,2016,False
+real,real|250|102|1000|euro|2014|Western calendar year,250,France,1.2,1000,Euro,2014,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|250|102|1000|euro|2020|Western calendar year,250,France,1.2,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|250|205|1000|euro|2010|Western calendar year,250,France,2.5,1000,Euro,2010,Western calendar year,1995,2016,22,0,,1995,2016,False
+real,real|250|205|1000|euro|2014|Western calendar year,250,France,2.5,1000,Euro,2014,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|250|205|1000|euro|2020|Western calendar year,250,France,2.5,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|268|102|1000|lari|2015|Western calendar year,268,Georgia,1.2,1000,Lari,2015,Western calendar year,2010,2022,13,0,,2010,2022,False
+real,real|268|102|1000|lari|2019|Western calendar year,268,Georgia,1.2,1000,Lari,2019,Western calendar year,2010,2024,15,0,,2010,2024,True
+real,real|268|205|1000|lari|2015|Western calendar year,268,Georgia,2.5,1000,Lari,2015,Western calendar year,2010,2022,13,0,,2010,2022,False
+real,real|268|205|1000|lari|2019|Western calendar year,268,Georgia,2.5,1000,Lari,2019,Western calendar year,2010,2024,15,0,,2010,2024,True
+real,real|270|102|1000|dalasi|2013|Western calendar year,270,Gambia,1.2,1000,dalasi,2013,Western calendar year,2004,2024,21,0,,2004,2024,False
+real,real|270|205|1000|dalasi|2013|Western calendar year,270,Gambia,2.5,1000,dalasi,2013,Western calendar year,2000,2024,25,0,,2000,2024,True
+real,real|275|102|1000|us dollar|2015|Western calendar year,275,State of Palestine,1.2,1000,US dollar,2015,Western calendar year,1994,2024,31,0,,1994,2024,True
+real,real|275|205|1000|us dollar|2015|Western calendar year,275,State of Palestine,2.5,1000,US dollar,2015,Western calendar year,1994,2024,31,0,,1994,2024,True
+real,real|276|102|1000|euro|2010|Western calendar year,276,Germany,1.2,1000,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|276|102|1000|euro|2015|Western calendar year,276,Germany,1.2,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|276|102|1000|euro|2020|Western calendar year,276,Germany,1.2,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|276|205|1000|euro|2010|Western calendar year,276,Germany,2.5,1000,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|276|205|1000|euro|2015|Western calendar year,276,Germany,2.5,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|276|205|1000|euro|2020|Western calendar year,276,Germany,2.5,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|28|205|1000|ec dollar|2018|Western calendar year,28,Antigua and Barbuda,2.5,1000,EC dollar,2018,Western calendar year,2011,2023,13,0,,2011,2023,True
+real,real|288|102|1000|cedi (third)|2013|Western calendar year,288,Ghana,1.2,1000,Cedi (Third),2013,Western calendar year,2013,2024,12,0,,2013,2024,True
+real,real|288|205|1000|cedi (third)|2013|Western calendar year,288,Ghana,2.5,1000,Cedi (Third),2013,Western calendar year,2013,2024,12,0,,2013,2024,True
+real,real|300|102|1000|euro|2010|Western calendar year,300,Greece,1.2,1000,Euro,2010,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|300|102|1000|euro|2015|Western calendar year,300,Greece,1.2,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|300|102|1000|euro|2020|Western calendar year,300,Greece,1.2,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|300|205|1000|euro|2010|Western calendar year,300,Greece,2.5,1000,Euro,2010,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|300|205|1000|euro|2015|Western calendar year,300,Greece,2.5,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|300|205|1000|euro|2020|Western calendar year,300,Greece,2.5,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|32|102|1000|argentine peso|2004|Western calendar year,32,Argentina,1.2,1000,Argentine peso,2004,Western calendar year,2004,2014,11,0,,2004,2014,False
+real,real|32|102|1100|argentine peso|2004|Western calendar year,32,Argentina,1.2,1100,Argentine peso,2004,Western calendar year,2004,2024,21,0,,2004,2024,True
+real,real|32|202|1000|argentine peso|2004|Western calendar year,32,Argentina,2.2,1000,Argentine peso,2004,Western calendar year,2004,2012,9,0,,2004,2012,False
+real,real|32|202|1100|argentine peso|2004|Western calendar year,32,Argentina,2.2,1100,Argentine peso,2004,Western calendar year,2004,2024,21,0,,2004,2024,True
+real,real|320|102|1000|quetzal|2013|Western calendar year,320,Guatemala,1.2,1000,quetzal,2013,Western calendar year,2013,2024,12,0,,2013,2024,True
+real,real|320|205|1000|quetzal|2013|Western calendar year,320,Guatemala,2.5,1000,quetzal,2013,Western calendar year,2013,2024,12,0,,2013,2024,True
+real,real|328|205|1000|guyana dollar|2012|Western calendar year,328,Guyana,2.5,1000,Guyana dollar,2012,Western calendar year,2006,2024,19,0,,2006,2024,True
+real,real|332|102|1000|gourde|2012|Fiscal year ending 30 September,332,Haiti,1.2,1000,gourde,2012,Fiscal year ending 30 September,2000,2024,25,0,,2000,2024,True
+real,real|332|205|1000|gourde|2012|Fiscal year ending 30 September,332,Haiti,2.5,1000,gourde,2012,Fiscal year ending 30 September,2000,2024,25,0,,2000,2024,True
+real,real|344|102|1000|hong kong dollar|2010|Western calendar year,344,"China, Hong Kong Special Administrative Region",1.2,1000,Hong Kong dollar,2010,Western calendar year,1961,2012,52,0,,1961,2012,False
+real,real|344|102|1000|hong kong dollar|2011|Western calendar year,344,"China, Hong Kong Special Administrative Region",1.2,1000,Hong Kong dollar,2011,Western calendar year,1961,2013,53,0,,1961,2013,False
+real,real|344|102|1000|hong kong dollar|2013|Western calendar year,344,"China, Hong Kong Special Administrative Region",1.2,1000,Hong Kong dollar,2013,Western calendar year,1961,2014,54,0,,1961,2014,False
+real,real|344|102|1000|hong kong dollar|2014|Western calendar year,344,"China, Hong Kong Special Administrative Region",1.2,1000,Hong Kong dollar,2014,Western calendar year,1961,2016,56,0,,1961,2016,False
+real,real|344|102|1000|hong kong dollar|2015|Western calendar year,344,"China, Hong Kong Special Administrative Region",1.2,1000,Hong Kong dollar,2015,Western calendar year,1961,2017,57,0,,1961,2017,False
+real,real|344|102|1000|hong kong dollar|2017|Western calendar year,344,"China, Hong Kong Special Administrative Region",1.2,1000,Hong Kong dollar,2017,Western calendar year,1961,2018,58,0,,1961,2018,False
+real,real|344|102|1000|hong kong dollar|2018|Western calendar year,344,"China, Hong Kong Special Administrative Region",1.2,1000,Hong Kong dollar,2018,Western calendar year,1961,2019,59,0,,1961,2019,False
+real,real|344|102|1000|hong kong dollar|2019|Western calendar year,344,"China, Hong Kong Special Administrative Region",1.2,1000,Hong Kong dollar,2019,Western calendar year,1961,2020,60,0,,1961,2020,False
+real,real|344|102|1000|hong kong dollar|2020|Western calendar year,344,"China, Hong Kong Special Administrative Region",1.2,1000,Hong Kong dollar,2020,Western calendar year,1961,2021,61,0,,1961,2021,False
+real,real|344|102|1000|hong kong dollar|2021|Western calendar year,344,"China, Hong Kong Special Administrative Region",1.2,1000,Hong Kong dollar,2021,Western calendar year,1961,2022,62,0,,1961,2022,False
+real,real|344|102|1000|hong kong dollar|2022|Western calendar year,344,"China, Hong Kong Special Administrative Region",1.2,1000,Hong Kong dollar,2022,Western calendar year,1961,2023,63,0,,1961,2023,False
+real,real|344|102|1000|hong kong dollar|2023|Western calendar year,344,"China, Hong Kong Special Administrative Region",1.2,1000,Hong Kong dollar,2023,Western calendar year,1961,2024,64,0,,1961,2024,True
+real,real|344|202|1000|hong kong dollar|2010|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.2,1000,Hong Kong dollar,2010,Western calendar year,2000,2012,13,0,,2000,2012,False
+real,real|344|202|1000|hong kong dollar|2011|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.2,1000,Hong Kong dollar,2011,Western calendar year,2000,2013,14,0,,2000,2013,False
+real,real|344|202|1000|hong kong dollar|2013|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.2,1000,Hong Kong dollar,2013,Western calendar year,2000,2014,15,0,,2000,2014,False
+real,real|344|205|1000|hong kong dollar|2010|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.5,1000,Hong Kong dollar,2010,Western calendar year,2000,2012,13,0,,2000,2012,False
+real,real|344|205|1000|hong kong dollar|2011|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.5,1000,Hong Kong dollar,2011,Western calendar year,2000,2013,14,0,,2000,2013,False
+real,real|344|205|1000|hong kong dollar|2013|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.5,1000,Hong Kong dollar,2013,Western calendar year,2000,2014,15,0,,2000,2014,False
+real,real|344|205|1000|hong kong dollar|2014|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.5,1000,Hong Kong dollar,2014,Western calendar year,2000,2016,17,0,,2000,2016,False
+real,real|344|205|1000|hong kong dollar|2015|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.5,1000,Hong Kong dollar,2015,Western calendar year,2000,2017,18,0,,2000,2017,False
+real,real|344|205|1000|hong kong dollar|2017|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.5,1000,Hong Kong dollar,2017,Western calendar year,2000,2018,19,0,,2000,2018,False
+real,real|344|205|1000|hong kong dollar|2018|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.5,1000,Hong Kong dollar,2018,Western calendar year,2000,2019,20,0,,2000,2019,False
+real,real|344|205|1000|hong kong dollar|2019|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.5,1000,Hong Kong dollar,2019,Western calendar year,2000,2020,21,0,,2000,2020,False
+real,real|344|205|1000|hong kong dollar|2020|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.5,1000,Hong Kong dollar,2020,Western calendar year,2000,2021,22,0,,2000,2021,False
+real,real|344|205|1000|hong kong dollar|2021|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.5,1000,Hong Kong dollar,2021,Western calendar year,2000,2022,23,0,,2000,2022,False
+real,real|344|205|1000|hong kong dollar|2022|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.5,1000,Hong Kong dollar,2022,Western calendar year,2000,2023,24,0,,2000,2023,False
+real,real|344|205|1000|hong kong dollar|2023|Western calendar year,344,"China, Hong Kong Special Administrative Region",2.5,1000,Hong Kong dollar,2023,Western calendar year,2000,2024,25,0,,2000,2024,False
+real,real|348|102|1000|forint|2005|Western calendar year,348,Hungary,1.2,1000,Forint,2005,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|348|102|1000|forint|2015|Western calendar year,348,Hungary,1.2,1000,Forint,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|348|102|1000|forint|2021|Western calendar year,348,Hungary,1.2,1000,Forint,2021,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|348|205|1000|forint|2005|Western calendar year,348,Hungary,2.5,1000,Forint,2005,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|348|205|1000|forint|2015|Western calendar year,348,Hungary,2.5,1000,Forint,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|348|205|1000|forint|2021|Western calendar year,348,Hungary,2.5,1000,Forint,2021,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|352|102|1000|icelandic króna|2005|Western calendar year,352,Iceland,1.2,1000,Icelandic króna,2005,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|352|102|1100|icelandic króna|2005|Western calendar year,352,Iceland,1.2,1100,Icelandic króna,2005,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|352|102|1100|icelandic króna|2015|Western calendar year,352,Iceland,1.2,1100,Icelandic króna,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|352|205|1000|icelandic króna|2005|Western calendar year,352,Iceland,2.5,1000,Icelandic króna,2005,Western calendar year,1996,2016,21,0,,1996,2016,False
+real,real|352|205|1100|icelandic króna|2005|Western calendar year,352,Iceland,2.5,1100,Icelandic króna,2005,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|352|205|1100|icelandic króna|2015|Western calendar year,352,Iceland,2.5,1100,Icelandic króna,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|356|102|1000|indian rupee|2011|Fiscal year beginning 1 April,356,India,1.2,1000,Indian rupee,2011,Fiscal year beginning 1 April,1950,2023,74,0,,1950,2023,True
+real,real|356|202|1000|indian rupee|2011|Fiscal year beginning 1 April,356,India,2.2,1000,Indian rupee,2011,Fiscal year beginning 1 April,2011,2014,4,0,,2011,2014,False
+real,real|356|205|1000|indian rupee|2011|Fiscal year beginning 1 April,356,India,2.5,1000,Indian rupee,2011,Fiscal year beginning 1 April,1950,2023,74,0,,1950,2023,True
+real,real|36|102|1000|australian dollar|2010|Fiscal year beginning 1 July,36,Australia,1.2,1000,Australian dollar,2010,Fiscal year beginning 1 July,1972,2012,41,0,,1972,2012,False
+real,real|36|102|1000|australian dollar|2011|Fiscal year beginning 1 July,36,Australia,1.2,1000,Australian dollar,2011,Fiscal year beginning 1 July,1959,2013,55,0,,1959,2013,True
+real,real|36|102|1000|australian dollar|2012|Fiscal year beginning 1 July,36,Australia,1.2,1000,Australian dollar,2012,Fiscal year beginning 1 July,1995,2014,20,0,,1995,2014,False
+real,real|36|102|1000|australian dollar|2013|Fiscal year beginning 1 July,36,Australia,1.2,1000,Australian dollar,2013,Fiscal year beginning 1 July,1995,2015,21,0,,1995,2015,False
+real,real|36|102|1000|australian dollar|2014|Fiscal year beginning 1 July,36,Australia,1.2,1000,Australian dollar,2014,Fiscal year beginning 1 July,1995,2016,22,0,,1995,2016,False
+real,real|36|102|1000|australian dollar|2015|Fiscal year beginning 1 July,36,Australia,1.2,1000,Australian dollar,2015,Fiscal year beginning 1 July,1995,2017,23,0,,1995,2017,False
+real,real|36|102|1000|australian dollar|2016|Fiscal year beginning 1 July,36,Australia,1.2,1000,Australian dollar,2016,Fiscal year beginning 1 July,1995,2018,24,0,,1995,2018,False
+real,real|36|102|1000|australian dollar|2017|Fiscal year beginning 1 July,36,Australia,1.2,1000,Australian dollar,2017,Fiscal year beginning 1 July,1995,2019,25,0,,1995,2019,False
+real,real|36|102|1000|australian dollar|2018|Fiscal year beginning 1 July,36,Australia,1.2,1000,Australian dollar,2018,Fiscal year beginning 1 July,1995,2020,26,0,,1995,2020,False
+real,real|36|102|1000|australian dollar|2019|Fiscal year beginning 1 July,36,Australia,1.2,1000,Australian dollar,2019,Fiscal year beginning 1 July,1995,2021,27,0,,1995,2021,False
+real,real|36|102|1000|australian dollar|2020|Fiscal year beginning 1 July,36,Australia,1.2,1000,Australian dollar,2020,Fiscal year beginning 1 July,1995,2022,28,0,,1995,2022,False
+real,real|36|102|1000|australian dollar|2021|Fiscal year beginning 1 July,36,Australia,1.2,1000,Australian dollar,2021,Fiscal year beginning 1 July,1995,2023,29,0,,1995,2023,False
+real,real|36|102|1000|australian dollar|2022|Fiscal year beginning 1 July,36,Australia,1.2,1000,Australian dollar,2022,Fiscal year beginning 1 July,1995,2024,30,0,,1995,2024,False
+real,real|36|205|1000|australian dollar|2010|Fiscal year beginning 1 July,36,Australia,2.5,1000,Australian dollar,2010,Fiscal year beginning 1 July,1992,2011,20,0,,1992,2011,False
+real,real|36|205|1000|australian dollar|2011|Fiscal year beginning 1 July,36,Australia,2.5,1000,Australian dollar,2011,Fiscal year beginning 1 July,1959,2012,54,0,,1959,2012,False
+real,real|36|205|1000|australian dollar|2012|Fiscal year beginning 1 July,36,Australia,2.5,1000,Australian dollar,2012,Fiscal year beginning 1 July,1995,2013,19,0,,1995,2013,False
+real,real|36|205|1000|australian dollar|2013|Fiscal year beginning 1 July,36,Australia,2.5,1000,Australian dollar,2013,Fiscal year beginning 1 July,1995,2014,20,0,,1995,2014,False
+real,real|36|205|1000|australian dollar|2014|Fiscal year beginning 1 July,36,Australia,2.5,1000,Australian dollar,2014,Fiscal year beginning 1 July,1995,2015,21,0,,1995,2015,False
+real,real|36|205|1000|australian dollar|2015|Fiscal year beginning 1 July,36,Australia,2.5,1000,Australian dollar,2015,Fiscal year beginning 1 July,1995,2016,22,0,,1995,2016,False
+real,real|36|205|1000|australian dollar|2016|Fiscal year beginning 1 July,36,Australia,2.5,1000,Australian dollar,2016,Fiscal year beginning 1 July,1995,2017,23,0,,1995,2017,False
+real,real|36|205|1000|australian dollar|2017|Fiscal year beginning 1 July,36,Australia,2.5,1000,Australian dollar,2017,Fiscal year beginning 1 July,1995,2018,24,0,,1995,2018,False
+real,real|36|205|1000|australian dollar|2018|Fiscal year beginning 1 July,36,Australia,2.5,1000,Australian dollar,2018,Fiscal year beginning 1 July,1995,2019,25,0,,1995,2019,False
+real,real|36|205|1000|australian dollar|2019|Fiscal year beginning 1 July,36,Australia,2.5,1000,Australian dollar,2019,Fiscal year beginning 1 July,1995,2020,26,0,,1995,2020,False
+real,real|36|205|1000|australian dollar|2020|Fiscal year beginning 1 July,36,Australia,2.5,1000,Australian dollar,2020,Fiscal year beginning 1 July,1995,2021,27,0,,1995,2021,False
+real,real|36|205|1000|australian dollar|2021|Fiscal year beginning 1 July,36,Australia,2.5,1000,Australian dollar,2021,Fiscal year beginning 1 July,1995,2022,28,0,,1995,2022,False
+real,real|36|205|1000|australian dollar|2022|Fiscal year beginning 1 July,36,Australia,2.5,1000,Australian dollar,2022,Fiscal year beginning 1 July,1995,2023,29,0,,1995,2023,False
+real,real|360|102|1000|indonesian rupiah|2010|Western calendar year,360,Indonesia,1.2,1000,Indonesian Rupiah,2010,Western calendar year,2010,2024,15,0,,2010,2024,True
+real,real|360|205|1000|indonesian rupiah|2010|Western calendar year,360,Indonesia,2.5,1000,Indonesian Rupiah,2010,Western calendar year,2010,2024,15,0,,2010,2024,True
+real,real|364|102|1000|iranian rial|2016|Fiscal year beginning 21 March,364,Iran (Islamic Republic of),1.2,1000,Iranian rial,2016,Fiscal year beginning 21 March,2011,2023,13,0,,2011,2023,True
+real,real|364|205|1000|iranian rial|2016|Fiscal year beginning 21 March,364,Iran (Islamic Republic of),2.5,1000,Iranian rial,2016,Fiscal year beginning 21 March,2011,2023,13,0,,2011,2023,True
+real,real|372|102|1000|euro|2012|Western calendar year,372,Ireland,1.2,1000,Euro,2012,Western calendar year,1995,2014,20,0,,1995,2014,False
+real,real|372|102|1000|euro|2013|Western calendar year,372,Ireland,1.2,1000,Euro,2013,Western calendar year,1995,2015,21,0,,1995,2015,False
+real,real|372|102|1000|euro|2014|Western calendar year,372,Ireland,1.2,1000,Euro,2014,Western calendar year,1995,2016,22,0,,1995,2016,False
+real,real|372|102|1000|euro|2015|Western calendar year,372,Ireland,1.2,1000,Euro,2015,Western calendar year,1995,2017,23,0,,1995,2017,False
+real,real|372|102|1000|euro|2016|Western calendar year,372,Ireland,1.2,1000,Euro,2016,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|372|102|1000|euro|2017|Western calendar year,372,Ireland,1.2,1000,Euro,2017,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|372|102|1000|euro|2019|Western calendar year,372,Ireland,1.2,1000,Euro,2019,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|372|102|1000|euro|2020|Western calendar year,372,Ireland,1.2,1000,Euro,2020,Western calendar year,1995,2022,28,0,,1995,2022,False
+real,real|372|102|1000|euro|2021|Western calendar year,372,Ireland,1.2,1000,Euro,2021,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|372|102|1000|euro|2022|Western calendar year,372,Ireland,1.2,1000,Euro,2022,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|372|205|1000|euro|2012|Western calendar year,372,Ireland,2.5,1000,Euro,2012,Western calendar year,1995,2013,19,0,,1995,2013,False
+real,real|372|205|1000|euro|2013|Western calendar year,372,Ireland,2.5,1000,Euro,2013,Western calendar year,1995,2014,20,0,,1995,2014,False
+real,real|372|205|1000|euro|2014|Western calendar year,372,Ireland,2.5,1000,Euro,2014,Western calendar year,1995,2016,22,0,,1995,2016,False
+real,real|372|205|1000|euro|2015|Western calendar year,372,Ireland,2.5,1000,Euro,2015,Western calendar year,1995,2017,23,0,,1995,2017,False
+real,real|372|205|1000|euro|2016|Western calendar year,372,Ireland,2.5,1000,Euro,2016,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|372|205|1000|euro|2017|Western calendar year,372,Ireland,2.5,1000,Euro,2017,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|372|205|1000|euro|2019|Western calendar year,372,Ireland,2.5,1000,Euro,2019,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|372|205|1000|euro|2020|Western calendar year,372,Ireland,2.5,1000,Euro,2020,Western calendar year,1995,2022,28,0,,1995,2022,False
+real,real|372|205|1000|euro|2021|Western calendar year,372,Ireland,2.5,1000,Euro,2021,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|372|205|1000|euro|2022|Western calendar year,372,Ireland,2.5,1000,Euro,2022,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|376|102|1000|new sheqel|2010|Western calendar year,376,Israel,1.2,1000,new sheqel,2010,Western calendar year,1970,2016,47,0,,1970,2016,True
+real,real|376|102|1000|new sheqel|2015|Western calendar year,376,Israel,1.2,1000,new sheqel,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|376|102|1100|new sheqel|2015|Western calendar year,376,Israel,1.2,1100,new sheqel,2015,Western calendar year,1995,2024,30,0,,1995,2024,False
+real,real|376|205|1000|new sheqel|2010|Western calendar year,376,Israel,2.5,1000,new sheqel,2010,Western calendar year,1995,2015,21,0,,1995,2015,False
+real,real|376|205|1000|new sheqel|2015|Western calendar year,376,Israel,2.5,1000,new sheqel,2015,Western calendar year,1995,2022,28,0,,1995,2022,False
+real,real|376|205|1100|new sheqel|2015|Western calendar year,376,Israel,2.5,1100,new sheqel,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|380|102|1000|euro|2010|Western calendar year,380,Italy,1.2,1000,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|380|102|1000|euro|2015|Western calendar year,380,Italy,1.2,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|380|102|1000|euro|2020|Western calendar year,380,Italy,1.2,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|380|205|1000|euro|2010|Western calendar year,380,Italy,2.5,1000,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|380|205|1000|euro|2015|Western calendar year,380,Italy,2.5,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|380|205|1000|euro|2020|Western calendar year,380,Italy,2.5,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|384|102|1000|cfa franc|-1|Western calendar year,384,Côte d'Ivoire,1.2,1000,CFA franc,-1,Western calendar year,2016,2023,8,0,,2016,2023,True
+real,real|384|205|1000|cfa franc|-1|Western calendar year,384,Côte d'Ivoire,2.5,1000,CFA franc,-1,Western calendar year,2016,2023,8,0,,2016,2023,True
+real,real|392|102|1000|yen|2011|Western calendar year,392,Japan,1.2,1000,yen,2011,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|392|102|1000|yen|2015|Western calendar year,392,Japan,1.2,1000,yen,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|392|205|1000|yen|2011|Western calendar year,392,Japan,2.5,1000,yen,2011,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|392|205|1000|yen|2015|Western calendar year,392,Japan,2.5,1000,yen,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|4|102|1000|afghani|2016|Western calendar year,4,Afghanistan,1.2,1000,Afghani,2016,Western calendar year,2016,2021,6,0,,2016,2021,True
+real,real|4|102|1100|afghani|2016|Fiscal year beginning 21 March,4,Afghanistan,1.2,1100,Afghani,2016,Fiscal year beginning 21 March,2019,2023,5,0,,2019,2023,False
+real,real|4|205|1000|afghani|2016|Western calendar year,4,Afghanistan,2.5,1000,Afghani,2016,Western calendar year,2016,2021,6,0,,2016,2021,True
+real,real|4|205|1100|afghani|2016|Fiscal year beginning 21 March,4,Afghanistan,2.5,1100,Afghani,2016,Fiscal year beginning 21 March,2019,2023,5,0,,2019,2023,False
+real,real|40|102|1000|euro|2010|Western calendar year,40,Austria,1.2,1000,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|40|102|1000|euro|2015|Western calendar year,40,Austria,1.2,1000,Euro,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|40|205|1000|euro|2010|Western calendar year,40,Austria,2.5,1000,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|40|205|1000|euro|2015|Western calendar year,40,Austria,2.5,1000,Euro,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|404|102|1000|kenya shillings|2009|Western calendar year,404,Kenya,1.2,1000,Kenya Shillings,2009,Western calendar year,2006,2019,14,0,,2006,2019,False
+real,real|404|102|1100|kenya shillings|2016|Western calendar year,404,Kenya,1.2,1100,Kenya Shillings,2016,Western calendar year,2009,2024,16,0,,2009,2024,True
+real,real|404|205|1000|kenya shillings|2009|Western calendar year,404,Kenya,2.5,1000,Kenya Shillings,2009,Western calendar year,2006,2019,14,0,,2006,2019,False
+real,real|404|205|1100|kenya shillings|2016|Western calendar year,404,Kenya,2.5,1100,Kenya Shillings,2016,Western calendar year,2009,2024,16,0,,2009,2024,True
+real,real|410|102|1000|korean won|2010|Western calendar year,410,Republic of Korea,1.2,1000,Korean won,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|410|102|1100|korean won|2015|Western calendar year,410,Republic of Korea,1.2,1100,Korean won,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|410|102|1100|korean won|2020|Western calendar year,410,Republic of Korea,1.2,1100,Korean won,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|410|205|1000|korean won|2010|Western calendar year,410,Republic of Korea,2.5,1000,Korean won,2010,Western calendar year,1995,2017,23,0,,1995,2017,False
+real,real|410|205|1100|korean won|2015|Western calendar year,410,Republic of Korea,2.5,1100,Korean won,2015,Western calendar year,1995,2022,28,0,,1995,2022,False
+real,real|410|205|1100|korean won|2020|Western calendar year,410,Republic of Korea,2.5,1100,Korean won,2020,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|417|102|1000|kyrgyz som|-1|Western calendar year,417,Kyrgyzstan,1.2,1000,Kyrgyz som,-1,Western calendar year,2020,2024,5,0,,2020,2024,True
+real,real|417|205|1000|kyrgyz som|-1|Western calendar year,417,Kyrgyzstan,2.5,1000,Kyrgyz som,-1,Western calendar year,2020,2024,5,0,,2020,2024,True
+real,real|418|205|1000|kip|2012|Western calendar year,418,Lao People's Democratic Republic,2.5,1000,kip,2012,Western calendar year,2012,2024,13,0,,2012,2024,True
+real,real|422|102|1000|lebanese pound|2010|Western calendar year,422,Lebanon,1.2,1000,Lebanese Pound,2010,Western calendar year,2004,2020,17,0,,2004,2020,True
+real,real|422|102|1000|lebanese pound|2019|Western calendar year,422,Lebanon,1.2,1000,Lebanese Pound,2019,Western calendar year,2011,2021,11,0,,2011,2021,False
+real,real|422|205|1000|lebanese pound|2010|Western calendar year,422,Lebanon,2.5,1000,Lebanese Pound,2010,Western calendar year,2004,2020,17,0,,2004,2020,True
+real,real|422|205|1000|lebanese pound|2019|Western calendar year,422,Lebanon,2.5,1000,Lebanese Pound,2019,Western calendar year,2011,2021,11,0,,2011,2021,False
+real,real|428|102|1000|euro|2010|Western calendar year,428,Latvia,1.2,1000,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|428|102|1000|euro|2015|Western calendar year,428,Latvia,1.2,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|428|102|1000|euro|2020|Western calendar year,428,Latvia,1.2,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|428|205|1000|euro|2010|Western calendar year,428,Latvia,2.5,1000,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|428|205|1000|euro|2015|Western calendar year,428,Latvia,2.5,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|428|205|1000|euro|2020|Western calendar year,428,Latvia,2.5,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|430|102|1000|us dollar|2016|Western calendar year,430,Liberia,1.2,1000,US dollar,2016,Western calendar year,2016,2022,7,0,,2016,2022,False
+real,real|430|205|1000|us dollar|2016|Western calendar year,430,Liberia,2.5,1000,US dollar,2016,Western calendar year,2010,2023,14,0,,2010,2023,True
+real,real|44|102|1000|bahamian dollar|2012|Western calendar year,44,Bahamas,1.2,1000,Bahamian dollar,2012,Western calendar year,2012,2021,10,0,,2012,2021,False
+real,real|44|102|1000|bahamian dollar|2018|Western calendar year,44,Bahamas,1.2,1000,Bahamian dollar,2018,Western calendar year,2012,2024,13,0,,2012,2024,True
+real,real|44|205|1000|bahamian dollar|2012|Western calendar year,44,Bahamas,2.5,1000,Bahamian dollar,2012,Western calendar year,2012,2021,10,0,,2012,2021,False
+real,real|44|205|1000|bahamian dollar|2018|Western calendar year,44,Bahamas,2.5,1000,Bahamian dollar,2018,Western calendar year,2012,2024,13,0,,2012,2024,True
+real,real|440|102|1000|euro|2010|Western calendar year,440,Lithuania,1.2,1000,Euro,2010,Western calendar year,1995,2017,23,0,,1995,2017,False
+real,real|440|102|1000|euro|2015|Western calendar year,440,Lithuania,1.2,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|440|102|1000|euro|2021|Western calendar year,440,Lithuania,1.2,1000,Euro,2021,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|440|205|1000|euro|2010|Western calendar year,440,Lithuania,2.5,1000,Euro,2010,Western calendar year,1995,2017,23,0,,1995,2017,False
+real,real|440|205|1000|euro|2015|Western calendar year,440,Lithuania,2.5,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|440|205|1000|euro|2021|Western calendar year,440,Lithuania,2.5,1000,Euro,2021,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|442|102|1000|euro|2005|Western calendar year,442,Luxembourg,1.2,1000,Euro,2005,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|442|102|1000|euro|2010|Western calendar year,442,Luxembourg,1.2,1000,Euro,2010,Western calendar year,1995,2020,26,0,,1995,2020,False
+real,real|442|102|1000|euro|2015|Western calendar year,442,Luxembourg,1.2,1000,Euro,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|442|205|1000|euro|2005|Western calendar year,442,Luxembourg,2.5,1000,Euro,2005,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|442|205|1000|euro|2010|Western calendar year,442,Luxembourg,2.5,1000,Euro,2010,Western calendar year,1995,2020,26,0,,1995,2020,False
+real,real|442|205|1000|euro|2015|Western calendar year,442,Luxembourg,2.5,1000,Euro,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|446|102|1000|pataca|2011|Western calendar year,446,"China, Macao Special Administrative Region",1.2,1000,Pataca,2011,Western calendar year,2002,2013,12,0,,2002,2013,False
+real,real|446|102|1000|pataca|2013|Western calendar year,446,"China, Macao Special Administrative Region",1.2,1000,Pataca,2013,Western calendar year,2000,2014,15,0,,2000,2014,False
+real,real|446|102|1100|pataca|2014|Western calendar year,446,"China, Macao Special Administrative Region",1.2,1100,Pataca,2014,Western calendar year,2000,2016,17,0,,2000,2016,False
+real,real|446|102|1100|pataca|2015|Western calendar year,446,"China, Macao Special Administrative Region",1.2,1100,Pataca,2015,Western calendar year,1995,2017,23,0,,1995,2017,False
+real,real|446|102|1100|pataca|2016|Western calendar year,446,"China, Macao Special Administrative Region",1.2,1100,Pataca,2016,Western calendar year,1990,2018,29,0,,1990,2018,False
+real,real|446|102|1100|pataca|2020|Western calendar year,446,"China, Macao Special Administrative Region",1.2,1100,Pataca,2020,Western calendar year,1990,2022,33,0,,1990,2022,False
+real,real|446|102|1100|pataca|2022|Western calendar year,446,"China, Macao Special Administrative Region",1.2,1100,Pataca,2022,Western calendar year,1990,2024,35,0,,1990,2024,True
+real,real|446|202|1000|pataca|2013|Western calendar year,446,"China, Macao Special Administrative Region",2.2,1000,Pataca,2013,Western calendar year,2008,2013,6,0,,2008,2013,False
+real,real|446|202|1100|pataca|2014|Western calendar year,446,"China, Macao Special Administrative Region",2.2,1100,Pataca,2014,Western calendar year,2008,2015,8,0,,2008,2015,False
+real,real|446|202|1100|pataca|2015|Western calendar year,446,"China, Macao Special Administrative Region",2.2,1100,Pataca,2015,Western calendar year,2008,2016,9,0,,2008,2016,False
+real,real|446|202|1100|pataca|2016|Western calendar year,446,"China, Macao Special Administrative Region",2.2,1100,Pataca,2016,Western calendar year,2008,2017,10,0,,2008,2017,False
+real,real|446|202|1100|pataca|2020|Western calendar year,446,"China, Macao Special Administrative Region",2.2,1100,Pataca,2020,Western calendar year,2008,2021,14,0,,2008,2021,False
+real,real|446|202|1100|pataca|2022|Western calendar year,446,"China, Macao Special Administrative Region",2.2,1100,Pataca,2022,Western calendar year,2008,2023,16,0,,2008,2023,False
+real,real|458|102|1000|ringgit|2010|Western calendar year,458,Malaysia,1.2,1000,ringgit,2010,Western calendar year,2010,2017,8,0,,2010,2017,False
+real,real|458|102|1000|ringgit|2015|Western calendar year,458,Malaysia,1.2,1000,ringgit,2015,Western calendar year,2015,2024,10,0,,2015,2024,True
+real,real|458|205|1000|ringgit|2010|Western calendar year,458,Malaysia,2.5,1000,ringgit,2010,Western calendar year,2010,2017,8,0,,2010,2017,False
+real,real|458|205|1000|ringgit|2015|Western calendar year,458,Malaysia,2.5,1000,ringgit,2015,Western calendar year,2015,2024,10,0,,2015,2024,True
+real,real|462|102|1000|rufiyaa|2014|Western calendar year,462,Maldives,1.2,1000,rufiyaa,2014,Western calendar year,2014,2021,8,0,,2014,2021,False
+real,real|462|102|1000|rufiyaa|2019|Western calendar year,462,Maldives,1.2,1000,rufiyaa,2019,Western calendar year,2014,2023,10,0,,2014,2023,False
+real,real|462|205|1000|rufiyaa|2014|Western calendar year,462,Maldives,2.5,1000,rufiyaa,2014,Western calendar year,1995,2021,27,0,,1995,2021,True
+real,real|462|205|1000|rufiyaa|2019|Western calendar year,462,Maldives,2.5,1000,rufiyaa,2019,Western calendar year,2010,2023,14,0,,2010,2023,False
+real,real|466|102|1000|cfa franc|-1|Western calendar year,466,Mali,1.2,1000,CFA franc,-1,Western calendar year,2010,2024,15,0,,2010,2024,True
+real,real|470|102|1000|euro|2010|Western calendar year,470,Malta,1.2,1000,Euro,2010,Western calendar year,2000,2019,20,0,,2000,2019,False
+real,real|470|102|1000|euro|2015|Western calendar year,470,Malta,1.2,1000,Euro,2015,Western calendar year,2000,2024,25,0,,2000,2024,True
+real,real|470|102|1000|euro|2020|Western calendar year,470,Malta,1.2,1000,Euro,2020,Western calendar year,2000,2024,25,0,,2000,2024,True
+real,real|470|205|1000|euro|2015|Western calendar year,470,Malta,2.5,1000,Euro,2015,Western calendar year,2000,2024,25,0,,2000,2024,True
+real,real|470|205|1000|euro|2020|Western calendar year,470,Malta,2.5,1000,Euro,2020,Western calendar year,2000,2024,25,0,,2000,2024,True
+real,real|478|102|1000|ouguiya|2014|Western calendar year,478,Mauritania,1.2,1000,Ouguiya,2014,Western calendar year,1998,2018,21,0,,1998,2018,False
+real,real|478|205|1000|ouguiya|2014|Western calendar year,478,Mauritania,2.5,1000,Ouguiya,2014,Western calendar year,1998,2024,27,0,,1998,2024,True
+real,real|480|102|1000|mauritian rupee|2006|Western calendar year,480,Mauritius,1.2,1000,Mauritian rupee,2006,Western calendar year,2006,2020,15,0,,2006,2020,True
+real,real|480|102|1000|mauritian rupee|2018|Western calendar year,480,Mauritius,1.2,1000,Mauritian rupee,2018,Western calendar year,2013,2024,12,0,,2013,2024,False
+real,real|480|205|1000|mauritian rupee|2006|Western calendar year,480,Mauritius,2.5,1000,Mauritian rupee,2006,Western calendar year,2006,2020,15,0,,2006,2020,True
+real,real|480|205|1000|mauritian rupee|2018|Western calendar year,480,Mauritius,2.5,1000,Mauritian rupee,2018,Western calendar year,2013,2024,12,0,,2013,2024,False
+real,real|484|102|1000|mexican new peso|2008|Western calendar year,484,Mexico,1.2,1000,Mexican new peso,2008,Western calendar year,1970,2016,47,0,,1970,2016,True
+real,real|484|102|1000|mexican new peso|2013|Western calendar year,484,Mexico,1.2,1000,Mexican new peso,2013,Western calendar year,1995,2022,28,0,,1995,2022,False
+real,real|484|102|1000|mexican new peso|2018|Western calendar year,484,Mexico,1.2,1000,Mexican new peso,2018,Western calendar year,1995,2024,30,0,,1995,2024,False
+real,real|484|205|1000|mexican new peso|2008|Western calendar year,484,Mexico,2.5,1000,Mexican new peso,2008,Western calendar year,1970,2015,46,0,,1970,2015,False
+real,real|484|205|1000|mexican new peso|2013|Western calendar year,484,Mexico,2.5,1000,Mexican new peso,2013,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|484|205|1000|mexican new peso|2018|Western calendar year,484,Mexico,2.5,1000,Mexican new peso,2018,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|496|102|1000|togrog|2010|Western calendar year,496,Mongolia,1.2,1000,Togrog,2010,Western calendar year,2010,2020,11,0,,2010,2020,True
+real,real|496|102|1100|togrog|2015|Western calendar year,496,Mongolia,1.2,1100,Togrog,2015,Western calendar year,2015,2024,10,0,,2015,2024,False
+real,real|496|205|1000|togrog|2010|Western calendar year,496,Mongolia,2.5,1000,Togrog,2010,Western calendar year,2010,2020,11,0,,2010,2020,True
+real,real|496|205|1100|togrog|2015|Western calendar year,496,Mongolia,2.5,1100,Togrog,2015,Western calendar year,2015,2024,10,0,,2015,2024,False
+real,real|498|102|1000|moldovan leu|-1|Western calendar year,498,Republic of Moldova,1.2,1000,Moldovan leu,-1,Western calendar year,2011,2020,10,0,,2011,2020,True
+real,real|498|205|1000|moldovan leu|-1|Western calendar year,498,Republic of Moldova,2.5,1000,Moldovan leu,-1,Western calendar year,2011,2020,10,0,,2011,2020,True
+real,real|499|102|1000|euro|-1|Western calendar year,499,Montenegro,1.2,1000,Euro,-1,Western calendar year,2011,2015,5,0,,2011,2015,False
+real,real|499|102|1000|euro|2010|Western calendar year,499,Montenegro,1.2,1000,Euro,2010,Western calendar year,2006,2021,16,0,,2006,2021,False
+real,real|499|102|1000|euro|2015|Western calendar year,499,Montenegro,1.2,1000,Euro,2015,Western calendar year,2006,2024,19,0,,2006,2024,True
+real,real|499|205|1000|euro|-1|Western calendar year,499,Montenegro,2.5,1000,Euro,-1,Western calendar year,2011,2015,5,0,,2011,2015,False
+real,real|499|205|1000|euro|2010|Western calendar year,499,Montenegro,2.5,1000,Euro,2010,Western calendar year,2006,2021,16,0,,2006,2021,False
+real,real|499|205|1000|euro|2015|Western calendar year,499,Montenegro,2.5,1000,Euro,2015,Western calendar year,2006,2024,19,0,,2006,2024,True
+real,real|50|102|1000|taka|2016|Fiscal year ending 30 June,50,Bangladesh,1.2,1000,taka,2016,Fiscal year ending 30 June,2016,2024,9,0,,2016,2024,True
+real,real|50|205|1000|taka|2016|Fiscal year ending 30 June,50,Bangladesh,2.5,1000,taka,2016,Fiscal year ending 30 June,2016,2024,9,0,,2016,2024,True
+real,real|500|205|1000|ec dollar|2018|Western calendar year,500,Montserrat,2.5,1000,EC dollar,2018,Western calendar year,2000,2023,24,0,,2000,2023,True
+real,real|504|102|1000|moroccan dirham|2007|Western calendar year,504,Morocco,1.2,1000,Moroccan dirham,2007,Western calendar year,2007,2020,14,0,,2007,2020,True
+real,real|504|102|1100|moroccan dirham|2014|Western calendar year,504,Morocco,1.2,1100,Moroccan dirham,2014,Western calendar year,2014,2024,11,0,,2014,2024,False
+real,real|504|202|1000|moroccan dirham|2007|Western calendar year,504,Morocco,2.2,1000,Moroccan dirham,2007,Western calendar year,2007,2020,14,0,,2007,2020,True
+real,real|504|205|1100|moroccan dirham|2014|Western calendar year,504,Morocco,2.5,1100,Moroccan dirham,2014,Western calendar year,2014,2024,11,0,,2014,2024,False
+real,real|508|102|1000|metical|2014|Western calendar year,508,Mozambique,1.2,1000,Metical,2014,Western calendar year,1991,2021,31,0,,1991,2021,True
+real,real|508|102|1000|metical|2019|Western calendar year,508,Mozambique,1.2,1000,Metical,2019,Western calendar year,2017,2023,7,0,,2017,2023,False
+real,real|508|205|1000|metical|2014|Western calendar year,508,Mozambique,2.5,1000,Metical,2014,Western calendar year,1991,2021,31,0,,1991,2021,True
+real,real|508|205|1000|metical|2019|Western calendar year,508,Mozambique,2.5,1000,Metical,2019,Western calendar year,2017,2024,8,0,,2017,2024,False
+real,real|51|102|1000|dram|-1|Western calendar year,51,Armenia,1.2,1000,dram,-1,Western calendar year,2013,2024,12,0,,2013,2024,True
+real,real|51|205|1000|dram|-1|Western calendar year,51,Armenia,2.5,1000,dram,-1,Western calendar year,2013,2024,12,0,,2013,2024,True
+real,real|516|102|1000|namibia dollar|2015|Western calendar year,516,Namibia,1.2,1000,Namibia dollar,2015,Western calendar year,1980,2024,45,0,,1980,2024,True
+real,real|516|205|1000|namibia dollar|2015|Western calendar year,516,Namibia,2.5,1000,Namibia dollar,2015,Western calendar year,1980,2024,45,0,,1980,2024,True
+real,real|52|205|1000|barbados dollar|2016|Western calendar year,52,Barbados,2.5,1000,Barbados dollar,2016,Western calendar year,2010,2023,14,0,,2010,2023,True
+real,real|524|102|1000|nepalese rupee|2011|Fiscal year ending 15 July,524,Nepal,1.2,1000,Nepalese rupee,2011,Fiscal year ending 15 July,2011,2023,13,0,,2011,2023,True
+real,real|524|205|1000|nepalese rupee|2011|Fiscal year ending 15 July,524,Nepal,2.5,1000,Nepalese rupee,2011,Fiscal year ending 15 July,2011,2023,13,0,,2011,2023,True
+real,real|528|102|1000|euro|2010|Western calendar year,528,Netherlands,1.2,1000,Euro,2010,Western calendar year,1995,2017,23,0,,1995,2017,False
+real,real|528|102|1000|euro|2015|Western calendar year,528,Netherlands,1.2,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|528|102|1000|euro|2021|Western calendar year,528,Netherlands,1.2,1000,Euro,2021,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|528|205|1000|euro|2010|Western calendar year,528,Netherlands,2.5,1000,Euro,2010,Western calendar year,1995,2017,23,0,,1995,2017,False
+real,real|528|205|1000|euro|2015|Western calendar year,528,Netherlands,2.5,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|528|205|1000|euro|2021|Western calendar year,528,Netherlands,2.5,1000,Euro,2021,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|533|102|1000|aruban florin|2013|Western calendar year,533,Aruba,1.2,1000,Aruban florin,2013,Western calendar year,2013,2017,5,0,,2013,2017,False
+real,real|533|205|1000|aruban florin|2013|Western calendar year,533,Aruba,2.5,1000,Aruban florin,2013,Western calendar year,2013,2020,8,0,,2013,2020,True
+real,real|534|102|1000|netherlands antillean guilder (ang)|2011|Western calendar year,534,Sint Maarten,1.2,1000,Netherlands Antillean guilder (ANG),2011,Western calendar year,2011,2014,4,0,,2011,2014,False
+real,real|534|205|1100|netherlands antillean guilder (ang)|2018|Western calendar year,534,Sint Maarten,2.5,1100,Netherlands Antillean guilder (ANG),2018,Western calendar year,2014,2021,8,0,,2014,2021,False
+real,real|534|205|1200|netherlands antillean guilder (ang)|2018|Western calendar year,534,Sint Maarten,2.5,1200,Netherlands Antillean guilder (ANG),2018,Western calendar year,2014,2022,9,0,,2014,2022,True
+real,real|535|102|1100|us dollar|2017|Western calendar year,535,"Bonaire, Sint Eustatius and Saba",1.2,1100,US dollar,2017,Western calendar year,2012,2022,11,0,,2012,2022,True
+real,real|554|102|1000|new zealand dollar|2009|Fiscal year beginning 1 April,554,New Zealand,1.2,1000,New Zealand dollar,2009,Fiscal year beginning 1 April,1995,2024,30,0,,1995,2024,True
+real,real|554|205|1000|new zealand dollar|2009|Fiscal year beginning 1 April,554,New Zealand,2.5,1000,New Zealand dollar,2009,Fiscal year beginning 1 April,1995,2023,29,0,,1995,2023,False
+real,real|56|102|1000|euro|2012|Western calendar year,56,Belgium,1.2,1000,Euro,2012,Western calendar year,1995,2014,20,0,,1995,2014,False
+real,real|56|102|1000|euro|2013|Western calendar year,56,Belgium,1.2,1000,Euro,2013,Western calendar year,1995,2015,21,0,,1995,2015,False
+real,real|56|102|1000|euro|2014|Western calendar year,56,Belgium,1.2,1000,Euro,2014,Western calendar year,1995,2016,22,0,,1995,2016,False
+real,real|56|102|1000|euro|2015|Western calendar year,56,Belgium,1.2,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|56|102|1000|euro|2020|Western calendar year,56,Belgium,1.2,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|56|205|1000|euro|2012|Western calendar year,56,Belgium,2.5,1000,Euro,2012,Western calendar year,1995,2014,20,0,,1995,2014,False
+real,real|56|205|1000|euro|2013|Western calendar year,56,Belgium,2.5,1000,Euro,2013,Western calendar year,1995,2015,21,0,,1995,2015,False
+real,real|56|205|1000|euro|2014|Western calendar year,56,Belgium,2.5,1000,Euro,2014,Western calendar year,1995,2016,22,0,,1995,2016,False
+real,real|56|205|1000|euro|2015|Western calendar year,56,Belgium,2.5,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|56|205|1000|euro|2020|Western calendar year,56,Belgium,2.5,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|562|102|1000|cfa franc|2015|Western calendar year,562,Niger,1.2,1000,CFA franc,2015,Western calendar year,2005,2021,17,0,,2005,2021,True
+real,real|562|102|1100|cfa franc|2015|Western calendar year,562,Niger,1.2,1100,CFA franc,2015,Western calendar year,2015,2024,10,0,,2015,2024,False
+real,real|562|205|1000|cfa franc|2015|Western calendar year,562,Niger,2.5,1000,CFA franc,2015,Western calendar year,2005,2021,17,0,,2005,2021,True
+real,real|562|205|1100|cfa franc|2015|Western calendar year,562,Niger,2.5,1100,CFA franc,2015,Western calendar year,2015,2024,10,0,,2015,2024,False
+real,real|566|102|1000|naira|2010|Western calendar year,566,Nigeria,1.2,1000,Naira,2010,Western calendar year,1981,2024,44,0,,1981,2024,True
+real,real|566|202|1000|naira|2010|Western calendar year,566,Nigeria,2.2,1000,Naira,2010,Western calendar year,2010,2013,4,0,,2010,2013,False
+real,real|566|205|1000|naira|2010|Western calendar year,566,Nigeria,2.5,1000,Naira,2010,Western calendar year,1981,2024,44,0,,1981,2024,True
+real,real|578|102|1000|norwegian krone|2005|Western calendar year,578,Norway,1.2,1000,Norwegian krone,2005,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|578|102|1000|norwegian krone|2015|Western calendar year,578,Norway,1.2,1000,Norwegian krone,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|578|205|1000|norwegian krone|2005|Western calendar year,578,Norway,2.5,1000,Norwegian krone,2005,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|578|205|1000|norwegian krone|2015|Western calendar year,578,Norway,2.5,1000,Norwegian krone,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|586|102|1000|pakistan rupee|2006|Fiscal year ending 30 June,586,Pakistan,1.2,1000,Pakistan Rupee,2006,Fiscal year ending 30 June,2006,2020,15,0,,2006,2020,False
+real,real|586|102|1100|pakistan rupee|2016|Fiscal year ending 30 June,586,Pakistan,1.2,1100,Pakistan Rupee,2016,Fiscal year ending 30 June,2000,2024,25,0,,2000,2024,True
+real,real|586|205|1000|pakistan rupee|2006|Fiscal year ending 30 June,586,Pakistan,2.5,1000,Pakistan Rupee,2006,Fiscal year ending 30 June,2006,2020,15,0,,2006,2020,False
+real,real|586|205|1100|pakistan rupee|2016|Fiscal year ending 30 June,586,Pakistan,2.5,1100,Pakistan Rupee,2016,Fiscal year ending 30 June,2000,2024,25,0,,2000,2024,True
+real,real|591|102|1000|balboa|2018|Western calendar year,591,Panama,1.2,1000,balboa,2018,Western calendar year,2018,2024,7,0,,2018,2024,True
+real,real|591|202|1000|balboa|2018|Western calendar year,591,Panama,2.2,1000,balboa,2018,Western calendar year,2018,2023,6,0,,2018,2023,False
+real,real|591|205|1000|balboa|2018|Western calendar year,591,Panama,2.5,1000,balboa,2018,Western calendar year,2018,2024,7,0,,2018,2024,True
+real,real|598|205|1000|kina|2013|Western calendar year,598,Papua New Guinea,2.5,1000,kina,2013,Western calendar year,2006,2018,13,0,,2006,2018,True
+real,real|60|102|1000|bermuda dollar|2013|Western calendar year,60,Bermuda,1.2,1000,Bermuda dollar,2013,Western calendar year,2010,2023,14,0,,2010,2023,True
+real,real|60|205|1000|bermuda dollar|2013|Western calendar year,60,Bermuda,2.5,1000,Bermuda dollar,2013,Western calendar year,2010,2023,14,0,,2010,2023,True
+real,real|600|102|1000|guarani|2014|Western calendar year,600,Paraguay,1.2,1000,guarani,2014,Western calendar year,2007,2024,18,0,,2007,2024,True
+real,real|600|205|1000|guarani|2014|Western calendar year,600,Paraguay,2.5,1000,guarani,2014,Western calendar year,2008,2024,17,0,,2008,2024,False
+real,real|604|102|1000|new sol|2007|Western calendar year,604,Peru,1.2,1000,new sol,2007,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|604|205|1000|new sol|2007|Western calendar year,604,Peru,2.5,1000,new sol,2007,Western calendar year,2002,2024,23,0,,2002,2024,False
+real,real|608|102|1000|philippine peso|2000|Western calendar year,608,Philippines,1.2,1000,Philippine peso,2000,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|608|102|1100|philippine peso|2018|Western calendar year,608,Philippines,1.2,1100,Philippine peso,2018,Western calendar year,1946,2024,79,0,,1946,2024,True
+real,real|608|205|1000|philippine peso|2000|Western calendar year,608,Philippines,2.5,1000,Philippine peso,2000,Western calendar year,1998,2019,22,0,,1998,2019,False
+real,real|608|205|1100|philippine peso|2018|Western calendar year,608,Philippines,2.5,1100,Philippine peso,2018,Western calendar year,1946,2024,79,0,,1946,2024,True
+real,real|616|102|1000|zloty|2010|Western calendar year,616,Poland,1.2,1000,Zloty,2010,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|616|102|1000|zloty|2015|Western calendar year,616,Poland,1.2,1000,Zloty,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|616|102|1000|zloty|2020|Western calendar year,616,Poland,1.2,1000,Zloty,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|616|205|1000|zloty|2010|Western calendar year,616,Poland,2.5,1000,Zloty,2010,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|616|205|1000|zloty|2015|Western calendar year,616,Poland,2.5,1000,Zloty,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|616|205|1000|zloty|2020|Western calendar year,616,Poland,2.5,1000,Zloty,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|620|102|1000|euro|2011|Western calendar year,620,Portugal,1.2,1000,Euro,2011,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|620|102|1000|euro|2016|Western calendar year,620,Portugal,1.2,1000,Euro,2016,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|620|102|1000|euro|2021|Western calendar year,620,Portugal,1.2,1000,Euro,2021,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|620|205|1000|euro|2011|Western calendar year,620,Portugal,2.5,1000,Euro,2011,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|620|205|1000|euro|2016|Western calendar year,620,Portugal,2.5,1000,Euro,2016,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|620|205|1000|euro|2021|Western calendar year,620,Portugal,2.5,1000,Euro,2021,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|626|102|1000|us dollars|2010|Western calendar year,626,Timor-Leste,1.2,1000,US dollars,2010,Western calendar year,2001,2014,14,0,,2001,2014,False
+real,real|626|102|1100|us dollars|2015|Western calendar year,626,Timor-Leste,1.2,1100,US dollars,2015,Western calendar year,2000,2017,18,0,,2000,2017,False
+real,real|626|102|1200|us dollars|2015|Western calendar year,626,Timor-Leste,1.2,1200,US dollars,2015,Western calendar year,2000,2023,24,0,,2000,2023,True
+real,real|626|202|1000|us dollars|2010|Western calendar year,626,Timor-Leste,2.2,1000,US dollars,2010,Western calendar year,2004,2010,7,0,,2004,2010,False
+real,real|626|205|1000|us dollars|2010|Western calendar year,626,Timor-Leste,2.5,1000,US dollars,2010,Western calendar year,2001,2014,14,0,,2001,2014,False
+real,real|626|205|1100|us dollars|2015|Western calendar year,626,Timor-Leste,2.5,1100,US dollars,2015,Western calendar year,2000,2017,18,0,,2000,2017,False
+real,real|626|205|1200|us dollars|2015|Western calendar year,626,Timor-Leste,2.5,1200,US dollars,2015,Western calendar year,2000,2023,24,0,,2000,2023,True
+real,real|64|102|1000|ngultrum|2017|Western calendar year,64,Bhutan,1.2,1000,ngultrum,2017,Western calendar year,2000,2023,24,0,,2000,2023,True
+real,real|64|205|1000|ngultrum|2017|Western calendar year,64,Bhutan,2.5,1000,ngultrum,2017,Western calendar year,2000,2023,24,0,,2000,2023,True
+real,real|642|102|1000|new romanian leu|-1|Western calendar year,642,Romania,1.2,1000,New Romanian Leu,-1,Western calendar year,1996,2018,23,0,,1996,2018,False
+real,real|642|102|1000|new romanian leu|2010|Western calendar year,642,Romania,1.2,1000,New Romanian Leu,2010,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|642|102|1000|new romanian leu|2015|Western calendar year,642,Romania,1.2,1000,New Romanian Leu,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|642|205|1000|new romanian leu|-1|Western calendar year,642,Romania,2.5,1000,New Romanian Leu,-1,Western calendar year,1996,2018,23,0,,1996,2018,False
+real,real|642|205|1000|new romanian leu|2010|Western calendar year,642,Romania,2.5,1000,New Romanian Leu,2010,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|642|205|1000|new romanian leu|2015|Western calendar year,642,Romania,2.5,1000,New Romanian Leu,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|643|102|1000|russian ruble|2011|Western calendar year,643,Russian Federation,1.2,1000,Russian Ruble,2011,Western calendar year,2011,2012,2,0,,2011,2012,False
+real,real|643|102|1000|russian ruble|2016|Western calendar year,643,Russian Federation,1.2,1000,Russian Ruble,2016,Western calendar year,2011,2012,2,0,,2011,2012,False
+real,real|643|102|1000|russian ruble|2021|Western calendar year,643,Russian Federation,1.2,1000,Russian Ruble,2021,Western calendar year,2011,2013,3,0,,2011,2013,True
+real,real|643|202|1000|russian ruble|2011|Western calendar year,643,Russian Federation,2.2,1000,Russian Ruble,2011,Western calendar year,2011,2012,2,0,,2011,2012,False
+real,real|643|202|1000|russian ruble|2016|Western calendar year,643,Russian Federation,2.2,1000,Russian Ruble,2016,Western calendar year,2011,2012,2,0,,2011,2012,False
+real,real|643|205|1000|russian ruble|2016|Western calendar year,643,Russian Federation,2.5,1000,Russian Ruble,2016,Western calendar year,2011,2012,2,0,,2011,2012,False
+real,real|643|205|1000|russian ruble|2021|Western calendar year,643,Russian Federation,2.5,1000,Russian Ruble,2021,Western calendar year,2011,2013,3,0,,2011,2013,True
+real,real|646|102|1000|rwanda franc|2017|Western calendar year,646,Rwanda,1.2,1000,Rwanda franc,2017,Western calendar year,2005,2024,20,0,,2005,2024,True
+real,real|646|205|1000|rwanda franc|2017|Western calendar year,646,Rwanda,2.5,1000,Rwanda franc,2017,Western calendar year,2005,2024,20,0,,2005,2024,True
+real,real|660|205|1000|ec dollar|2018|Western calendar year,660,Anguilla,2.5,1000,EC dollar,2018,Western calendar year,2011,2023,13,0,,2011,2023,True
+real,real|662|205|1000|ec dollar|2018|Western calendar year,662,Saint Lucia,2.5,1000,EC dollar,2018,Western calendar year,2006,2024,19,0,,2006,2024,True
+real,real|670|205|1000|ec dollar|2018|Western calendar year,670,Saint Vincent and the Grenadines,2.5,1000,EC dollar,2018,Western calendar year,2000,2023,24,0,,2000,2023,True
+real,real|682|102|1000|saudi arabian riyal|2010|Western calendar year,682,Saudi Arabia,1.2,1000,Saudi Arabian riyal,2010,Western calendar year,2004,2021,18,0,,2004,2021,False
+real,real|682|102|1100|saudi arabian riyal|2010|Western calendar year,682,Saudi Arabia,1.2,1100,Saudi Arabian riyal,2010,Western calendar year,1970,2022,53,0,,1970,2022,True
+real,real|682|102|1100|saudi arabian riyal|2018|Western calendar year,682,Saudi Arabia,1.2,1100,Saudi Arabian riyal,2018,Western calendar year,2010,2023,14,0,,2010,2023,False
+real,real|682|205|1000|saudi arabian riyal|2010|Western calendar year,682,Saudi Arabia,2.5,1000,Saudi Arabian riyal,2010,Western calendar year,1970,2021,52,0,,1970,2021,False
+real,real|682|205|1100|saudi arabian riyal|2010|Western calendar year,682,Saudi Arabia,2.5,1100,Saudi Arabian riyal,2010,Western calendar year,1970,2022,53,0,,1970,2022,True
+real,real|682|205|1100|saudi arabian riyal|2018|Western calendar year,682,Saudi Arabia,2.5,1100,Saudi Arabian riyal,2018,Western calendar year,2010,2023,14,0,,2010,2023,False
+real,real|686|102|1000|cfa franc|2014|Western calendar year,686,Senegal,1.2,1000,CFA franc,2014,Western calendar year,1999,2024,26,0,,1999,2024,True
+real,real|686|205|1000|cfa franc|2014|Western calendar year,686,Senegal,2.5,1000,CFA franc,2014,Western calendar year,1999,2024,26,0,,1999,2024,True
+real,real|688|102|1000|dinar|2010|Western calendar year,688,Serbia,1.2,1000,Dinar,2010,Western calendar year,1995,2019,25,0,,1995,2019,True
+real,real|688|102|1000|dinar|2015|Western calendar year,688,Serbia,1.2,1000,Dinar,2015,Western calendar year,2005,2023,19,0,,2005,2023,False
+real,real|688|102|1000|dinar|2021|Western calendar year,688,Serbia,1.2,1000,Dinar,2021,Western calendar year,2010,2024,15,0,,2010,2024,False
+real,real|688|205|1000|dinar|2010|Western calendar year,688,Serbia,2.5,1000,Dinar,2010,Western calendar year,1995,2019,25,0,,1995,2019,True
+real,real|688|205|1000|dinar|2015|Western calendar year,688,Serbia,2.5,1000,Dinar,2015,Western calendar year,2005,2023,19,0,,2005,2023,False
+real,real|688|205|1000|dinar|2021|Western calendar year,688,Serbia,2.5,1000,Dinar,2021,Western calendar year,2010,2024,15,0,,2010,2024,False
+real,real|690|205|1000|seychelles rupee|2014|Western calendar year,690,Seychelles,2.5,1000,Seychelles rupee,2014,Western calendar year,2014,2023,10,0,,2014,2023,True
+real,real|694|102|1000|leone|2018|Western calendar year,694,Sierra Leone,1.2,1000,Leone,2018,Western calendar year,2018,2024,7,0,,2018,2024,False
+real,real|694|205|1000|leone|2018|Western calendar year,694,Sierra Leone,2.5,1000,Leone,2018,Western calendar year,2006,2024,19,0,,2006,2024,True
+real,real|70|102|1000|convertible marks|-1|Western calendar year,70,Bosnia and Herzegovina,1.2,1000,convertible marks,-1,Western calendar year,2004,2020,17,0,,2004,2020,True
+real,real|70|102|1100|convertible marks|-1|Western calendar year,70,Bosnia and Herzegovina,1.2,1100,convertible marks,-1,Western calendar year,2015,2024,10,0,,2015,2024,False
+real,real|70|205|1000|convertible marks|-1|Western calendar year,70,Bosnia and Herzegovina,2.5,1000,convertible marks,-1,Western calendar year,2006,2020,15,0,,2006,2020,False
+real,real|70|205|1100|convertible marks|-1|Western calendar year,70,Bosnia and Herzegovina,2.5,1100,convertible marks,-1,Western calendar year,2015,2024,10,0,,2015,2024,False
+real,real|702|102|1000|singapore dollar|2010|Western calendar year,702,Singapore,1.2,1000,Singapore dollar,2010,Western calendar year,1960,2018,59,0,,1960,2018,False
+real,real|702|102|1000|singapore dollar|2015|Western calendar year,702,Singapore,1.2,1000,Singapore dollar,2015,Western calendar year,1960,2024,65,0,,1960,2024,True
+real,real|702|205|1000|singapore dollar|2010|Western calendar year,702,Singapore,2.5,1000,Singapore dollar,2010,Western calendar year,1960,2018,59,0,,1960,2018,False
+real,real|702|205|1000|singapore dollar|2015|Western calendar year,702,Singapore,2.5,1000,Singapore dollar,2015,Western calendar year,1960,2024,65,0,,1960,2024,True
+real,real|703|102|1000|euro|2010|Western calendar year,703,Slovakia,1.2,1000,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|703|102|1000|euro|2015|Western calendar year,703,Slovakia,1.2,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|703|102|1000|euro|2020|Western calendar year,703,Slovakia,1.2,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|703|205|1000|euro|2010|Western calendar year,703,Slovakia,2.5,1000,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|703|205|1000|euro|2015|Western calendar year,703,Slovakia,2.5,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|703|205|1000|euro|2020|Western calendar year,703,Slovakia,2.5,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|705|102|1000|euro|-1|Western calendar year,705,Slovenia,1.2,1000,Euro,-1,Western calendar year,1996,2018,23,0,,1996,2018,False
+real,real|705|102|1100|euro|2010|Western calendar year,705,Slovenia,1.2,1100,Euro,2010,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|705|205|1000|euro|-1|Western calendar year,705,Slovenia,2.5,1000,Euro,-1,Western calendar year,1996,2018,23,0,,1996,2018,False
+real,real|705|205|1100|euro|2010|Western calendar year,705,Slovenia,2.5,1100,Euro,2010,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|706|102|1000|us dollar|2022|Western calendar year,706,Somalia,1.2,1000,US dollar,2022,Western calendar year,2016,2023,8,0,,2016,2023,True
+real,real|710|102|1000|rand|2010|Western calendar year,710,South Africa,1.2,1000,rand,2010,Western calendar year,2003,2020,18,0,,2003,2020,False
+real,real|710|102|1100|rand|2015|Western calendar year,710,South Africa,1.2,1100,rand,2015,Western calendar year,1993,2024,32,0,,1993,2024,True
+real,real|710|202|1000|rand|2010|Western calendar year,710,South Africa,2.2,1000,rand,2010,Western calendar year,2003,2017,15,0,,2003,2017,False
+real,real|710|202|1100|rand|2015|Western calendar year,710,South Africa,2.2,1100,rand,2015,Western calendar year,1993,2021,29,0,,1993,2021,False
+real,real|716|102|1000|zimbabwe dollar|2023|Western calendar year,716,Zimbabwe,1.2,1000,Zimbabwe dollar,2023,Western calendar year,2019,2023,5,0,,2019,2023,True
+real,real|716|102|1100|zimbabwe gold|2023|Western calendar year,716,Zimbabwe,1.2,1100,Zimbabwe Gold,2023,Western calendar year,2023,2024,2,0,,2023,2024,False
+real,real|716|205|1000|zimbabwe dollar|2023|Western calendar year,716,Zimbabwe,2.5,1000,Zimbabwe dollar,2023,Western calendar year,2019,2023,5,0,,2019,2023,True
+real,real|716|205|1100|zimbabwe gold|2023|Western calendar year,716,Zimbabwe,2.5,1100,Zimbabwe Gold,2023,Western calendar year,2023,2024,2,0,,2023,2024,False
+real,real|72|102|1000|pula|2016|Western calendar year,72,Botswana,1.2,1000,pula,2016,Western calendar year,2006,2024,19,0,,2006,2024,True
+real,real|72|205|1000|pula|2016|Western calendar year,72,Botswana,2.5,1000,pula,2016,Western calendar year,2006,2024,19,0,,2006,2024,True
+real,real|724|102|1000|euro|2010|Western calendar year,724,Spain,1.2,1000,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|724|102|1000|euro|2015|Western calendar year,724,Spain,1.2,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|724|102|1000|euro|2020|Western calendar year,724,Spain,1.2,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|724|205|1000|euro|2010|Western calendar year,724,Spain,2.5,1000,Euro,2010,Western calendar year,1995,2018,24,0,,1995,2018,False
+real,real|724|205|1000|euro|2015|Western calendar year,724,Spain,2.5,1000,Euro,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|724|205|1000|euro|2020|Western calendar year,724,Spain,2.5,1000,Euro,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|740|205|1000|suriname dollar|2015|Western calendar year,740,Suriname,2.5,1000,Suriname dollar,2015,Western calendar year,2015,2023,9,0,,2015,2023,True
+real,real|748|102|1000|lilangeni|2011|Western calendar year,748,Eswatini,1.2,1000,Lilangeni,2011,Western calendar year,2000,2022,23,0,,2000,2022,False
+real,real|748|102|1000|lilangeni|2019|Western calendar year,748,Eswatini,1.2,1000,Lilangeni,2019,Western calendar year,2013,2023,11,0,,2013,2023,False
+real,real|748|205|1000|lilangeni|2011|Western calendar year,748,Eswatini,2.5,1000,Lilangeni,2011,Western calendar year,1980,2022,43,0,,1980,2022,True
+real,real|748|205|1000|lilangeni|2019|Western calendar year,748,Eswatini,2.5,1000,Lilangeni,2019,Western calendar year,2013,2023,11,0,,2013,2023,False
+real,real|752|102|1000|swedish krona|2010|Western calendar year,752,Sweden,1.2,1000,Swedish Krona,2010,Western calendar year,1995,2017,23,0,,1995,2017,False
+real,real|752|102|1000|swedish krona|2015|Western calendar year,752,Sweden,1.2,1000,Swedish Krona,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|752|102|1000|swedish krona|2020|Western calendar year,752,Sweden,1.2,1000,Swedish Krona,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|752|205|1000|swedish krona|2010|Western calendar year,752,Sweden,2.5,1000,Swedish Krona,2010,Western calendar year,1995,2017,23,0,,1995,2017,False
+real,real|752|205|1000|swedish krona|2015|Western calendar year,752,Sweden,2.5,1000,Swedish Krona,2015,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|752|205|1000|swedish krona|2020|Western calendar year,752,Sweden,2.5,1000,Swedish Krona,2020,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|756|102|1000|swiss franc|2010|Western calendar year,756,Switzerland,1.2,1000,Swiss franc,2010,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|756|102|1000|swiss franc|2015|Western calendar year,756,Switzerland,1.2,1000,Swiss franc,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|756|205|1000|swiss franc|2010|Western calendar year,756,Switzerland,2.5,1000,Swiss franc,2010,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|756|205|1000|swiss franc|2015|Western calendar year,756,Switzerland,2.5,1000,Swiss franc,2015,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|76|102|1000|real|-1|Western calendar year,76,Brazil,1.2,1000,real,-1,Western calendar year,2001,2022,22,0,,2001,2022,False
+real,real|76|102|1000|real|1995|Western calendar year,76,Brazil,1.2,1000,real,1995,Western calendar year,1995,2022,28,0,,1995,2022,True
+real,real|76|202|1000|real|-1|Western calendar year,76,Brazil,2.2,1000,real,-1,Western calendar year,2003,2010,8,0,,2003,2010,False
+real,real|76|205|1000|real|-1|Western calendar year,76,Brazil,2.5,1000,real,-1,Western calendar year,2004,2020,17,0,,2004,2020,False
+real,real|76|205|1000|real|1995|Western calendar year,76,Brazil,2.5,1000,real,1995,Western calendar year,1995,2022,28,0,,1995,2022,True
+real,real|762|102|1000|samoni|-1|Western calendar year,762,Tajikistan,1.2,1000,samoni,-1,Western calendar year,2017,2023,7,0,,2017,2023,False
+real,real|762|205|1000|samoni|-1|Western calendar year,762,Tajikistan,2.5,1000,samoni,-1,Western calendar year,2018,2024,7,0,,2018,2024,True
+real,real|764|102|1000|baht|2002|Western calendar year,764,Thailand,1.2,1000,baht,2002,Western calendar year,2004,2023,20,0,,2004,2023,False
+real,real|764|102|1100|baht|2002|Western calendar year,764,Thailand,1.2,1100,baht,2002,Western calendar year,2010,2024,15,0,,2010,2024,False
+real,real|764|202|1000|baht|2002|Western calendar year,764,Thailand,2.2,1000,baht,2002,Western calendar year,2004,2015,12,0,,2004,2015,False
+real,real|764|205|1000|baht|2002|Western calendar year,764,Thailand,2.5,1000,baht,2002,Western calendar year,1993,2023,31,0,,1993,2023,True
+real,real|764|205|1100|baht|2002|Western calendar year,764,Thailand,2.5,1100,baht,2002,Western calendar year,2010,2023,14,0,,2010,2023,False
+real,real|768|102|1000|cfa franc|2016|Western calendar year,768,Togo,1.2,1000,CFA franc,2016,Western calendar year,2007,2019,13,0,,2007,2019,True
+real,real|768|205|1000|cfa franc|2016|Western calendar year,768,Togo,2.5,1000,CFA franc,2016,Western calendar year,2007,2019,13,0,,2007,2019,True
+real,real|776|102|1000|pa'anga|2017|Fiscal year ending 30 June,776,Tonga,1.2,1000,Pa'anga,2017,Fiscal year ending 30 June,1994,2023,30,0,,1994,2023,True
+real,real|776|205|1000|pa'anga|2017|Fiscal year ending 30 June,776,Tonga,2.5,1000,Pa'anga,2017,Fiscal year ending 30 June,1994,2023,30,0,,1994,2023,True
+real,real|780|205|1000|trinidad and tobago dollar|2012|Western calendar year,780,Trinidad and Tobago,2.5,1000,Trinidad and Tobago dollar,2012,Western calendar year,2012,2023,12,0,,2012,2023,True
+real,real|784|102|1000|uae dirham|2010|Western calendar year,784,United Arab Emirates,1.2,1000,UAE dirham,2010,Western calendar year,2010,2023,14,0,,2010,2023,False
+real,real|784|102|1100|uae dirham|2010|Western calendar year,784,United Arab Emirates,1.2,1100,UAE dirham,2010,Western calendar year,2010,2024,15,0,,2010,2024,True
+real,real|784|205|1000|uae dirham|2010|Western calendar year,784,United Arab Emirates,2.5,1000,UAE dirham,2010,Western calendar year,2010,2023,14,0,,2010,2023,False
+real,real|784|205|1100|uae dirham|2010|Western calendar year,784,United Arab Emirates,2.5,1100,UAE dirham,2010,Western calendar year,2010,2024,15,0,,2010,2024,True
+real,real|788|102|1000|tunisian dinar|-1|Western calendar year,788,Tunisia,1.2,1000,Tunisian Dinar,-1,Western calendar year,2016,2023,8,0,,2016,2023,True
+real,real|788|205|1000|tunisian dinar|-1|Western calendar year,788,Tunisia,2.5,1000,Tunisian Dinar,-1,Western calendar year,2016,2023,8,0,,2016,2023,True
+real,real|792|102|1000|new turkish lira|2009|Western calendar year,792,Türkiye,1.2,1000,New Turkish lira,2009,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|792|205|1000|new turkish lira|2009|Western calendar year,792,Türkiye,2.5,1000,New Turkish lira,2009,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|8|102|1000|lek|-1|Western calendar year,8,Albania,1.2,1000,lek,-1,Western calendar year,2000,2023,24,0,,2000,2023,True
+real,real|8|202|1000|lek|-1|Western calendar year,8,Albania,2.2,1000,lek,-1,Western calendar year,2009,2014,6,0,,2009,2014,False
+real,real|8|205|1000|lek|-1|Western calendar year,8,Albania,2.5,1000,lek,-1,Western calendar year,2000,2023,24,0,,2000,2023,True
+real,real|800|102|1000|uganda shilling|2010|Fiscal year ending 30 June,800,Uganda,1.2,1000,Uganda shilling,2010,Fiscal year ending 30 June,2008,2018,11,0,,2008,2018,False
+real,real|800|102|1100|uganda shilling|2017|Western calendar year,800,Uganda,1.2,1100,Uganda shilling,2017,Western calendar year,2009,2024,16,0,,2009,2024,True
+real,real|800|205|1000|uganda shilling|2010|Fiscal year ending 30 June,800,Uganda,2.5,1000,Uganda shilling,2010,Fiscal year ending 30 June,2008,2018,11,0,,2008,2018,False
+real,real|800|205|1100|uganda shilling|2017|Western calendar year,800,Uganda,2.5,1100,Uganda shilling,2017,Western calendar year,2009,2024,16,0,,2009,2024,True
+real,real|804|102|1000|hryvnia|-1|Western calendar year,804,Ukraine,1.2,1000,hryvnia,-1,Western calendar year,2003,2022,20,0,,2003,2022,True
+real,real|804|102|1000|hryvnia|2021|Western calendar year,804,Ukraine,1.2,1000,hryvnia,2021,Western calendar year,2010,2024,15,0,,2010,2024,False
+real,real|804|205|1000|hryvnia|-1|Western calendar year,804,Ukraine,2.5,1000,hryvnia,-1,Western calendar year,2003,2022,20,0,,2003,2022,True
+real,real|804|205|1000|hryvnia|2021|Western calendar year,804,Ukraine,2.5,1000,hryvnia,2021,Western calendar year,2010,2024,15,0,,2010,2024,False
+real,real|807|102|1000|tfyr macedonian denar|2005|Western calendar year,807,North Macedonia,1.2,1000,TFYR Macedonian Denar,2005,Western calendar year,2000,2024,25,0,,2000,2024,True
+real,real|807|205|1000|tfyr macedonian denar|2005|Western calendar year,807,North Macedonia,2.5,1000,TFYR Macedonian Denar,2005,Western calendar year,2000,2024,25,0,,2000,2024,True
+real,real|826|102|1000|pound sterling|2011|Western calendar year,826,United Kingdom,1.2,1000,pound sterling,2011,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|826|102|1000|pound sterling|2012|Western calendar year,826,United Kingdom,1.2,1000,pound sterling,2012,Western calendar year,1995,2015,21,0,,1995,2015,False
+real,real|826|102|1000|pound sterling|2013|Western calendar year,826,United Kingdom,1.2,1000,pound sterling,2013,Western calendar year,1995,2016,22,0,,1995,2016,False
+real,real|826|102|1000|pound sterling|2015|Western calendar year,826,United Kingdom,1.2,1000,pound sterling,2015,Western calendar year,1995,2017,23,0,,1995,2017,False
+real,real|826|102|1000|pound sterling|2016|Western calendar year,826,United Kingdom,1.2,1000,pound sterling,2016,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|826|102|1000|pound sterling|2018|Western calendar year,826,United Kingdom,1.2,1000,pound sterling,2018,Western calendar year,1995,2020,26,0,,1995,2020,False
+real,real|826|102|1000|pound sterling|2019|Western calendar year,826,United Kingdom,1.2,1000,pound sterling,2019,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|826|102|1000|pound sterling|2022|Western calendar year,826,United Kingdom,1.2,1000,pound sterling,2022,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|826|205|1000|pound sterling|2011|Western calendar year,826,United Kingdom,2.5,1000,pound sterling,2011,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|826|205|1000|pound sterling|2012|Western calendar year,826,United Kingdom,2.5,1000,pound sterling,2012,Western calendar year,1995,2015,21,0,,1995,2015,False
+real,real|826|205|1000|pound sterling|2013|Western calendar year,826,United Kingdom,2.5,1000,pound sterling,2013,Western calendar year,1995,2016,22,0,,1995,2016,False
+real,real|826|205|1000|pound sterling|2015|Western calendar year,826,United Kingdom,2.5,1000,pound sterling,2015,Western calendar year,1995,2017,23,0,,1995,2017,False
+real,real|826|205|1000|pound sterling|2016|Western calendar year,826,United Kingdom,2.5,1000,pound sterling,2016,Western calendar year,1995,2019,25,0,,1995,2019,False
+real,real|826|205|1000|pound sterling|2018|Western calendar year,826,United Kingdom,2.5,1000,pound sterling,2018,Western calendar year,1995,2020,26,0,,1995,2020,False
+real,real|826|205|1000|pound sterling|2019|Western calendar year,826,United Kingdom,2.5,1000,pound sterling,2019,Western calendar year,1995,2023,29,0,,1995,2023,False
+real,real|826|205|1000|pound sterling|2022|Western calendar year,826,United Kingdom,2.5,1000,pound sterling,2022,Western calendar year,1995,2024,30,0,,1995,2024,True
+real,real|835|102|1000|tanzanian shilling|2015|Western calendar year,835,Tanzania - Mainland,1.2,1000,Tanzanian Shilling,2015,Western calendar year,2012,2024,13,0,,2012,2024,True
+real,real|835|205|1000|tanzanian shilling|2015|Western calendar year,835,Tanzania - Mainland,2.5,1000,Tanzanian Shilling,2015,Western calendar year,2012,2024,13,0,,2012,2024,True
+real,real|84|102|1000|belize dollar|2014|Western calendar year,84,Belize,1.2,1000,Belize dollar,2014,Western calendar year,1990,2023,34,0,,1990,2023,True
+real,real|84|205|1000|belize dollar|2014|Western calendar year,84,Belize,2.5,1000,Belize dollar,2014,Western calendar year,1990,2023,34,0,,1990,2023,True
+real,real|840|102|1000|us dollar|2009|Western calendar year,840,United States,1.2,1000,US dollar,2009,Western calendar year,1970,2018,49,0,,1970,2018,True
+real,real|840|102|1000|us dollar|2012|Western calendar year,840,United States,1.2,1000,US dollar,2012,Western calendar year,1995,2022,28,0,,1995,2022,False
+real,real|840|102|1000|us dollar|2017|Western calendar year,840,United States,1.2,1000,US dollar,2017,Western calendar year,1995,2024,30,0,,1995,2024,False
+real,real|840|205|1000|us dollar|2009|Western calendar year,840,United States,2.5,1000,US dollar,2009,Western calendar year,1970,2017,48,0,,1970,2017,False
+real,real|840|205|1000|us dollar|2012|Western calendar year,840,United States,2.5,1000,US dollar,2012,Western calendar year,1995,2021,27,0,,1995,2021,False
+real,real|854|102|1000|cfa franc|2015|Western calendar year,854,Burkina Faso,1.2,1000,CFA franc,2015,Western calendar year,1999,2022,24,0,,1999,2022,True
+real,real|854|205|1000|cfa franc|2015|Western calendar year,854,Burkina Faso,2.5,1000,CFA franc,2015,Western calendar year,1999,2022,24,0,,1999,2022,True
+real,real|858|102|1000|uruguayan peso|2016|Western calendar year,858,Uruguay,1.2,1000,Uruguayan peso,2016,Western calendar year,2016,2024,9,0,,2016,2024,True
+real,real|858|205|1000|uruguayan peso|2016|Western calendar year,858,Uruguay,2.5,1000,Uruguayan peso,2016,Western calendar year,2016,2023,8,0,,2016,2023,False
+real,real|882|205|1000|tala|2013|Western calendar year,882,Samoa,2.5,1000,Tala,2013,Western calendar year,2007,2020,14,0,,2007,2020,True
+real,real|894|202|1000|zambian kwacha|2010|Western calendar year,894,Zambia,2.2,1000,Zambian Kwacha,2010,Western calendar year,2003,2014,12,0,,2003,2014,False
+real,real|894|205|1000|zambian kwacha|2010|Western calendar year,894,Zambia,2.5,1000,Zambian Kwacha,2010,Western calendar year,2010,2023,14,0,,2010,2023,True
+real,real|92|205|1000|us dollar|2012|Western calendar year,92,British Virgin Islands,2.5,1000,US dollar,2012,Western calendar year,2010,2020,11,0,,2010,2020,True
+real,real|92|205|1100|us dollar|2019|Western calendar year,92,British Virgin Islands,2.5,1100,US dollar,2019,Western calendar year,2018,2023,6,0,,2018,2023,False
+real,real|96|102|1000|brunei dollar|2010|Western calendar year,96,Brunei Darussalam,1.2,1000,Brunei dollar,2010,Western calendar year,2010,2024,15,0,,2010,2024,True
+real,real|96|202|1000|brunei dollar|2010|Western calendar year,96,Brunei Darussalam,2.2,1000,Brunei dollar,2010,Western calendar year,2010,2015,6,0,,2010,2015,False
+real,real|96|205|1000|brunei dollar|2010|Western calendar year,96,Brunei Darussalam,2.5,1000,Brunei dollar,2010,Western calendar year,2010,2024,15,0,,2010,2024,True
+nominal,nominal|100|101|1000|lev||Western calendar year,100,Bulgaria,1.1,1000,lev,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|100|204|1000|lev||Western calendar year,100,Bulgaria,2.4,1000,lev,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|112|101|1000|belarussian rouble (re-denom. 1:1000)||Western calendar year,112,Belarus,1.1,1000,Belarussian rouble (re-denom. 1:1000),,Western calendar year,2009,2015,7,0,,2009,2015,False
+nominal,nominal|112|101|1100|belarussian rouble (re-denom. 1:10000)||Western calendar year,112,Belarus,1.1,1100,Belarussian rouble (re-denom. 1:10000),,Western calendar year,2009,2024,16,0,,2009,2024,True
+nominal,nominal|112|204|1000|belarussian rouble (re-denom. 1:1000)||Western calendar year,112,Belarus,2.4,1000,Belarussian rouble (re-denom. 1:1000),,Western calendar year,2009,2015,7,0,,2009,2015,False
+nominal,nominal|112|204|1100|belarussian rouble (re-denom. 1:10000)||Western calendar year,112,Belarus,2.4,1100,Belarussian rouble (re-denom. 1:10000),,Western calendar year,2009,2024,16,0,,2009,2024,True
+nominal,nominal|12|101|1000|algerian dinar||Western calendar year,12,Algeria,1.1,1000,Algerian dinar,,Western calendar year,2001,2024,24,0,,2001,2024,True
+nominal,nominal|12|204|1000|algerian dinar||Western calendar year,12,Algeria,2.4,1000,Algerian dinar,,Western calendar year,2001,2024,24,0,,2001,2024,True
+nominal,nominal|120|101|1000|cfa franc||Western calendar year,120,Cameroon,1.1,1000,CFA franc,,Western calendar year,2005,2019,15,0,,2005,2019,False
+nominal,nominal|120|101|1100|cfa franc||Western calendar year,120,Cameroon,1.1,1100,CFA franc,,Western calendar year,1993,2023,31,0,,1993,2023,True
+nominal,nominal|120|204|1000|cfa franc||Western calendar year,120,Cameroon,2.4,1000,CFA franc,,Western calendar year,2005,2019,15,0,,2005,2019,False
+nominal,nominal|120|204|1100|cfa franc||Western calendar year,120,Cameroon,2.4,1100,CFA franc,,Western calendar year,1993,2023,31,0,,1993,2023,True
+nominal,nominal|124|101|1000|canadian dollar||Western calendar year,124,Canada,1.1,1000,Canadian dollar,,Western calendar year,1970,2024,55,0,,1970,2024,True
+nominal,nominal|124|204|1000|canadian dollar||Western calendar year,124,Canada,2.4,1000,Canadian dollar,,Western calendar year,1970,2024,55,0,,1970,2024,True
+nominal,nominal|132|101|1000|escudo||Western calendar year,132,Cabo Verde,1.1,1000,escudo,,Western calendar year,2007,2024,18,0,,2007,2024,True
+nominal,nominal|132|204|1000|escudo||Western calendar year,132,Cabo Verde,2.4,1000,escudo,,Western calendar year,2007,2024,18,0,,2007,2024,True
+nominal,nominal|136|101|1000|cayman islands dollar||Western calendar year,136,Cayman Islands,1.1,1000,Cayman Islands dollar,,Western calendar year,2015,2023,9,0,,2015,2023,False
+nominal,nominal|136|204|1000|cayman islands dollar||Western calendar year,136,Cayman Islands,2.4,1000,Cayman Islands dollar,,Western calendar year,2006,2023,18,0,,2006,2023,True
+nominal,nominal|144|101|1000|sri lanka rupee||Western calendar year,144,Sri Lanka,1.1,1000,Sri Lanka rupee,,Western calendar year,2010,2023,14,0,,2010,2023,True
+nominal,nominal|144|204|1000|sri lanka rupee||Western calendar year,144,Sri Lanka,2.4,1000,Sri Lanka rupee,,Western calendar year,2010,2023,14,0,,2010,2023,True
+nominal,nominal|148|101|1000|cfa franc||Western calendar year,148,Chad,1.1,1000,CFA franc,,Western calendar year,2017,2018,2,0,,2017,2018,True
+nominal,nominal|148|204|1000|cfa franc||Western calendar year,148,Chad,2.4,1000,CFA franc,,Western calendar year,2017,2018,2,0,,2017,2018,True
+nominal,nominal|152|101|1000|chilean peso||Western calendar year,152,Chile,1.1,1000,Chilean peso,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|152|204|1000|chilean peso||Western calendar year,152,Chile,2.4,1000,Chilean peso,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|156|101|1000|yuan renminbi||Western calendar year,156,China,1.1,1000,Yuan Renminbi,,Western calendar year,1952,2022,71,0,,1952,2022,True
+nominal,nominal|156|204|1000|yuan renminbi||Western calendar year,156,China,2.4,1000,Yuan Renminbi,,Western calendar year,2015,2024,10,0,,2015,2024,False
+nominal,nominal|170|101|1000|colombian peso||Western calendar year,170,Colombia,1.1,1000,Colombian peso,,Western calendar year,2005,2024,20,0,,2005,2024,True
+nominal,nominal|170|204|1000|colombian peso||Western calendar year,170,Colombia,2.4,1000,Colombian peso,,Western calendar year,2005,2024,20,0,,2005,2024,True
+nominal,nominal|184|101|1000|new zealander dollars||Western calendar year,184,Cook Islands,1.1,1000,New Zealander Dollars,,Western calendar year,2010,2021,12,0,,2010,2021,False
+nominal,nominal|184|204|1000|new zealander dollars||Western calendar year,184,Cook Islands,2.4,1000,New Zealander Dollars,,Western calendar year,2006,2022,17,0,,2006,2022,True
+nominal,nominal|188|101|1100|costa rican colon||Western calendar year,188,Costa Rica,1.1,1100,Costa Rican colon,,Western calendar year,1991,2024,34,0,,1991,2024,True
+nominal,nominal|188|204|1100|costa rican colon||Western calendar year,188,Costa Rica,2.4,1100,Costa Rican colon,,Western calendar year,1991,2024,34,0,,1991,2024,True
+nominal,nominal|191|101|1000|kuna||Western calendar year,191,Croatia,1.1,1000,kuna,,Western calendar year,1995,2021,27,0,,1995,2021,False
+nominal,nominal|191|101|1100|euro||Western calendar year,191,Croatia,1.1,1100,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|191|204|1000|kuna||Western calendar year,191,Croatia,2.4,1000,kuna,,Western calendar year,1995,2021,27,0,,1995,2021,False
+nominal,nominal|191|204|1100|euro||Western calendar year,191,Croatia,2.4,1100,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|196|101|1000|euro||Western calendar year,196,Cyprus,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|196|204|1000|euro||Western calendar year,196,Cyprus,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|20|101|1000|euro||Western calendar year,20,Andorra,1.1,1000,Euro,,Western calendar year,2006,2018,13,0,,2006,2018,False
+nominal,nominal|20|101|1100|euro||Western calendar year,20,Andorra,1.1,1100,Euro,,Western calendar year,2000,2024,25,0,,2000,2024,True
+nominal,nominal|20|204|1000|euro||Western calendar year,20,Andorra,2.4,1000,Euro,,Western calendar year,2006,2018,13,0,,2006,2018,False
+nominal,nominal|20|204|1100|euro||Western calendar year,20,Andorra,2.4,1100,Euro,,Western calendar year,2000,2024,25,0,,2000,2024,True
+nominal,nominal|203|101|1000|czech koruna||Western calendar year,203,Czechia,1.1,1000,Czech koruna,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|203|204|1000|czech koruna||Western calendar year,203,Czechia,2.4,1000,Czech koruna,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|204|101|1000|cfa franc||Western calendar year,204,Benin,1.1,1000,CFA franc,,Western calendar year,2015,2024,10,0,,2015,2024,True
+nominal,nominal|204|204|1000|cfa franc||Western calendar year,204,Benin,2.4,1000,CFA franc,,Western calendar year,2015,2024,10,0,,2015,2024,True
+nominal,nominal|208|101|1000|danish krone||Western calendar year,208,Denmark,1.1,1000,Danish krone,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|208|204|1000|danish krone||Western calendar year,208,Denmark,2.4,1000,Danish krone,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|214|101|1000|dominican peso||Western calendar year,214,Dominican Republic,1.1,1000,Dominican peso,,Western calendar year,1995,2023,29,0,,1995,2023,False
+nominal,nominal|214|101|1100|dominican peso||Western calendar year,214,Dominican Republic,1.1,1100,Dominican peso,,Western calendar year,1991,2024,34,0,,1991,2024,True
+nominal,nominal|214|204|1000|dominican peso||Western calendar year,214,Dominican Republic,2.4,1000,Dominican peso,,Western calendar year,1995,2023,29,0,,1995,2023,False
+nominal,nominal|214|204|1100|dominican peso||Western calendar year,214,Dominican Republic,2.4,1100,Dominican peso,,Western calendar year,1991,2024,34,0,,1991,2024,True
+nominal,nominal|218|101|1000|us dollar||Western calendar year,218,Ecuador,1.1,1000,US dollar,,Western calendar year,1965,2022,58,0,,1965,2022,False
+nominal,nominal|218|101|1100|us dollar||Western calendar year,218,Ecuador,1.1,1100,US dollar,,Western calendar year,1965,2024,60,0,,1965,2024,True
+nominal,nominal|218|201|1000|us dollar||Western calendar year,218,Ecuador,2.1,1000,US dollar,,Western calendar year,1995,2016,22,0,,1995,2016,False
+nominal,nominal|218|204|1000|us dollar||Western calendar year,218,Ecuador,2.4,1000,US dollar,,Western calendar year,1965,2022,58,0,,1965,2022,False
+nominal,nominal|218|204|1100|us dollar||Western calendar year,218,Ecuador,2.4,1100,US dollar,,Western calendar year,1965,2024,60,0,,1965,2024,True
+nominal,nominal|222|101|1000|us dollars||Western calendar year,222,El Salvador,1.1,1000,US dollars,,Western calendar year,1990,2024,35,0,,1990,2024,True
+nominal,nominal|222|204|1000|us dollars||Western calendar year,222,El Salvador,2.4,1000,US dollars,,Western calendar year,1990,2024,35,0,,1990,2024,True
+nominal,nominal|231|101|1000|ethiopian birr||Fiscal year ending 7 July,231,Ethiopia [from 1993],1.1,1000,Ethiopian birr,,Fiscal year ending 7 July,2016,2024,9,0,,2016,2024,True
+nominal,nominal|233|101|1000|euro||Western calendar year,233,Estonia,1.1,1000,Euro,,Western calendar year,1995,2018,24,0,,1995,2018,False
+nominal,nominal|233|101|1100|euro||Western calendar year,233,Estonia,1.1,1100,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|233|204|1000|euro||Western calendar year,233,Estonia,2.4,1000,Euro,,Western calendar year,1995,2018,24,0,,1995,2018,False
+nominal,nominal|233|204|1100|euro||Western calendar year,233,Estonia,2.4,1100,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|234|101|1000|danish krone||Western calendar year,234,Faroe Islands,1.1,1000,Danish Krone,,Western calendar year,1998,2023,26,0,,1998,2023,True
+nominal,nominal|234|204|1000|danish krone||Western calendar year,234,Faroe Islands,2.4,1000,Danish Krone,,Western calendar year,1998,2023,26,0,,1998,2023,True
+nominal,nominal|24|101|1000|(second) kwanza||Western calendar year,24,Angola,1.1,1000,(second) Kwanza,,Western calendar year,2002,2024,23,0,,2002,2024,True
+nominal,nominal|24|204|1000|(second) kwanza||Western calendar year,24,Angola,2.4,1000,(second) Kwanza,,Western calendar year,2010,2024,15,0,,2010,2024,False
+nominal,nominal|242|101|1000|fiji dollar||Western calendar year,242,Fiji,1.1,1000,Fiji dollar,,Western calendar year,2005,2023,19,0,,2005,2023,True
+nominal,nominal|242|204|1000|fiji dollar||Western calendar year,242,Fiji,2.4,1000,Fiji dollar,,Western calendar year,2011,2023,13,0,,2011,2023,False
+nominal,nominal|246|101|1000|euro||Western calendar year,246,Finland,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|246|204|1000|euro||Western calendar year,246,Finland,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|250|101|1000|euro||Western calendar year,250,France,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|250|204|1000|euro||Western calendar year,250,France,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|268|101|1000|lari||Western calendar year,268,Georgia,1.1,1000,Lari,,Western calendar year,2010,2024,15,0,,2010,2024,True
+nominal,nominal|268|204|1000|lari||Western calendar year,268,Georgia,2.4,1000,Lari,,Western calendar year,2010,2024,15,0,,2010,2024,True
+nominal,nominal|270|101|1000|dalasi||Western calendar year,270,Gambia,1.1,1000,dalasi,,Western calendar year,2004,2024,21,0,,2004,2024,False
+nominal,nominal|270|204|1000|dalasi||Western calendar year,270,Gambia,2.4,1000,dalasi,,Western calendar year,2000,2024,25,0,,2000,2024,True
+nominal,nominal|275|101|1000|us dollar||Western calendar year,275,State of Palestine,1.1,1000,US dollar,,Western calendar year,1994,2024,31,0,,1994,2024,True
+nominal,nominal|275|204|1000|us dollar||Western calendar year,275,State of Palestine,2.4,1000,US dollar,,Western calendar year,1994,2023,30,0,,1994,2023,False
+nominal,nominal|276|101|1000|euro||Western calendar year,276,Germany,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|276|204|1000|euro||Western calendar year,276,Germany,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|28|204|1000|ec dollar||Western calendar year,28,Antigua and Barbuda,2.4,1000,EC dollar,,Western calendar year,2011,2023,13,0,,2011,2023,True
+nominal,nominal|288|101|1000|cedi (third)||Western calendar year,288,Ghana,1.1,1000,Cedi (Third),,Western calendar year,2013,2024,12,0,,2013,2024,True
+nominal,nominal|288|204|1000|cedi (third)||Western calendar year,288,Ghana,2.4,1000,Cedi (Third),,Western calendar year,2013,2024,12,0,,2013,2024,True
+nominal,nominal|300|101|1000|euro||Western calendar year,300,Greece,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|300|204|1000|euro||Western calendar year,300,Greece,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|32|101|1000|argentine peso||Western calendar year,32,Argentina,1.1,1000,Argentine peso,,Western calendar year,2004,2014,11,0,,2004,2014,False
+nominal,nominal|32|101|1100|argentine peso||Western calendar year,32,Argentina,1.1,1100,Argentine peso,,Western calendar year,2004,2024,21,0,,2004,2024,True
+nominal,nominal|32|201|1000|argentine peso||Western calendar year,32,Argentina,2.1,1000,Argentine peso,,Western calendar year,2004,2012,9,0,,2004,2012,False
+nominal,nominal|32|201|1100|argentine peso||Western calendar year,32,Argentina,2.1,1100,Argentine peso,,Western calendar year,2004,2024,21,0,,2004,2024,True
+nominal,nominal|320|101|1000|quetzal||Western calendar year,320,Guatemala,1.1,1000,quetzal,,Western calendar year,2013,2024,12,0,,2013,2024,True
+nominal,nominal|320|204|1000|quetzal||Western calendar year,320,Guatemala,2.4,1000,quetzal,,Western calendar year,2013,2024,12,0,,2013,2024,True
+nominal,nominal|328|204|1000|guyana dollar||Western calendar year,328,Guyana,2.4,1000,Guyana dollar,,Western calendar year,2006,2024,19,0,,2006,2024,True
+nominal,nominal|332|101|1000|gourde||Fiscal year ending 30 September,332,Haiti,1.1,1000,gourde,,Fiscal year ending 30 September,2000,2024,25,0,,2000,2024,True
+nominal,nominal|332|204|1000|gourde||Fiscal year ending 30 September,332,Haiti,2.4,1000,gourde,,Fiscal year ending 30 September,2000,2024,25,0,,2000,2024,True
+nominal,nominal|344|101|1000|hong kong dollar||Western calendar year,344,"China, Hong Kong Special Administrative Region",1.1,1000,Hong Kong dollar,,Western calendar year,1961,2024,64,0,,1961,2024,True
+nominal,nominal|344|201|1000|hong kong dollar||Western calendar year,344,"China, Hong Kong Special Administrative Region",2.1,1000,Hong Kong dollar,,Western calendar year,2000,2013,14,0,,2000,2013,False
+nominal,nominal|344|204|1000|hong kong dollar||Western calendar year,344,"China, Hong Kong Special Administrative Region",2.4,1000,Hong Kong dollar,,Western calendar year,2000,2023,24,0,,2000,2023,False
+nominal,nominal|348|101|1000|forint||Western calendar year,348,Hungary,1.1,1000,Forint,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|348|204|1000|forint||Western calendar year,348,Hungary,2.4,1000,Forint,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|352|101|1000|icelandic króna||Western calendar year,352,Iceland,1.1,1000,Icelandic króna,,Western calendar year,1995,2018,24,0,,1995,2018,False
+nominal,nominal|352|101|1100|icelandic króna||Western calendar year,352,Iceland,1.1,1100,Icelandic króna,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|352|204|1000|icelandic króna||Western calendar year,352,Iceland,2.4,1000,Icelandic króna,,Western calendar year,1995,2017,23,0,,1995,2017,False
+nominal,nominal|352|204|1100|icelandic króna||Western calendar year,352,Iceland,2.4,1100,Icelandic króna,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|356|101|1000|indian rupee||Fiscal year beginning 1 April,356,India,1.1,1000,Indian rupee,,Fiscal year beginning 1 April,1950,2023,74,0,,1950,2023,True
+nominal,nominal|356|201|1000|indian rupee||Fiscal year beginning 1 April,356,India,2.1,1000,Indian rupee,,Fiscal year beginning 1 April,2011,2014,4,0,,2011,2014,False
+nominal,nominal|356|204|1000|indian rupee||Fiscal year beginning 1 April,356,India,2.4,1000,Indian rupee,,Fiscal year beginning 1 April,1950,2023,74,0,,1950,2023,True
+nominal,nominal|36|101|1000|australian dollar||Fiscal year beginning 1 July,36,Australia,1.1,1000,Australian dollar,,Fiscal year beginning 1 July,1959,2024,66,0,,1959,2024,True
+nominal,nominal|36|204|1000|australian dollar||Fiscal year beginning 1 July,36,Australia,2.4,1000,Australian dollar,,Fiscal year beginning 1 July,1959,2023,65,0,,1959,2023,False
+nominal,nominal|360|101|1000|indonesian rupiah||Western calendar year,360,Indonesia,1.1,1000,Indonesian Rupiah,,Western calendar year,2010,2024,15,0,,2010,2024,True
+nominal,nominal|360|204|1000|indonesian rupiah||Western calendar year,360,Indonesia,2.4,1000,Indonesian Rupiah,,Western calendar year,2010,2024,15,0,,2010,2024,True
+nominal,nominal|364|101|1000|iranian rial||Fiscal year beginning 21 March,364,Iran (Islamic Republic of),1.1,1000,Iranian rial,,Fiscal year beginning 21 March,2011,2023,13,0,,2011,2023,True
+nominal,nominal|364|204|1000|iranian rial||Fiscal year beginning 21 March,364,Iran (Islamic Republic of),2.4,1000,Iranian rial,,Fiscal year beginning 21 March,2011,2023,13,0,,2011,2023,True
+nominal,nominal|372|101|1000|euro||Western calendar year,372,Ireland,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|372|204|1000|euro||Western calendar year,372,Ireland,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|376|101|1000|new sheqel||Western calendar year,376,Israel,1.1,1000,new sheqel,,Western calendar year,1970,2023,54,0,,1970,2023,True
+nominal,nominal|376|101|1100|new sheqel||Western calendar year,376,Israel,1.1,1100,new sheqel,,Western calendar year,1995,2024,30,0,,1995,2024,False
+nominal,nominal|376|204|1000|new sheqel||Western calendar year,376,Israel,2.4,1000,new sheqel,,Western calendar year,1995,2022,28,0,,1995,2022,False
+nominal,nominal|376|204|1100|new sheqel||Western calendar year,376,Israel,2.4,1100,new sheqel,,Western calendar year,1995,2023,29,0,,1995,2023,False
+nominal,nominal|380|101|1000|euro||Western calendar year,380,Italy,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|380|204|1000|euro||Western calendar year,380,Italy,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|384|101|1000|cfa franc||Western calendar year,384,Côte d'Ivoire,1.1,1000,CFA franc,,Western calendar year,2015,2023,9,0,,2015,2023,True
+nominal,nominal|384|204|1000|cfa franc||Western calendar year,384,Côte d'Ivoire,2.4,1000,CFA franc,,Western calendar year,2015,2023,9,0,,2015,2023,True
+nominal,nominal|392|101|1000|yen||Western calendar year,392,Japan,1.1,1000,yen,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|392|204|1000|yen||Western calendar year,392,Japan,2.4,1000,yen,,Western calendar year,1995,2023,29,0,,1995,2023,False
+nominal,nominal|4|101|1000|afghani||Western calendar year,4,Afghanistan,1.1,1000,Afghani,,Western calendar year,2016,2021,6,0,,2016,2021,True
+nominal,nominal|4|101|1100|afghani||Fiscal year beginning 21 March,4,Afghanistan,1.1,1100,Afghani,,Fiscal year beginning 21 March,2019,2023,5,0,,2019,2023,False
+nominal,nominal|4|204|1000|afghani||Western calendar year,4,Afghanistan,2.4,1000,Afghani,,Western calendar year,2016,2021,6,0,,2016,2021,True
+nominal,nominal|4|204|1100|afghani||Fiscal year beginning 21 March,4,Afghanistan,2.4,1100,Afghani,,Fiscal year beginning 21 March,2019,2023,5,0,,2019,2023,False
+nominal,nominal|40|101|1000|euro||Western calendar year,40,Austria,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|40|204|1000|euro||Western calendar year,40,Austria,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|404|101|1000|kenya shillings||Western calendar year,404,Kenya,1.1,1000,Kenya Shillings,,Western calendar year,2006,2019,14,0,,2006,2019,False
+nominal,nominal|404|101|1100|kenya shillings||Western calendar year,404,Kenya,1.1,1100,Kenya Shillings,,Western calendar year,2009,2024,16,0,,2009,2024,True
+nominal,nominal|404|204|1000|kenya shillings||Western calendar year,404,Kenya,2.4,1000,Kenya Shillings,,Western calendar year,2006,2019,14,0,,2006,2019,False
+nominal,nominal|404|204|1100|kenya shillings||Western calendar year,404,Kenya,2.4,1100,Kenya Shillings,,Western calendar year,2009,2024,16,0,,2009,2024,True
+nominal,nominal|410|101|1000|korean won||Western calendar year,410,Republic of Korea,1.1,1000,Korean won,,Western calendar year,1995,2018,24,0,,1995,2018,False
+nominal,nominal|410|101|1100|korean won||Western calendar year,410,Republic of Korea,1.1,1100,Korean won,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|410|204|1000|korean won||Western calendar year,410,Republic of Korea,2.4,1000,Korean won,,Western calendar year,1995,2017,23,0,,1995,2017,False
+nominal,nominal|410|204|1100|korean won||Western calendar year,410,Republic of Korea,2.4,1100,Korean won,,Western calendar year,1995,2023,29,0,,1995,2023,False
+nominal,nominal|417|101|1000|kyrgyz som||Western calendar year,417,Kyrgyzstan,1.1,1000,Kyrgyz som,,Western calendar year,2019,2024,6,0,,2019,2024,True
+nominal,nominal|417|204|1000|kyrgyz som||Western calendar year,417,Kyrgyzstan,2.4,1000,Kyrgyz som,,Western calendar year,2019,2024,6,0,,2019,2024,True
+nominal,nominal|418|101|1000|kip||Western calendar year,418,Lao People's Democratic Republic,1.1,1000,kip,,Western calendar year,2012,2024,13,0,,2012,2024,False
+nominal,nominal|418|204|1000|kip||Western calendar year,418,Lao People's Democratic Republic,2.4,1000,kip,,Western calendar year,2011,2024,14,0,,2011,2024,True
+nominal,nominal|422|101|1000|lebanese pound||Western calendar year,422,Lebanon,1.1,1000,Lebanese Pound,,Western calendar year,2004,2021,18,0,,2004,2021,True
+nominal,nominal|422|204|1000|lebanese pound||Western calendar year,422,Lebanon,2.4,1000,Lebanese Pound,,Western calendar year,2004,2021,18,0,,2004,2021,True
+nominal,nominal|428|101|1000|euro||Western calendar year,428,Latvia,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|428|204|1000|euro||Western calendar year,428,Latvia,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|430|101|1000|us dollar||Western calendar year,430,Liberia,1.1,1000,US dollar,,Western calendar year,2016,2022,7,0,,2016,2022,False
+nominal,nominal|430|204|1000|us dollar||Western calendar year,430,Liberia,2.4,1000,US dollar,,Western calendar year,2011,2023,13,0,,2011,2023,True
+nominal,nominal|438|204|1000|swiss franc||Western calendar year,438,Liechtenstein,2.4,1000,Swiss franc,,Western calendar year,2016,2022,7,0,,2016,2022,True
+nominal,nominal|44|101|1000|bahamian dollar||Western calendar year,44,Bahamas,1.1,1000,Bahamian dollar,,Western calendar year,2012,2024,13,0,,2012,2024,True
+nominal,nominal|44|204|1000|bahamian dollar||Western calendar year,44,Bahamas,2.4,1000,Bahamian dollar,,Western calendar year,2012,2024,13,0,,2012,2024,True
+nominal,nominal|440|101|1000|euro||Western calendar year,440,Lithuania,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|440|204|1000|euro||Western calendar year,440,Lithuania,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|442|101|1000|euro||Western calendar year,442,Luxembourg,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|442|204|1000|euro||Western calendar year,442,Luxembourg,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|446|101|1000|pataca||Western calendar year,446,"China, Macao Special Administrative Region",1.1,1000,Pataca,,Western calendar year,1999,2014,16,0,,1999,2014,False
+nominal,nominal|446|101|1100|pataca||Western calendar year,446,"China, Macao Special Administrative Region",1.1,1100,Pataca,,Western calendar year,1990,2024,35,0,,1990,2024,True
+nominal,nominal|446|201|1000|pataca||Western calendar year,446,"China, Macao Special Administrative Region",2.1,1000,Pataca,,Western calendar year,1999,2013,15,0,,1999,2013,False
+nominal,nominal|446|201|1100|pataca||Western calendar year,446,"China, Macao Special Administrative Region",2.1,1100,Pataca,,Western calendar year,1990,2023,34,0,,1990,2023,False
+nominal,nominal|458|101|1000|ringgit||Western calendar year,458,Malaysia,1.1,1000,ringgit,,Western calendar year,2010,2024,15,0,,2010,2024,True
+nominal,nominal|458|204|1000|ringgit||Western calendar year,458,Malaysia,2.4,1000,ringgit,,Western calendar year,2010,2024,15,0,,2010,2024,True
+nominal,nominal|462|101|1000|rufiyaa||Western calendar year,462,Maldives,1.1,1000,rufiyaa,,Western calendar year,2014,2023,10,0,,2014,2023,False
+nominal,nominal|462|204|1000|rufiyaa||Western calendar year,462,Maldives,2.4,1000,rufiyaa,,Western calendar year,2003,2023,21,0,,2003,2023,True
+nominal,nominal|466|101|1000|cfa franc||Western calendar year,466,Mali,1.1,1000,CFA franc,,Western calendar year,2010,2024,15,0,,2010,2024,True
+nominal,nominal|470|101|1000|euro||Western calendar year,470,Malta,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|470|204|1000|euro||Western calendar year,470,Malta,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|478|101|1000|ouguiya||Western calendar year,478,Mauritania,1.1,1000,Ouguiya,,Western calendar year,1998,2023,26,0,,1998,2023,False
+nominal,nominal|478|204|1000|ouguiya||Western calendar year,478,Mauritania,2.4,1000,Ouguiya,,Western calendar year,1998,2024,27,0,,1998,2024,True
+nominal,nominal|480|101|1000|mauritian rupee||Western calendar year,480,Mauritius,1.1,1000,Mauritian rupee,,Western calendar year,2006,2024,19,0,,2006,2024,True
+nominal,nominal|480|204|1000|mauritian rupee||Western calendar year,480,Mauritius,2.4,1000,Mauritian rupee,,Western calendar year,2006,2024,19,0,,2006,2024,True
+nominal,nominal|484|101|1000|mexican new peso||Western calendar year,484,Mexico,1.1,1000,Mexican new peso,,Western calendar year,1970,2024,55,0,,1970,2024,True
+nominal,nominal|484|204|1000|mexican new peso||Western calendar year,484,Mexico,2.4,1000,Mexican new peso,,Western calendar year,1970,2023,54,0,,1970,2023,False
+nominal,nominal|496|101|1000|togrog||Western calendar year,496,Mongolia,1.1,1000,Togrog,,Western calendar year,2010,2020,11,0,,2010,2020,True
+nominal,nominal|496|101|1100|togrog||Western calendar year,496,Mongolia,1.1,1100,Togrog,,Western calendar year,2015,2024,10,0,,2015,2024,False
+nominal,nominal|496|204|1000|togrog||Western calendar year,496,Mongolia,2.4,1000,Togrog,,Western calendar year,2010,2020,11,0,,2010,2020,True
+nominal,nominal|496|204|1100|togrog||Western calendar year,496,Mongolia,2.4,1100,Togrog,,Western calendar year,2015,2024,10,0,,2015,2024,False
+nominal,nominal|498|101|1000|moldovan leu||Western calendar year,498,Republic of Moldova,1.1,1000,Moldovan leu,,Western calendar year,2010,2020,11,0,,2010,2020,True
+nominal,nominal|498|204|1000|moldovan leu||Western calendar year,498,Republic of Moldova,2.4,1000,Moldovan leu,,Western calendar year,2010,2020,11,0,,2010,2020,True
+nominal,nominal|499|101|1000|euro||Western calendar year,499,Montenegro,1.1,1000,Euro,,Western calendar year,2006,2024,19,0,,2006,2024,True
+nominal,nominal|499|204|1000|euro||Western calendar year,499,Montenegro,2.4,1000,Euro,,Western calendar year,2006,2024,19,0,,2006,2024,True
+nominal,nominal|50|101|1000|taka||Fiscal year ending 30 June,50,Bangladesh,1.1,1000,taka,,Fiscal year ending 30 June,2016,2024,9,0,,2016,2024,True
+nominal,nominal|50|204|1000|taka||Fiscal year ending 30 June,50,Bangladesh,2.4,1000,taka,,Fiscal year ending 30 June,2016,2024,9,0,,2016,2024,True
+nominal,nominal|500|101|1000|ec dollar||Western calendar year,500,Montserrat,1.1,1000,EC dollar,,Western calendar year,2000,2023,24,0,,2000,2023,True
+nominal,nominal|500|204|1000|ec dollar||Western calendar year,500,Montserrat,2.4,1000,EC dollar,,Western calendar year,2000,2023,24,0,,2000,2023,True
+nominal,nominal|504|101|1000|moroccan dirham||Western calendar year,504,Morocco,1.1,1000,Moroccan dirham,,Western calendar year,2007,2020,14,0,,2007,2020,True
+nominal,nominal|504|101|1100|moroccan dirham||Western calendar year,504,Morocco,1.1,1100,Moroccan dirham,,Western calendar year,2014,2024,11,0,,2014,2024,False
+nominal,nominal|504|201|1000|moroccan dirham||Western calendar year,504,Morocco,2.1,1000,Moroccan dirham,,Western calendar year,2007,2020,14,0,,2007,2020,True
+nominal,nominal|504|204|1100|moroccan dirham||Western calendar year,504,Morocco,2.4,1100,Moroccan dirham,,Western calendar year,2014,2024,11,0,,2014,2024,False
+nominal,nominal|508|101|1000|metical||Western calendar year,508,Mozambique,1.1,1000,Metical,,Western calendar year,1991,2024,34,0,,1991,2024,True
+nominal,nominal|508|204|1000|metical||Western calendar year,508,Mozambique,2.4,1000,Metical,,Western calendar year,1991,2024,34,0,,1991,2024,True
+nominal,nominal|51|101|1000|dram||Western calendar year,51,Armenia,1.1,1000,dram,,Western calendar year,2012,2024,13,0,,2012,2024,True
+nominal,nominal|51|204|1000|dram||Western calendar year,51,Armenia,2.4,1000,dram,,Western calendar year,2012,2024,13,0,,2012,2024,True
+nominal,nominal|516|101|1000|namibia dollar||Western calendar year,516,Namibia,1.1,1000,Namibia dollar,,Western calendar year,1980,2024,45,0,,1980,2024,True
+nominal,nominal|516|204|1000|namibia dollar||Western calendar year,516,Namibia,2.4,1000,Namibia dollar,,Western calendar year,1980,2024,45,0,,1980,2024,True
+nominal,nominal|52|204|1000|barbados dollar||Western calendar year,52,Barbados,2.4,1000,Barbados dollar,,Western calendar year,2010,2023,14,0,,2010,2023,True
+nominal,nominal|524|101|1000|nepalese rupee||Fiscal year ending 15 July,524,Nepal,1.1,1000,Nepalese rupee,,Fiscal year ending 15 July,2011,2023,13,0,,2011,2023,True
+nominal,nominal|524|204|1000|nepalese rupee||Fiscal year ending 15 July,524,Nepal,2.4,1000,Nepalese rupee,,Fiscal year ending 15 July,2011,2023,13,0,,2011,2023,True
+nominal,nominal|528|101|1000|euro||Western calendar year,528,Netherlands,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|528|204|1000|euro||Western calendar year,528,Netherlands,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|531|204|1000|netherlands antillean guilder||Western calendar year,531,Curaçao,2.4,1000,Netherlands Antillean guilder,,Western calendar year,2011,2024,14,0,,2011,2024,True
+nominal,nominal|533|101|1000|aruban florin||Western calendar year,533,Aruba,1.1,1000,Aruban florin,,Western calendar year,2000,2020,21,0,,2000,2020,True
+nominal,nominal|533|204|1000|aruban florin||Western calendar year,533,Aruba,2.4,1000,Aruban florin,,Western calendar year,2000,2020,21,0,,2000,2020,True
+nominal,nominal|534|101|1000|netherlands antillean guilder (ang)||Western calendar year,534,Sint Maarten,1.1,1000,Netherlands Antillean guilder (ANG),,Western calendar year,2011,2014,4,0,,2011,2014,False
+nominal,nominal|534|204|1100|netherlands antillean guilder (ang)||Western calendar year,534,Sint Maarten,2.4,1100,Netherlands Antillean guilder (ANG),,Western calendar year,2014,2021,8,0,,2014,2021,False
+nominal,nominal|534|204|1200|netherlands antillean guilder (ang)||Western calendar year,534,Sint Maarten,2.4,1200,Netherlands Antillean guilder (ANG),,Western calendar year,2014,2022,9,0,,2014,2022,True
+nominal,nominal|535|101|1000|us dollar||Western calendar year,535,"Bonaire, Sint Eustatius and Saba",1.1,1000,US dollar,,Western calendar year,2012,2014,3,0,,2012,2014,False
+nominal,nominal|535|101|1100|us dollar||Western calendar year,535,"Bonaire, Sint Eustatius and Saba",1.1,1100,US dollar,,Western calendar year,2012,2022,11,0,,2012,2022,True
+nominal,nominal|554|101|1000|new zealand dollar||Fiscal year beginning 1 April,554,New Zealand,1.1,1000,New Zealand dollar,,Fiscal year beginning 1 April,1995,2024,30,0,,1995,2024,True
+nominal,nominal|554|204|1000|new zealand dollar||Fiscal year beginning 1 April,554,New Zealand,2.4,1000,New Zealand dollar,,Fiscal year beginning 1 April,1995,2023,29,0,,1995,2023,False
+nominal,nominal|56|101|1000|euro||Western calendar year,56,Belgium,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|56|204|1000|euro||Western calendar year,56,Belgium,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|562|101|1000|cfa franc||Western calendar year,562,Niger,1.1,1000,CFA franc,,Western calendar year,2005,2021,17,0,,2005,2021,True
+nominal,nominal|562|101|1100|cfa franc||Western calendar year,562,Niger,1.1,1100,CFA franc,,Western calendar year,2015,2024,10,0,,2015,2024,False
+nominal,nominal|562|204|1000|cfa franc||Western calendar year,562,Niger,2.4,1000,CFA franc,,Western calendar year,2005,2021,17,0,,2005,2021,True
+nominal,nominal|562|204|1100|cfa franc||Western calendar year,562,Niger,2.4,1100,CFA franc,,Western calendar year,2015,2024,10,0,,2015,2024,False
+nominal,nominal|566|101|1000|naira||Western calendar year,566,Nigeria,1.1,1000,Naira,,Western calendar year,1981,2023,43,0,,1981,2023,False
+nominal,nominal|566|201|1000|naira||Western calendar year,566,Nigeria,2.1,1000,Naira,,Western calendar year,2010,2013,4,0,,2010,2013,False
+nominal,nominal|566|204|1000|naira||Western calendar year,566,Nigeria,2.4,1000,Naira,,Western calendar year,1981,2024,44,0,,1981,2024,True
+nominal,nominal|578|101|1000|norwegian krone||Western calendar year,578,Norway,1.1,1000,Norwegian krone,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|578|204|1000|norwegian krone||Western calendar year,578,Norway,2.4,1000,Norwegian krone,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|586|101|1000|pakistan rupee||Fiscal year ending 30 June,586,Pakistan,1.1,1000,Pakistan Rupee,,Fiscal year ending 30 June,2006,2020,15,0,,2006,2020,False
+nominal,nominal|586|101|1100|pakistan rupee||Fiscal year ending 30 June,586,Pakistan,1.1,1100,Pakistan Rupee,,Fiscal year ending 30 June,2000,2024,25,0,,2000,2024,True
+nominal,nominal|586|204|1000|pakistan rupee||Fiscal year ending 30 June,586,Pakistan,2.4,1000,Pakistan Rupee,,Fiscal year ending 30 June,2006,2020,15,0,,2006,2020,False
+nominal,nominal|586|204|1100|pakistan rupee||Fiscal year ending 30 June,586,Pakistan,2.4,1100,Pakistan Rupee,,Fiscal year ending 30 June,2000,2024,25,0,,2000,2024,True
+nominal,nominal|591|101|1000|balboa||Western calendar year,591,Panama,1.1,1000,balboa,,Western calendar year,2018,2024,7,0,,2018,2024,True
+nominal,nominal|591|201|1000|balboa||Western calendar year,591,Panama,2.1,1000,balboa,,Western calendar year,2018,2023,6,0,,2018,2023,False
+nominal,nominal|591|204|1000|balboa||Western calendar year,591,Panama,2.4,1000,balboa,,Western calendar year,2018,2024,7,0,,2018,2024,True
+nominal,nominal|598|204|1000|kina||Western calendar year,598,Papua New Guinea,2.4,1000,kina,,Western calendar year,2006,2018,13,0,,2006,2018,True
+nominal,nominal|60|101|1000|bermuda dollar||Western calendar year,60,Bermuda,1.1,1000,Bermuda dollar,,Western calendar year,2010,2023,14,0,,2010,2023,True
+nominal,nominal|60|204|1000|bermuda dollar||Western calendar year,60,Bermuda,2.4,1000,Bermuda dollar,,Western calendar year,2010,2023,14,0,,2010,2023,True
+nominal,nominal|600|101|1000|guarani||Western calendar year,600,Paraguay,1.1,1000,guarani,,Western calendar year,2007,2024,18,0,,2007,2024,True
+nominal,nominal|600|204|1000|guarani||Western calendar year,600,Paraguay,2.4,1000,guarani,,Western calendar year,2008,2023,16,0,,2008,2023,False
+nominal,nominal|604|101|1000|new sol||Western calendar year,604,Peru,1.1,1000,new sol,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|604|204|1000|new sol||Western calendar year,604,Peru,2.4,1000,new sol,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|608|101|1000|philippine peso||Western calendar year,608,Philippines,1.1,1000,Philippine peso,,Western calendar year,1995,2019,25,0,,1995,2019,False
+nominal,nominal|608|101|1100|philippine peso||Western calendar year,608,Philippines,1.1,1100,Philippine peso,,Western calendar year,1946,2024,79,0,,1946,2024,True
+nominal,nominal|608|204|1000|philippine peso||Western calendar year,608,Philippines,2.4,1000,Philippine peso,,Western calendar year,1998,2019,22,0,,1998,2019,False
+nominal,nominal|608|204|1100|philippine peso||Western calendar year,608,Philippines,2.4,1100,Philippine peso,,Western calendar year,1946,2024,79,0,,1946,2024,True
+nominal,nominal|616|101|1000|zloty||Western calendar year,616,Poland,1.1,1000,Zloty,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|616|204|1000|zloty||Western calendar year,616,Poland,2.4,1000,Zloty,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|620|101|1000|euro||Western calendar year,620,Portugal,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|620|204|1000|euro||Western calendar year,620,Portugal,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|626|101|1000|us dollars||Western calendar year,626,Timor-Leste,1.1,1000,US dollars,,Western calendar year,2001,2014,14,0,,2001,2014,False
+nominal,nominal|626|101|1100|us dollars||Western calendar year,626,Timor-Leste,1.1,1100,US dollars,,Western calendar year,2000,2017,18,0,,2000,2017,False
+nominal,nominal|626|101|1200|us dollars||Western calendar year,626,Timor-Leste,1.1,1200,US dollars,,Western calendar year,2000,2023,24,0,,2000,2023,True
+nominal,nominal|626|201|1000|us dollars||Western calendar year,626,Timor-Leste,2.1,1000,US dollars,,Western calendar year,2004,2010,7,0,,2004,2010,False
+nominal,nominal|626|204|1000|us dollars||Western calendar year,626,Timor-Leste,2.4,1000,US dollars,,Western calendar year,2001,2014,14,0,,2001,2014,False
+nominal,nominal|626|204|1100|us dollars||Western calendar year,626,Timor-Leste,2.4,1100,US dollars,,Western calendar year,2000,2017,18,0,,2000,2017,False
+nominal,nominal|626|204|1200|us dollars||Western calendar year,626,Timor-Leste,2.4,1200,US dollars,,Western calendar year,2000,2023,24,0,,2000,2023,True
+nominal,nominal|64|101|1000|ngultrum||Western calendar year,64,Bhutan,1.1,1000,ngultrum,,Western calendar year,2000,2023,24,0,,2000,2023,True
+nominal,nominal|64|204|1000|ngultrum||Western calendar year,64,Bhutan,2.4,1000,ngultrum,,Western calendar year,2000,2023,24,0,,2000,2023,True
+nominal,nominal|642|101|1000|new romanian leu||Western calendar year,642,Romania,1.1,1000,New Romanian Leu,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|642|204|1000|new romanian leu||Western calendar year,642,Romania,2.4,1000,New Romanian Leu,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|643|101|1000|russian ruble||Western calendar year,643,Russian Federation,1.1,1000,Russian Ruble,,Western calendar year,2011,2013,3,0,,2011,2013,True
+nominal,nominal|643|201|1000|russian ruble||Western calendar year,643,Russian Federation,2.1,1000,Russian Ruble,,Western calendar year,2011,2012,2,0,,2011,2012,False
+nominal,nominal|643|204|1000|russian ruble||Western calendar year,643,Russian Federation,2.4,1000,Russian Ruble,,Western calendar year,2011,2013,3,0,,2011,2013,True
+nominal,nominal|646|101|1000|rwanda franc||Western calendar year,646,Rwanda,1.1,1000,Rwanda franc,,Western calendar year,2005,2024,20,0,,2005,2024,True
+nominal,nominal|646|204|1000|rwanda franc||Western calendar year,646,Rwanda,2.4,1000,Rwanda franc,,Western calendar year,2005,2024,20,0,,2005,2024,True
+nominal,nominal|660|101|1000|ec dollar||Western calendar year,660,Anguilla,1.1,1000,EC dollar,,Western calendar year,2011,2023,13,0,,2011,2023,True
+nominal,nominal|660|204|1000|ec dollar||Western calendar year,660,Anguilla,2.4,1000,EC dollar,,Western calendar year,2011,2023,13,0,,2011,2023,True
+nominal,nominal|662|204|1000|ec dollar||Western calendar year,662,Saint Lucia,2.4,1000,EC dollar,,Western calendar year,2006,2024,19,0,,2006,2024,True
+nominal,nominal|670|204|1000|ec dollar||Western calendar year,670,Saint Vincent and the Grenadines,2.4,1000,EC dollar,,Western calendar year,2000,2023,24,0,,2000,2023,True
+nominal,nominal|682|101|1000|saudi arabian riyal||Western calendar year,682,Saudi Arabia,1.1,1000,Saudi Arabian riyal,,Western calendar year,2004,2021,18,0,,2004,2021,False
+nominal,nominal|682|101|1100|saudi arabian riyal||Western calendar year,682,Saudi Arabia,1.1,1100,Saudi Arabian riyal,,Western calendar year,1970,2023,54,0,,1970,2023,True
+nominal,nominal|682|204|1000|saudi arabian riyal||Western calendar year,682,Saudi Arabia,2.4,1000,Saudi Arabian riyal,,Western calendar year,1970,2021,52,0,,1970,2021,False
+nominal,nominal|682|204|1100|saudi arabian riyal||Western calendar year,682,Saudi Arabia,2.4,1100,Saudi Arabian riyal,,Western calendar year,1970,2023,54,0,,1970,2023,True
+nominal,nominal|686|101|1000|cfa franc||Western calendar year,686,Senegal,1.1,1000,CFA franc,,Western calendar year,1999,2024,26,0,,1999,2024,True
+nominal,nominal|686|204|1000|cfa franc||Western calendar year,686,Senegal,2.4,1000,CFA franc,,Western calendar year,1999,2024,26,0,,1999,2024,True
+nominal,nominal|688|101|1000|dinar||Western calendar year,688,Serbia,1.1,1000,Dinar,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|688|204|1000|dinar||Western calendar year,688,Serbia,2.4,1000,Dinar,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|690|101|1000|seychelles rupee||Western calendar year,690,Seychelles,1.1,1000,Seychelles rupee,,Western calendar year,2014,2023,10,0,,2014,2023,True
+nominal,nominal|690|204|1000|seychelles rupee||Western calendar year,690,Seychelles,2.4,1000,Seychelles rupee,,Western calendar year,2014,2023,10,0,,2014,2023,True
+nominal,nominal|694|101|1000|leone||Western calendar year,694,Sierra Leone,1.1,1000,Leone,,Western calendar year,2006,2024,19,0,,2006,2024,True
+nominal,nominal|694|204|1000|leone||Western calendar year,694,Sierra Leone,2.4,1000,Leone,,Western calendar year,2006,2024,19,0,,2006,2024,True
+nominal,nominal|70|101|1000|convertible marks||Western calendar year,70,Bosnia and Herzegovina,1.1,1000,convertible marks,,Western calendar year,2004,2020,17,0,,2004,2020,True
+nominal,nominal|70|101|1100|convertible marks||Western calendar year,70,Bosnia and Herzegovina,1.1,1100,convertible marks,,Western calendar year,2015,2024,10,0,,2015,2024,False
+nominal,nominal|70|204|1000|convertible marks||Western calendar year,70,Bosnia and Herzegovina,2.4,1000,convertible marks,,Western calendar year,2005,2020,16,0,,2005,2020,False
+nominal,nominal|70|204|1100|convertible marks||Western calendar year,70,Bosnia and Herzegovina,2.4,1100,convertible marks,,Western calendar year,2015,2024,10,0,,2015,2024,False
+nominal,nominal|702|101|1000|singapore dollar||Western calendar year,702,Singapore,1.1,1000,Singapore dollar,,Western calendar year,1960,2024,65,0,,1960,2024,True
+nominal,nominal|702|204|1000|singapore dollar||Western calendar year,702,Singapore,2.4,1000,Singapore dollar,,Western calendar year,1960,2024,65,0,,1960,2024,True
+nominal,nominal|703|101|1000|euro||Western calendar year,703,Slovakia,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|703|204|1000|euro||Western calendar year,703,Slovakia,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|705|101|1000|euro||Western calendar year,705,Slovenia,1.1,1000,Euro,,Western calendar year,1995,2018,24,0,,1995,2018,False
+nominal,nominal|705|101|1100|euro||Western calendar year,705,Slovenia,1.1,1100,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|705|204|1000|euro||Western calendar year,705,Slovenia,2.4,1000,Euro,,Western calendar year,1995,2018,24,0,,1995,2018,False
+nominal,nominal|705|204|1100|euro||Western calendar year,705,Slovenia,2.4,1100,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|706|101|1000|us dollar||Western calendar year,706,Somalia,1.1,1000,US dollar,,Western calendar year,2016,2023,8,0,,2016,2023,True
+nominal,nominal|710|101|1000|rand||Western calendar year,710,South Africa,1.1,1000,rand,,Western calendar year,2003,2020,18,0,,2003,2020,False
+nominal,nominal|710|101|1100|rand||Western calendar year,710,South Africa,1.1,1100,rand,,Western calendar year,1993,2024,32,0,,1993,2024,True
+nominal,nominal|710|201|1000|rand||Western calendar year,710,South Africa,2.1,1000,rand,,Western calendar year,2003,2017,15,0,,2003,2017,False
+nominal,nominal|710|201|1100|rand||Western calendar year,710,South Africa,2.1,1100,rand,,Western calendar year,1993,2021,29,0,,1993,2021,False
+nominal,nominal|716|101|1000|zimbabwe dollar||Western calendar year,716,Zimbabwe,1.1,1000,Zimbabwe dollar,,Western calendar year,2019,2023,5,0,,2019,2023,True
+nominal,nominal|716|101|1100|zimbabwe gold||Western calendar year,716,Zimbabwe,1.1,1100,Zimbabwe Gold,,Western calendar year,2023,2024,2,0,,2023,2024,False
+nominal,nominal|716|204|1000|zimbabwe dollar||Western calendar year,716,Zimbabwe,2.4,1000,Zimbabwe dollar,,Western calendar year,2019,2023,5,0,,2019,2023,True
+nominal,nominal|716|204|1100|zimbabwe gold||Western calendar year,716,Zimbabwe,2.4,1100,Zimbabwe Gold,,Western calendar year,2023,2024,2,0,,2023,2024,False
+nominal,nominal|72|101|1000|pula||Western calendar year,72,Botswana,1.1,1000,pula,,Western calendar year,2006,2024,19,0,,2006,2024,True
+nominal,nominal|72|204|1000|pula||Western calendar year,72,Botswana,2.4,1000,pula,,Western calendar year,2006,2024,19,0,,2006,2024,True
+nominal,nominal|724|101|1000|euro||Western calendar year,724,Spain,1.1,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|724|204|1000|euro||Western calendar year,724,Spain,2.4,1000,Euro,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|740|101|1000|suriname dollar||Western calendar year,740,Suriname,1.1,1000,Suriname dollar,,Western calendar year,2015,2019,5,0,,2015,2019,False
+nominal,nominal|740|204|1000|suriname dollar||Western calendar year,740,Suriname,2.4,1000,Suriname dollar,,Western calendar year,2015,2023,9,0,,2015,2023,True
+nominal,nominal|748|101|1000|lilangeni||Western calendar year,748,Eswatini,1.1,1000,Lilangeni,,Western calendar year,1980,2023,44,0,,1980,2023,True
+nominal,nominal|748|204|1000|lilangeni||Western calendar year,748,Eswatini,2.4,1000,Lilangeni,,Western calendar year,1980,2023,44,0,,1980,2023,True
+nominal,nominal|752|101|1000|swedish krona||Western calendar year,752,Sweden,1.1,1000,Swedish Krona,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|752|204|1000|swedish krona||Western calendar year,752,Sweden,2.4,1000,Swedish Krona,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|756|101|1000|swiss franc||Western calendar year,756,Switzerland,1.1,1000,Swiss franc,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|756|204|1000|swiss franc||Western calendar year,756,Switzerland,2.4,1000,Swiss franc,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|76|101|1000|real||Western calendar year,76,Brazil,1.1,1000,real,,Western calendar year,1995,2022,28,0,,1995,2022,True
+nominal,nominal|76|201|1000|real||Western calendar year,76,Brazil,2.1,1000,real,,Western calendar year,2003,2010,8,0,,2003,2010,False
+nominal,nominal|76|204|1000|real||Western calendar year,76,Brazil,2.4,1000,real,,Western calendar year,1995,2022,28,0,,1995,2022,True
+nominal,nominal|762|101|1000|samoni||Western calendar year,762,Tajikistan,1.1,1000,samoni,,Western calendar year,2015,2023,9,0,,2015,2023,True
+nominal,nominal|762|204|1000|samoni||Western calendar year,762,Tajikistan,2.4,1000,samoni,,Western calendar year,2017,2023,7,0,,2017,2023,False
+nominal,nominal|764|101|1000|baht||Western calendar year,764,Thailand,1.1,1000,baht,,Western calendar year,1993,2023,31,0,,1993,2023,True
+nominal,nominal|764|101|1100|baht||Western calendar year,764,Thailand,1.1,1100,baht,,Western calendar year,2010,2024,15,0,,2010,2024,False
+nominal,nominal|764|201|1000|baht||Western calendar year,764,Thailand,2.1,1000,baht,,Western calendar year,2004,2015,12,0,,2004,2015,False
+nominal,nominal|764|204|1000|baht||Western calendar year,764,Thailand,2.4,1000,baht,,Western calendar year,1993,2023,31,0,,1993,2023,True
+nominal,nominal|764|204|1100|baht||Western calendar year,764,Thailand,2.4,1100,baht,,Western calendar year,2010,2023,14,0,,2010,2023,False
+nominal,nominal|768|101|1000|cfa franc||Western calendar year,768,Togo,1.1,1000,CFA franc,,Western calendar year,2007,2019,13,0,,2007,2019,True
+nominal,nominal|768|204|1000|cfa franc||Western calendar year,768,Togo,2.4,1000,CFA franc,,Western calendar year,2007,2019,13,0,,2007,2019,True
+nominal,nominal|776|101|1000|pa'anga||Fiscal year ending 30 June,776,Tonga,1.1,1000,Pa'anga,,Fiscal year ending 30 June,1994,2023,30,0,,1994,2023,True
+nominal,nominal|776|204|1000|pa'anga||Fiscal year ending 30 June,776,Tonga,2.4,1000,Pa'anga,,Fiscal year ending 30 June,1994,2023,30,0,,1994,2023,True
+nominal,nominal|780|204|1000|trinidad and tobago dollar||Western calendar year,780,Trinidad and Tobago,2.4,1000,Trinidad and Tobago dollar,,Western calendar year,2012,2023,12,0,,2012,2023,True
+nominal,nominal|784|101|1000|uae dirham||Western calendar year,784,United Arab Emirates,1.1,1000,UAE dirham,,Western calendar year,2010,2023,14,0,,2010,2023,False
+nominal,nominal|784|101|1100|uae dirham||Western calendar year,784,United Arab Emirates,1.1,1100,UAE dirham,,Western calendar year,2010,2024,15,0,,2010,2024,True
+nominal,nominal|784|204|1000|uae dirham||Western calendar year,784,United Arab Emirates,2.4,1000,UAE dirham,,Western calendar year,2010,2023,14,0,,2010,2023,False
+nominal,nominal|784|204|1100|uae dirham||Western calendar year,784,United Arab Emirates,2.4,1100,UAE dirham,,Western calendar year,2010,2024,15,0,,2010,2024,True
+nominal,nominal|788|101|1000|tunisian dinar||Western calendar year,788,Tunisia,1.1,1000,Tunisian Dinar,,Western calendar year,2015,2023,9,0,,2015,2023,True
+nominal,nominal|788|204|1000|tunisian dinar||Western calendar year,788,Tunisia,2.4,1000,Tunisian Dinar,,Western calendar year,2015,2023,9,0,,2015,2023,True
+nominal,nominal|792|101|1000|new turkish lira||Western calendar year,792,Türkiye,1.1,1000,New Turkish lira,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|792|204|1000|new turkish lira||Western calendar year,792,Türkiye,2.4,1000,New Turkish lira,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|8|101|1000|lek||Western calendar year,8,Albania,1.1,1000,lek,,Western calendar year,2000,2023,24,0,,2000,2023,True
+nominal,nominal|8|201|1000|lek||Western calendar year,8,Albania,2.1,1000,lek,,Western calendar year,2008,2014,7,0,,2008,2014,False
+nominal,nominal|8|204|1000|lek||Western calendar year,8,Albania,2.4,1000,lek,,Western calendar year,2000,2023,24,0,,2000,2023,True
+nominal,nominal|800|101|1000|uganda shilling||Fiscal year ending 30 June,800,Uganda,1.1,1000,Uganda shilling,,Fiscal year ending 30 June,2008,2018,11,0,,2008,2018,False
+nominal,nominal|800|101|1100|uganda shilling||Western calendar year,800,Uganda,1.1,1100,Uganda shilling,,Western calendar year,2009,2024,16,0,,2009,2024,True
+nominal,nominal|800|204|1000|uganda shilling||Fiscal year ending 30 June,800,Uganda,2.4,1000,Uganda shilling,,Fiscal year ending 30 June,2008,2018,11,0,,2008,2018,False
+nominal,nominal|800|204|1100|uganda shilling||Western calendar year,800,Uganda,2.4,1100,Uganda shilling,,Western calendar year,2009,2024,16,0,,2009,2024,True
+nominal,nominal|804|101|1000|hryvnia||Western calendar year,804,Ukraine,1.1,1000,hryvnia,,Western calendar year,2003,2024,22,0,,2003,2024,True
+nominal,nominal|804|204|1000|hryvnia||Western calendar year,804,Ukraine,2.4,1000,hryvnia,,Western calendar year,2003,2024,22,0,,2003,2024,True
+nominal,nominal|807|101|1000|tfyr macedonian denar||Western calendar year,807,North Macedonia,1.1,1000,TFYR Macedonian Denar,,Western calendar year,2000,2024,25,0,,2000,2024,True
+nominal,nominal|807|204|1000|tfyr macedonian denar||Western calendar year,807,North Macedonia,2.4,1000,TFYR Macedonian Denar,,Western calendar year,2000,2024,25,0,,2000,2024,True
+nominal,nominal|826|101|1000|pound sterling||Western calendar year,826,United Kingdom,1.1,1000,pound sterling,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|826|204|1000|pound sterling||Western calendar year,826,United Kingdom,2.4,1000,pound sterling,,Western calendar year,1995,2024,30,0,,1995,2024,True
+nominal,nominal|835|101|1000|tanzanian shilling||Western calendar year,835,Tanzania - Mainland,1.1,1000,Tanzanian Shilling,,Western calendar year,2012,2024,13,0,,2012,2024,True
+nominal,nominal|835|204|1000|tanzanian shilling||Western calendar year,835,Tanzania - Mainland,2.4,1000,Tanzanian Shilling,,Western calendar year,2012,2024,13,0,,2012,2024,True
+nominal,nominal|84|101|1000|belize dollar||Western calendar year,84,Belize,1.1,1000,Belize dollar,,Western calendar year,1990,2023,34,0,,1990,2023,True
+nominal,nominal|84|204|1000|belize dollar||Western calendar year,84,Belize,2.4,1000,Belize dollar,,Western calendar year,1990,2023,34,0,,1990,2023,True
+nominal,nominal|840|101|1000|us dollar||Western calendar year,840,United States,1.1,1000,US dollar,,Western calendar year,1970,2024,55,0,,1970,2024,True
+nominal,nominal|840|204|1000|us dollar||Western calendar year,840,United States,2.4,1000,US dollar,,Western calendar year,1970,2021,52,0,,1970,2021,False
+nominal,nominal|854|101|1000|cfa franc||Western calendar year,854,Burkina Faso,1.1,1000,CFA franc,,Western calendar year,1999,2022,24,0,,1999,2022,True
+nominal,nominal|854|204|1000|cfa franc||Western calendar year,854,Burkina Faso,2.4,1000,CFA franc,,Western calendar year,1999,2022,24,0,,1999,2022,True
+nominal,nominal|858|101|1000|uruguayan peso||Western calendar year,858,Uruguay,1.1,1000,Uruguayan peso,,Western calendar year,2016,2024,9,0,,2016,2024,True
+nominal,nominal|858|204|1000|uruguayan peso||Western calendar year,858,Uruguay,2.4,1000,Uruguayan peso,,Western calendar year,2016,2023,8,0,,2016,2023,False
+nominal,nominal|882|204|1000|tala||Western calendar year,882,Samoa,2.4,1000,Tala,,Western calendar year,2007,2020,14,0,,2007,2020,True
+nominal,nominal|894|101|1000|zambian kwacha||Western calendar year,894,Zambia,1.1,1000,Zambian Kwacha,,Western calendar year,2006,2023,18,0,,2006,2023,True
+nominal,nominal|894|201|1000|zambian kwacha||Western calendar year,894,Zambia,2.1,1000,Zambian Kwacha,,Western calendar year,2003,2014,12,0,,2003,2014,False
+nominal,nominal|894|204|1000|zambian kwacha||Western calendar year,894,Zambia,2.4,1000,Zambian Kwacha,,Western calendar year,2010,2023,14,0,,2010,2023,False
+nominal,nominal|92|204|1000|us dollar||Western calendar year,92,British Virgin Islands,2.4,1000,US dollar,,Western calendar year,2010,2020,11,0,,2010,2020,True
+nominal,nominal|92|204|1100|us dollar||Western calendar year,92,British Virgin Islands,2.4,1100,US dollar,,Western calendar year,2018,2023,6,0,,2018,2023,False
+nominal,nominal|96|101|1000|brunei dollar||Western calendar year,96,Brunei Darussalam,1.1,1000,Brunei dollar,,Western calendar year,2010,2024,15,0,,2010,2024,True
+nominal,nominal|96|201|1000|brunei dollar||Western calendar year,96,Brunei Darussalam,2.1,1000,Brunei dollar,,Western calendar year,2010,2015,6,0,,2010,2015,False
+nominal,nominal|96|204|1000|brunei dollar||Western calendar year,96,Brunei Darussalam,2.4,1000,Brunei dollar,,Western calendar year,2010,2024,15,0,,2010,2024,True
