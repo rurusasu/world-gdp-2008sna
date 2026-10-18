@@ -1,0 +1,35 @@
+---
+import '../style.css';
+const base = import.meta.env.BASE_URL;
+---
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="2008SNA公式実質GDPの年次成長率と、国別の10年平均を確認できます。">
+  <title>国別GDP成長率と10年平均 | 2008 SNA</title>
+  <script>import '../growth';</script>
+</head>
+<body>
+<header class="topbar"><a class="brand" href={base}><span class="brandmark">↗</span> GDP OBSERVATORY <span class="edition">2008 SNA</span></a><nav><a href={base}>全体レポート</a><a href={`${base}growth/`}>10年平均</a><a href="https://github.com/rurusasu/world-gdp-2008sna">GitHub ↗</a></nav></header>
+<main class="growth-page">
+  <section class="hero"><div class="eyebrow">COUNTRY GDP GROWTH · DECADE AVERAGES</div><h1>国別のGDP成長率を、<br>年次と10年平均で見る。</h1><p class="lead">2008SNAの公式実質GDPから各年の前年比を示し、同じ10年区分の算術平均を計算します。国・地域を選んで推移を比較できます。</p><div class="snapshot" id="growth-snapshot">データを読み込んでいます…</div></section>
+  <div id="growth-error" class="notice" hidden role="alert"></div>
+  <section class="scope-note"><span class="dot"></span><div><strong>各国の代表系列を1つ選んで表示しています。</strong><p>比較可能な価格基準を優先し、既存の優先系列選定規則に沿って選びます。10年分に満たない区分も、算出可能な年の平均値と対象年数を表示します。系列の基準年・通貨・会計年度が異なるため、国どうしのGDP水準比較には使えません。</p></div></section>
+  <section class="growth-explorer" aria-labelledby="growth-title">
+    <div class="section-heading"><div><div class="eyebrow">01 / COUNTRY SERIES</div><h2 id="growth-title">国・地域を選択</h2></div><a href={`${base}downloads/decade-average-growth.csv`} download>10年平均CSV ↓</a></div>
+    <div class="growth-controls"><label for="growth-country">国・地域<select id="growth-country"></select></label><p id="growth-meta" class="small"></p></div>
+    <div class="growth-charts">
+      <article class="chart-card"><div class="chart-heading"><h3>年次成長率</h3><span>前年比 / %</span></div><div id="annual-growth-chart" class="chart" aria-label="選択した国の年次GDP成長率"></div></article>
+      <article class="chart-card"><div class="chart-heading"><h3>10年平均</h3><span>年次成長率の算術平均 / %</span></div><div id="decade-growth-chart" class="chart" aria-label="選択した国のGDP成長率10年平均"></div></article>
+    </div>
+    <div class="section-heading growth-table-heading"><div><div class="eyebrow">02 / DECADE TABLE</div><h2>10年区分ごとの平均</h2></div></div>
+    <div class="table-scroll"><table><thead><tr><th>区分</th><th>平均成長率</th><th>対象年数</th><th>対象年</th></tr></thead><tbody id="decade-growth-table"></tbody></table></div>
+    <details class="data-details"><summary>年次成長率を表で確認する <span>ANNUAL DATA</span></summary><div class="table-scroll"><table><thead><tr><th>年</th><th>年次成長率（%）</th></tr></thead><tbody id="annual-growth-table"></tbody></table></div></details>
+  </section>
+  <section class="sources growth-downloads"><div class="section-heading"><div><div class="eyebrow">03 / DOWNLOADS</div><h2>計算結果のCSV</h2></div></div><div class="download-grid"><a href={`${base}downloads/country-annual-growth.csv`} download><strong>国別の年次成長率</strong><span>代表系列の前年比 / CSV ↓</span></a><a href={`${base}downloads/decade-average-growth.csv`} download><strong>国別の10年平均</strong><span>平均対象年数・系列情報つき / CSV ↓</span></a></div><p class="small">前年比 ＝ 100 ×（当年の実質GDP ÷ 前年の実質GDP − 1）。10年平均は区分内にある算出可能な年次成長率の算術平均です。前年の値がない年や価格基準を確認できない系列は欠測として扱います。</p></section>
+</main>
+<footer><span>GDP OBSERVATORY / 2008 SNA</span><span>Source: United Nations Statistics Division · 計算・可視化は本プロジェクト</span></footer>
+</body>
+</html>
