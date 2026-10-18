@@ -622,6 +622,16 @@ footer {
 .growth-explorer {
   padding-bottom: 55px;
 }
+.growth-meta {
+  margin: 0 0 14px;
+  max-width: 1100px;
+}
+.growth-data-details .table-scroll {
+  max-height: 480px;
+}
+.growth-data-details tbody tr td:first-child {
+  border-left: 4px solid var(--row-country-color, transparent);
+}
 .growth-controls {
   display: flex;
   flex-wrap: wrap;
