@@ -38,6 +38,47 @@ def static_figure(item: dict, target: Path, title: str) -> None:
     plt.close(fig)
 
 
+def country_growth_exports(series: list[dict]) -> tuple[list[dict], list[dict]]:
+    """Create annual growth and decade-mean rows for one preferred series per country."""
+    by_country = {}
+    for item in series:
+        current = by_country.get(item['country_code'])
+        rank = (not item['preferred'], -item['last'], item['id'])
+        if current is None or rank < (not current['preferred'], -current['last'], current['id']):
+            by_country[item['country_code']] = item
+
+    annual_rows, grouped = [], {}
+    for code, item in sorted(by_country.items(), key=lambda pair: pair[1]['country'].casefold()):
+        for point in item['points']:
+            annual_rows.append({
+                'country_code': code, 'country': item['country'], 'series_id': item['id'],
+                'table': item['table'], 'series_number': item['series_number'],
+                'currency': item['currency'], 'base_year': item['base_year'],
+                'fiscal_year_type': item['fiscal_year_type'], 'year': point['year'],
+                'annual_growth_pct': point['growth'],
+            })
+            if point['growth'] is not None:
+                decade = point['year'] // 10 * 10
+                grouped.setdefault((code, decade), []).append(point)
+
+    decade_rows = []
+    for (code, decade), points in sorted(
+        grouped.items(), key=lambda pair: (pair[0][1], by_country[pair[0][0]]['country'].casefold())
+    ):
+        item = by_country[code]
+        years = [point['year'] for point in points]
+        decade_rows.append({
+            'country_code': code, 'country': item['country'], 'decade': f'{decade}s',
+            'period_start': decade, 'period_end': decade + 9, 'annual_rate_count': len(points),
+            'first_rate_year': min(years), 'last_rate_year': max(years),
+            'average_annual_growth_pct': sum(point['growth'] for point in points) / len(points),
+            'series_id': item['id'], 'table': item['table'], 'series_number': item['series_number'],
+            'currency': item['currency'], 'base_year': item['base_year'],
+            'fiscal_year_type': item['fiscal_year_type'],
+        })
+    return annual_rows, decade_rows
+
+
 def export_report(root: Path, model: dict, static: bool = True) -> None:
     from plotly.offline import get_plotlyjs
     import plotly
@@ -54,6 +95,16 @@ def export_report(root: Path, model: dict, static: bool = True) -> None:
     for kind, key in [('real', 'series'), ('nominal', 'nominal_series')]:
         rows = [{**s, **point} for s in model[key] for point in s['points']]
         write_csv(downloads / f'{kind}-gdp.csv', columns, rows)
+    annual_growth, decade_growth = country_growth_exports(model['series'])
+    write_csv(downloads / 'country-annual-growth.csv', [
+        'country_code', 'country', 'series_id', 'table', 'series_number', 'currency', 'base_year',
+        'fiscal_year_type', 'year', 'annual_growth_pct',
+    ], annual_growth)
+    write_csv(downloads / 'decade-average-growth.csv', [
+        'country_code', 'country', 'decade', 'period_start', 'period_end', 'annual_rate_count',
+        'first_rate_year', 'last_rate_year', 'average_annual_growth_pct', 'series_id', 'table',
+        'series_number', 'currency', 'base_year', 'fiscal_year_type',
+    ], decade_growth)
     audit = [{**s, 'missing_years': ';'.join(map(str, s['missing_years'])),
               'longest_run_first': s['longest_run']['first'], 'longest_run_last': s['longest_run']['last']}
              for s in model['series'] + model['nominal_series']]

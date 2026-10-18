@@ -1,0 +1,461 @@
+﻿country_code,country,decade,period_start,period_end,annual_rate_count,first_rate_year,last_rate_year,average_annual_growth_pct,series_id,table,series_number,currency,base_year,fiscal_year_type
+608,Philippines,1940s,1940,1949,3,1947,1949,20.338689105649134,real|608|102|1100|philippine peso|2018|Western calendar year,1.2,1100,Philippine peso,2018,Western calendar year
+356,India,1950s,1950,1959,9,1951,1959,3.8835970040852548,real|356|102|1000|indian rupee|2011|Fiscal year beginning 1 April,1.2,1000,Indian rupee,2011,Fiscal year beginning 1 April
+608,Philippines,1950s,1950,1959,10,1950,1959,7.050947990875175,real|608|102|1100|philippine peso|2018|Western calendar year,1.2,1100,Philippine peso,2018,Western calendar year
+36,Australia,1960s,1960,1969,10,1960,1969,5.076826613924593,real|36|102|1000|australian dollar|2011|Fiscal year beginning 1 July,1.2,1000,Australian dollar,2011,Fiscal year beginning 1 July
+344,"China, Hong Kong Special Administrative Region",1960s,1960,1969,8,1962,1969,8.93297325463206,real|344|102|1000|hong kong dollar|2023|Western calendar year,1.2,1000,Hong Kong dollar,2023,Western calendar year
+218,Ecuador,1960s,1960,1969,4,1966,1969,3.400293198258164,real|218|205|1100|us dollar|2018|Western calendar year,2.5,1100,US dollar,2018,Western calendar year
+356,India,1960s,1960,1969,10,1960,1969,4.065996101574271,real|356|102|1000|indian rupee|2011|Fiscal year beginning 1 April,1.2,1000,Indian rupee,2011,Fiscal year beginning 1 April
+608,Philippines,1960s,1960,1969,10,1960,1969,4.713638816326924,real|608|102|1100|philippine peso|2018|Western calendar year,1.2,1100,Philippine peso,2018,Western calendar year
+702,Singapore,1960s,1960,1969,9,1961,1969,8.945751855801895,real|702|102|1000|singapore dollar|2015|Western calendar year,1.2,1000,Singapore dollar,2015,Western calendar year
+36,Australia,1970s,1970,1979,10,1970,1979,3.014602827564379,real|36|102|1000|australian dollar|2011|Fiscal year beginning 1 July,1.2,1000,Australian dollar,2011,Fiscal year beginning 1 July
+124,Canada,1970s,1970,1979,9,1971,1979,4.2730804536217235,real|124|102|1000|canadian dollar|2007|Western calendar year,1.2,1000,Canadian dollar,2007,Western calendar year
+344,"China, Hong Kong Special Administrative Region",1970s,1970,1979,10,1970,1979,9.000579301624722,real|344|102|1000|hong kong dollar|2023|Western calendar year,1.2,1000,Hong Kong dollar,2023,Western calendar year
+218,Ecuador,1970s,1970,1979,10,1970,1979,7.048015869722147,real|218|205|1100|us dollar|2018|Western calendar year,2.5,1100,US dollar,2018,Western calendar year
+356,India,1970s,1970,1979,10,1970,1979,2.9269845826623673,real|356|102|1000|indian rupee|2011|Fiscal year beginning 1 April,1.2,1000,Indian rupee,2011,Fiscal year beginning 1 April
+376,Israel,1970s,1970,1979,9,1971,1979,5.724975063949018,real|376|102|1000|new sheqel|2010|Western calendar year,1.2,1000,new sheqel,2010,Western calendar year
+484,Mexico,1970s,1970,1979,9,1971,1979,6.430701117466843,real|484|102|1000|mexican new peso|2008|Western calendar year,1.2,1000,Mexican new peso,2008,Western calendar year
+608,Philippines,1970s,1970,1979,10,1970,1979,5.726893095543502,real|608|102|1100|philippine peso|2018|Western calendar year,1.2,1100,Philippine peso,2018,Western calendar year
+682,Saudi Arabia,1970s,1970,1979,9,1971,1979,11.836319564239325,real|682|102|1100|saudi arabian riyal|2010|Western calendar year,1.2,1100,Saudi Arabian riyal,2010,Western calendar year
+702,Singapore,1970s,1970,1979,10,1970,1979,9.200138868990441,real|702|102|1000|singapore dollar|2015|Western calendar year,1.2,1000,Singapore dollar,2015,Western calendar year
+840,United States,1970s,1970,1979,9,1971,1979,3.5779120820773747,real|840|102|1000|us dollar|2009|Western calendar year,1.2,1000,US dollar,2009,Western calendar year
+36,Australia,1980s,1980,1989,10,1980,1989,3.439845600593377,real|36|102|1000|australian dollar|2011|Fiscal year beginning 1 July,1.2,1000,Australian dollar,2011,Fiscal year beginning 1 July
+124,Canada,1980s,1980,1989,10,1980,1989,2.881622321641013,real|124|102|1000|canadian dollar|2007|Western calendar year,1.2,1000,Canadian dollar,2007,Western calendar year
+344,"China, Hong Kong Special Administrative Region",1980s,1980,1989,10,1980,1989,7.426979864478595,real|344|102|1000|hong kong dollar|2023|Western calendar year,1.2,1000,Hong Kong dollar,2023,Western calendar year
+218,Ecuador,1980s,1980,1989,10,1980,1989,3.611123316551061,real|218|205|1100|us dollar|2018|Western calendar year,2.5,1100,US dollar,2018,Western calendar year
+748,Eswatini,1980s,1980,1989,9,1981,1989,6.419785571241814,real|748|205|1000|lilangeni|2011|Western calendar year,2.5,1000,Lilangeni,2011,Western calendar year
+356,India,1980s,1980,1989,10,1980,1989,5.689873442516509,real|356|102|1000|indian rupee|2011|Fiscal year beginning 1 April,1.2,1000,Indian rupee,2011,Fiscal year beginning 1 April
+376,Israel,1980s,1980,1989,10,1980,1989,3.2236743136834844,real|376|102|1000|new sheqel|2010|Western calendar year,1.2,1000,new sheqel,2010,Western calendar year
+484,Mexico,1980s,1980,1989,10,1980,1989,2.2032620629185353,real|484|102|1000|mexican new peso|2008|Western calendar year,1.2,1000,Mexican new peso,2008,Western calendar year
+516,Namibia,1980s,1980,1989,9,1981,1989,1.1077834255990662,real|516|102|1000|namibia dollar|2015|Western calendar year,1.2,1000,Namibia dollar,2015,Western calendar year
+566,Nigeria,1980s,1980,1989,8,1982,1989,-0.05194901045670064,real|566|102|1000|naira|2010|Western calendar year,1.2,1000,Naira,2010,Western calendar year
+608,Philippines,1980s,1980,1989,10,1980,1989,2.107386530580418,real|608|102|1100|philippine peso|2018|Western calendar year,1.2,1100,Philippine peso,2018,Western calendar year
+682,Saudi Arabia,1980s,1980,1989,10,1980,1989,-2.065521935249348,real|682|102|1100|saudi arabian riyal|2010|Western calendar year,1.2,1100,Saudi Arabian riyal,2010,Western calendar year
+702,Singapore,1980s,1980,1989,10,1980,1989,7.83186706069351,real|702|102|1000|singapore dollar|2015|Western calendar year,1.2,1000,Singapore dollar,2015,Western calendar year
+840,United States,1980s,1980,1989,10,1980,1989,3.1428576067076444,real|840|102|1000|us dollar|2009|Western calendar year,1.2,1000,US dollar,2009,Western calendar year
+36,Australia,1990s,1990,1999,10,1990,1999,3.330236340041546,real|36|102|1000|australian dollar|2011|Fiscal year beginning 1 July,1.2,1000,Australian dollar,2011,Fiscal year beginning 1 July
+40,Austria,1990s,1990,1999,4,1996,1999,2.904101733133496,real|40|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+56,Belgium,1990s,1990,1999,4,1996,1999,2.6549135481339246,real|56|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+84,Belize,1990s,1990,1999,9,1991,1999,5.343060492001815,real|84|102|1000|belize dollar|2014|Western calendar year,1.2,1000,Belize dollar,2014,Western calendar year
+76,Brazil,1990s,1990,1999,4,1996,1999,1.6024362452123964,real|76|102|1000|real|1995|Western calendar year,1.2,1000,real,1995,Western calendar year
+100,Bulgaria,1990s,1990,1999,4,1996,1999,-3.3792450712266,real|100|102|1000|lev|2015|Western calendar year,1.2,1000,lev,2015,Western calendar year
+120,Cameroon,1990s,1990,1999,6,1994,1999,3.7916726143335855,real|120|102|1100|cfa franc|2016|Western calendar year,1.2,1100,CFA franc,2016,Western calendar year
+124,Canada,1990s,1990,1999,10,1990,1999,2.4066171020985205,real|124|102|1000|canadian dollar|2007|Western calendar year,1.2,1000,Canadian dollar,2007,Western calendar year
+152,Chile,1990s,1990,1999,4,1996,1999,4.678125183710377,real|152|102|1000|chilean peso|2018|Western calendar year,1.2,1000,Chilean peso,2018,Western calendar year
+156,China,1990s,1990,1999,9,1991,1999,10.669840834831923,real|156|202|1000|yuan renminbi|1990|Western calendar year,2.2,1000,Yuan Renminbi,1990,Western calendar year
+344,"China, Hong Kong Special Administrative Region",1990s,1990,1999,10,1990,1999,3.636076541832316,real|344|102|1000|hong kong dollar|2023|Western calendar year,1.2,1000,Hong Kong dollar,2023,Western calendar year
+446,"China, Macao Special Administrative Region",1990s,1990,1999,9,1991,1999,2.4517370671535748,real|446|102|1100|pataca|2022|Western calendar year,1.2,1100,Pataca,2022,Western calendar year
+188,Costa Rica,1990s,1990,1999,8,1992,1999,5.396002681500378,real|188|102|1100|costa rican colon|2017|Western calendar year,1.2,1100,Costa Rican colon,2017,Western calendar year
+191,Croatia,1990s,1990,1999,4,1996,1999,3.420003729364518,real|191|102|1100|euro|2015|Western calendar year,1.2,1100,Euro,2015,Western calendar year
+196,Cyprus,1990s,1990,1999,4,1996,1999,3.7495107869557955,real|196|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+203,Czechia,1990s,1990,1999,4,1996,1999,1.1394890676565654,real|203|102|1000|czech koruna|2020|Western calendar year,1.2,1000,Czech koruna,2020,Western calendar year
+208,Denmark,1990s,1990,1999,4,1996,1999,2.8394600595273154,real|208|102|1000|danish krone|2020|Western calendar year,1.2,1000,Danish krone,2020,Western calendar year
+218,Ecuador,1990s,1990,1999,10,1990,1999,2.731179734888772,real|218|205|1100|us dollar|2018|Western calendar year,2.5,1100,US dollar,2018,Western calendar year
+233,Estonia,1990s,1990,1999,4,1996,1999,5.4769588014884185,real|233|102|1100|euro|2020|Western calendar year,1.2,1100,Euro,2020,Western calendar year
+748,Eswatini,1990s,1990,1999,10,1990,1999,3.7677871755829484,real|748|205|1000|lilangeni|2011|Western calendar year,2.5,1000,Lilangeni,2011,Western calendar year
+246,Finland,1990s,1990,1999,4,1996,1999,4.9759772237153275,real|246|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+250,France,1990s,1990,1999,4,1996,1999,2.6940109842037705,real|250|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+276,Germany,1990s,1990,1999,4,1996,1999,1.7798127956982324,real|276|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+300,Greece,1990s,1990,1999,4,1996,1999,2.770268814561244,real|300|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+348,Hungary,1990s,1990,1999,4,1996,1999,2.5033198876998233,real|348|102|1000|forint|2021|Western calendar year,1.2,1000,Forint,2021,Western calendar year
+352,Iceland,1990s,1990,1999,4,1996,1999,5.434264684254692,real|352|102|1100|icelandic króna|2015|Western calendar year,1.2,1100,Icelandic króna,2015,Western calendar year
+356,India,1990s,1990,1999,10,1990,1999,5.768638862479196,real|356|102|1000|indian rupee|2011|Fiscal year beginning 1 April,1.2,1000,Indian rupee,2011,Fiscal year beginning 1 April
+372,Ireland,1990s,1990,1999,4,1996,1999,9.42434904107563,real|372|102|1000|euro|2022|Western calendar year,1.2,1000,Euro,2022,Western calendar year
+376,Israel,1990s,1990,1999,10,1990,1999,6.084988343532187,real|376|102|1000|new sheqel|2010|Western calendar year,1.2,1000,new sheqel,2010,Western calendar year
+380,Italy,1990s,1990,1999,4,1996,1999,1.6884177148279444,real|380|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+392,Japan,1990s,1990,1999,4,1996,1999,0.6277098181387747,real|392|102|1000|yen|2015|Western calendar year,1.2,1000,yen,2015,Western calendar year
+428,Latvia,1990s,1990,1999,4,1996,1999,5.2099611464395235,real|428|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+440,Lithuania,1990s,1990,1999,4,1996,1999,4.923376309678113,real|440|102|1000|euro|2021|Western calendar year,1.2,1000,Euro,2021,Western calendar year
+442,Luxembourg,1990s,1990,1999,4,1996,1999,5.416900382361339,real|442|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+462,Maldives,1990s,1990,1999,4,1996,1999,7.481731619215177,real|462|205|1000|rufiyaa|2014|Western calendar year,2.5,1000,rufiyaa,2014,Western calendar year
+478,Mauritania,1990s,1990,1999,1,1999,1999,3.6731782997634133,real|478|205|1000|ouguiya|2014|Western calendar year,2.5,1000,Ouguiya,2014,Western calendar year
+484,Mexico,1990s,1990,1999,10,1990,1999,3.3830585170161585,real|484|102|1000|mexican new peso|2008|Western calendar year,1.2,1000,Mexican new peso,2008,Western calendar year
+508,Mozambique,1990s,1990,1999,8,1992,1999,7.175041475520499,real|508|102|1000|metical|2014|Western calendar year,1.2,1000,Metical,2014,Western calendar year
+516,Namibia,1990s,1990,1999,10,1990,1999,3.552405817887606,real|516|102|1000|namibia dollar|2015|Western calendar year,1.2,1000,Namibia dollar,2015,Western calendar year
+528,Netherlands,1990s,1990,1999,4,1996,1999,4.340040697454523,real|528|102|1000|euro|2021|Western calendar year,1.2,1000,Euro,2021,Western calendar year
+554,New Zealand,1990s,1990,1999,4,1996,1999,3.251117126291081,real|554|102|1000|new zealand dollar|2009|Fiscal year beginning 1 April,1.2,1000,New Zealand dollar,2009,Fiscal year beginning 1 April
+566,Nigeria,1990s,1990,1999,10,1990,1999,2.3142127920495015,real|566|102|1000|naira|2010|Western calendar year,1.2,1000,Naira,2010,Western calendar year
+578,Norway,1990s,1990,1999,4,1996,1999,3.763313369396953,real|578|102|1000|norwegian krone|2015|Western calendar year,1.2,1000,Norwegian krone,2015,Western calendar year
+604,Peru,1990s,1990,1999,4,1996,1999,2.594792646794422,real|604|102|1000|new sol|2007|Western calendar year,1.2,1000,new sol,2007,Western calendar year
+608,Philippines,1990s,1990,1999,10,1990,1999,2.812381266505896,real|608|102|1100|philippine peso|2018|Western calendar year,1.2,1100,Philippine peso,2018,Western calendar year
+616,Poland,1990s,1990,1999,4,1996,1999,5.443395260210093,real|616|102|1000|zloty|2020|Western calendar year,1.2,1000,Zloty,2020,Western calendar year
+620,Portugal,1990s,1990,1999,4,1996,1999,4.154913714566471,real|620|102|1000|euro|2021|Western calendar year,1.2,1000,Euro,2021,Western calendar year
+410,Republic of Korea,1990s,1990,1999,4,1996,1999,5.099687503531955,real|410|102|1100|korean won|2020|Western calendar year,1.2,1100,Korean won,2020,Western calendar year
+642,Romania,1990s,1990,1999,4,1996,1999,-0.8369626540930736,real|642|102|1000|new romanian leu|2015|Western calendar year,1.2,1000,New Romanian Leu,2015,Western calendar year
+682,Saudi Arabia,1990s,1990,1999,10,1990,1999,3.646719997929823,real|682|102|1100|saudi arabian riyal|2010|Western calendar year,1.2,1100,Saudi Arabian riyal,2010,Western calendar year
+688,Serbia,1990s,1990,1999,4,1996,1999,-0.02628591599658492,real|688|102|1000|dinar|2010|Western calendar year,1.2,1000,Dinar,2010,Western calendar year
+702,Singapore,1990s,1990,1999,10,1990,1999,7.2194800694837244,real|702|102|1000|singapore dollar|2015|Western calendar year,1.2,1000,Singapore dollar,2015,Western calendar year
+703,Slovakia,1990s,1990,1999,4,1996,1999,3.739566374253353,real|703|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+705,Slovenia,1990s,1990,1999,4,1996,1999,4.104198312065554,real|705|102|1100|euro|2010|Western calendar year,1.2,1100,Euro,2010,Western calendar year
+710,South Africa,1990s,1990,1999,6,1994,1999,2.6833333333333855,real|710|102|1100|rand|2015|Western calendar year,1.2,1100,rand,2015,Western calendar year
+724,Spain,1990s,1990,1999,4,1996,1999,3.7263884502650777,real|724|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+275,State of Palestine,1990s,1990,1999,5,1995,1999,9.123104410184851,real|275|102|1000|us dollar|2015|Western calendar year,1.2,1000,US dollar,2015,Western calendar year
+752,Sweden,1990s,1990,1999,4,1996,1999,3.3041657024922513,real|752|102|1000|swedish krona|2020|Western calendar year,1.2,1000,Swedish Krona,2020,Western calendar year
+756,Switzerland,1990s,1990,1999,4,1996,1999,1.8563189286376403,real|756|102|1000|swiss franc|2015|Western calendar year,1.2,1000,Swiss franc,2015,Western calendar year
+764,Thailand,1990s,1990,1999,6,1994,1999,2.6590001800680345,real|764|205|1000|baht|2002|Western calendar year,2.5,1000,baht,2002,Western calendar year
+776,Tonga,1990s,1990,1999,5,1995,1999,1.3901237130882382,real|776|102|1000|pa'anga|2017|Fiscal year ending 30 June,1.2,1000,Pa'anga,2017,Fiscal year ending 30 June
+792,Türkiye,1990s,1990,1999,4,1996,1999,3.590703742898202,real|792|102|1000|new turkish lira|2009|Western calendar year,1.2,1000,New Turkish lira,2009,Western calendar year
+826,United Kingdom,1990s,1990,1999,4,1996,1999,3.491905909947246,real|826|102|1000|pound sterling|2022|Western calendar year,1.2,1000,pound sterling,2022,Western calendar year
+840,United States,1990s,1990,1999,10,1990,1999,3.7071594243893933,real|840|102|1000|us dollar|2009|Western calendar year,1.2,1000,US dollar,2009,Western calendar year
+894,Zambia,1990s,1990,1999,5,1995,1999,3.438933257938843,real|894|202|1000|zambian kwacha|2010|Western calendar year,2.2,1000,Zambian Kwacha,2010,Western calendar year
+20,Andorra,2000s,2000,2009,9,2001,2009,3.377020531591022,real|20|102|1100|euro|2010|Western calendar year,1.2,1100,Euro,2010,Western calendar year
+32,Argentina,2000s,2000,2009,5,2005,2009,4.809034064852954,real|32|102|1100|argentine peso|2004|Western calendar year,1.2,1100,Argentine peso,2004,Western calendar year
+36,Australia,2000s,2000,2009,10,2000,2009,3.0403794791520955,real|36|102|1000|australian dollar|2011|Fiscal year beginning 1 July,1.2,1000,Australian dollar,2011,Fiscal year beginning 1 July
+40,Austria,2000s,2000,2009,10,2000,2009,1.692966617988264,real|40|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+56,Belgium,2000s,2000,2009,10,2000,2009,1.8223832438538454,real|56|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+84,Belize,2000s,2000,2009,10,2000,2009,4.618060897304665,real|84|102|1000|belize dollar|2014|Western calendar year,1.2,1000,Belize dollar,2014,Western calendar year
+64,Bhutan,2000s,2000,2009,9,2001,2009,7.954841473039429,real|64|102|1000|ngultrum|2017|Western calendar year,1.2,1000,ngultrum,2017,Western calendar year
+72,Botswana,2000s,2000,2009,3,2007,2009,-1.6998775403273731,real|72|102|1000|pula|2016|Western calendar year,1.2,1000,pula,2016,Western calendar year
+76,Brazil,2000s,2000,2009,10,2000,2009,3.3934476936519595,real|76|102|1000|real|1995|Western calendar year,1.2,1000,real,1995,Western calendar year
+100,Bulgaria,2000s,2000,2009,10,2000,2009,4.932624440726473,real|100|102|1000|lev|2015|Western calendar year,1.2,1000,lev,2015,Western calendar year
+854,Burkina Faso,2000s,2000,2009,10,2000,2009,5.292414902349911,real|854|102|1000|cfa franc|2015|Western calendar year,1.2,1000,CFA franc,2015,Western calendar year
+132,Cabo Verde,2000s,2000,2009,2,2008,2009,2.7677122688393787,real|132|102|1000|escudo|2015|Western calendar year,1.2,1000,escudo,2015,Western calendar year
+120,Cameroon,2000s,2000,2009,10,2000,2009,4.092809445217848,real|120|102|1100|cfa franc|2016|Western calendar year,1.2,1100,CFA franc,2016,Western calendar year
+124,Canada,2000s,2000,2009,10,2000,2009,2.0790075984020597,real|124|102|1000|canadian dollar|2007|Western calendar year,1.2,1000,Canadian dollar,2007,Western calendar year
+136,Cayman Islands,2000s,2000,2009,3,2007,2009,-1.4742491642356563,real|136|205|1000|cayman islands dollar|2015|Western calendar year,2.5,1000,Cayman Islands dollar,2015,Western calendar year
+152,Chile,2000s,2000,2009,10,2000,2009,4.245257808461518,real|152|102|1000|chilean peso|2018|Western calendar year,1.2,1000,Chilean peso,2018,Western calendar year
+156,China,2000s,2000,2009,1,2000,2000,8.490016949333224,real|156|202|1000|yuan renminbi|1990|Western calendar year,2.2,1000,Yuan Renminbi,1990,Western calendar year
+344,"China, Hong Kong Special Administrative Region",2000s,2000,2009,10,2000,2009,4.219184975725403,real|344|102|1000|hong kong dollar|2023|Western calendar year,1.2,1000,Hong Kong dollar,2023,Western calendar year
+446,"China, Macao Special Administrative Region",2000s,2000,2009,10,2000,2009,9.64246677913287,real|446|102|1100|pataca|2022|Western calendar year,1.2,1100,Pataca,2022,Western calendar year
+170,Colombia,2000s,2000,2009,4,2006,2009,4.469539555249947,real|170|102|1000|colombian peso|2015|Western calendar year,1.2,1000,Colombian peso,2015,Western calendar year
+184,Cook Islands,2000s,2000,2009,3,2007,2009,0.12448528042894313,real|184|205|1000|new zealander dollars|2016|Western calendar year,2.5,1000,New Zealander Dollars,2016,Western calendar year
+188,Costa Rica,2000s,2000,2009,10,2000,2009,4.2901756533000714,real|188|102|1100|costa rican colon|2017|Western calendar year,1.2,1100,Costa Rican colon,2017,Western calendar year
+191,Croatia,2000s,2000,2009,10,2000,2009,3.1210795118440826,real|191|102|1100|euro|2015|Western calendar year,1.2,1100,Euro,2015,Western calendar year
+196,Cyprus,2000s,2000,2009,10,2000,2009,3.7587219152024076,real|196|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+203,Czechia,2000s,2000,2009,10,2000,2009,3.277949687931662,real|203|102|1000|czech koruna|2020|Western calendar year,1.2,1000,Czech koruna,2020,Western calendar year
+208,Denmark,2000s,2000,2009,10,2000,2009,1.011962692183206,real|208|102|1000|danish krone|2020|Western calendar year,1.2,1000,Danish krone,2020,Western calendar year
+214,Dominican Republic,2000s,2000,2009,2,2008,2009,2.0778297166314297,real|214|102|1000|dominican peso|2007|Western calendar year,1.2,1000,Dominican peso,2007,Western calendar year
+218,Ecuador,2000s,2000,2009,10,2000,2009,4.316755062897586,real|218|205|1100|us dollar|2018|Western calendar year,2.5,1100,US dollar,2018,Western calendar year
+233,Estonia,2000s,2000,2009,10,2000,2009,4.439939810339501,real|233|102|1100|euro|2020|Western calendar year,1.2,1100,Euro,2020,Western calendar year
+748,Eswatini,2000s,2000,2009,10,2000,2009,3.0767032484328274,real|748|205|1000|lilangeni|2011|Western calendar year,2.5,1000,Lilangeni,2011,Western calendar year
+234,Faroe Islands,2000s,2000,2009,1,2009,2009,-4.303002162020986,real|234|102|1000|danish krone|2010|Western calendar year,1.2,1000,Danish Krone,2010,Western calendar year
+246,Finland,2000s,2000,2009,10,2000,2009,2.091659008311968,real|246|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+250,France,2000s,2000,2009,10,2000,2009,1.5633027065015537,real|250|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+270,Gambia,2000s,2000,2009,9,2001,2009,2.6327269415651986,real|270|205|1000|dalasi|2013|Western calendar year,2.5,1000,dalasi,2013,Western calendar year
+276,Germany,2000s,2000,2009,10,2000,2009,0.7914695221671296,real|276|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+300,Greece,2000s,2000,2009,10,2000,2009,3.17180396508843,real|300|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+328,Guyana,2000s,2000,2009,3,2007,2009,4.185984769754707,real|328|205|1000|guyana dollar|2012|Western calendar year,2.5,1000,Guyana dollar,2012,Western calendar year
+332,Haiti,2000s,2000,2009,9,2001,2009,2.329762264911592,real|332|102|1000|gourde|2012|Fiscal year ending 30 September,1.2,1000,gourde,2012,Fiscal year ending 30 September
+348,Hungary,2000s,2000,2009,10,2000,2009,2.492320962314567,real|348|102|1000|forint|2021|Western calendar year,1.2,1000,Forint,2021,Western calendar year
+352,Iceland,2000s,2000,2009,10,2000,2009,3.4945126299549067,real|352|102|1100|icelandic króna|2015|Western calendar year,1.2,1100,Icelandic króna,2015,Western calendar year
+356,India,2000s,2000,2009,10,2000,2009,6.284581598268999,real|356|102|1000|indian rupee|2011|Fiscal year beginning 1 April,1.2,1000,Indian rupee,2011,Fiscal year beginning 1 April
+372,Ireland,2000s,2000,2009,10,2000,2009,3.686859178302767,real|372|102|1000|euro|2022|Western calendar year,1.2,1000,Euro,2022,Western calendar year
+376,Israel,2000s,2000,2009,10,2000,2009,3.538223000316242,real|376|102|1000|new sheqel|2010|Western calendar year,1.2,1000,new sheqel,2010,Western calendar year
+380,Italy,2000s,2000,2009,10,2000,2009,0.5394927456569054,real|380|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+392,Japan,2000s,2000,2009,10,2000,2009,0.4656649722551155,real|392|102|1000|yen|2015|Western calendar year,1.2,1000,yen,2015,Western calendar year
+428,Latvia,2000s,2000,2009,10,2000,2009,5.254750525667104,real|428|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+422,Lebanon,2000s,2000,2009,5,2005,2009,6.569440136588741,real|422|102|1000|lebanese pound|2010|Western calendar year,1.2,1000,Lebanese Pound,2010,Western calendar year
+440,Lithuania,2000s,2000,2009,10,2000,2009,4.764222550933779,real|440|102|1000|euro|2021|Western calendar year,1.2,1000,Euro,2021,Western calendar year
+442,Luxembourg,2000s,2000,2009,10,2000,2009,3.3148299212633363,real|442|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+462,Maldives,2000s,2000,2009,10,2000,2009,4.990716451845972,real|462|205|1000|rufiyaa|2014|Western calendar year,2.5,1000,rufiyaa,2014,Western calendar year
+470,Malta,2000s,2000,2009,9,2001,2009,2.150456688565061,real|470|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+478,Mauritania,2000s,2000,2009,10,2000,2009,3.302185169091293,real|478|205|1000|ouguiya|2014|Western calendar year,2.5,1000,Ouguiya,2014,Western calendar year
+480,Mauritius,2000s,2000,2009,3,2007,2009,4.8097480819482135,real|480|102|1000|mauritian rupee|2006|Western calendar year,1.2,1000,Mauritian rupee,2006,Western calendar year
+484,Mexico,2000s,2000,2009,10,2000,2009,2.0843345663099977,real|484|102|1000|mexican new peso|2008|Western calendar year,1.2,1000,Mexican new peso,2008,Western calendar year
+499,Montenegro,2000s,2000,2009,3,2007,2009,2.746177596185428,real|499|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+500,Montserrat,2000s,2000,2009,9,2001,2009,1.620432703803407,real|500|205|1000|ec dollar|2018|Western calendar year,2.5,1000,EC dollar,2018,Western calendar year
+504,Morocco,2000s,2000,2009,2,2008,2009,7.44489769833544,real|504|102|1000|moroccan dirham|2007|Western calendar year,1.2,1000,Moroccan dirham,2007,Western calendar year
+508,Mozambique,2000s,2000,2009,10,2000,2009,7.505914893440209,real|508|102|1000|metical|2014|Western calendar year,1.2,1000,Metical,2014,Western calendar year
+516,Namibia,2000s,2000,2009,10,2000,2009,4.389040074458674,real|516|102|1000|namibia dollar|2015|Western calendar year,1.2,1000,Namibia dollar,2015,Western calendar year
+528,Netherlands,2000s,2000,2009,10,2000,2009,1.681142787691331,real|528|102|1000|euro|2021|Western calendar year,1.2,1000,Euro,2021,Western calendar year
+554,New Zealand,2000s,2000,2009,10,2000,2009,2.893725617935803,real|554|102|1000|new zealand dollar|2009|Fiscal year beginning 1 April,1.2,1000,New Zealand dollar,2009,Fiscal year beginning 1 April
+562,Niger,2000s,2000,2009,4,2006,2009,3.484607718636054,real|562|102|1000|cfa franc|2015|Western calendar year,1.2,1000,CFA franc,2015,Western calendar year
+566,Nigeria,2000s,2000,2009,10,2000,2009,7.675107816084269,real|566|102|1000|naira|2010|Western calendar year,1.2,1000,Naira,2010,Western calendar year
+807,North Macedonia,2000s,2000,2009,9,2001,2009,2.974545675839872,real|807|102|1000|tfyr macedonian denar|2005|Western calendar year,1.2,1000,TFYR Macedonian Denar,2005,Western calendar year
+578,Norway,2000s,2000,2009,10,2000,2009,1.832532139798706,real|578|102|1000|norwegian krone|2015|Western calendar year,1.2,1000,Norwegian krone,2015,Western calendar year
+586,Pakistan,2000s,2000,2009,9,2001,2009,4.760527932150493,real|586|102|1100|pakistan rupee|2016|Fiscal year ending 30 June,1.2,1100,Pakistan Rupee,2016,Fiscal year ending 30 June
+598,Papua New Guinea,2000s,2000,2009,3,2007,2009,4.7730509777127414,real|598|205|1000|kina|2013|Western calendar year,2.5,1000,kina,2013,Western calendar year
+600,Paraguay,2000s,2000,2009,2,2008,2009,3.1175918363515907,real|600|102|1000|guarani|2014|Western calendar year,1.2,1000,guarani,2014,Western calendar year
+604,Peru,2000s,2000,2009,10,2000,2009,5.044375810361748,real|604|102|1000|new sol|2007|Western calendar year,1.2,1000,new sol,2007,Western calendar year
+608,Philippines,2000s,2000,2009,10,2000,2009,4.537515481766712,real|608|102|1100|philippine peso|2018|Western calendar year,1.2,1100,Philippine peso,2018,Western calendar year
+616,Poland,2000s,2000,2009,10,2000,2009,3.962772248843538,real|616|102|1000|zloty|2020|Western calendar year,1.2,1000,Zloty,2020,Western calendar year
+620,Portugal,2000s,2000,2009,10,2000,2009,0.9499619998466668,real|620|102|1000|euro|2021|Western calendar year,1.2,1000,Euro,2021,Western calendar year
+410,Republic of Korea,2000s,2000,2009,10,2000,2009,4.905860320379891,real|410|102|1100|korean won|2020|Western calendar year,1.2,1100,Korean won,2020,Western calendar year
+642,Romania,2000s,2000,2009,10,2000,2009,4.98731933379597,real|642|102|1000|new romanian leu|2015|Western calendar year,1.2,1000,New Romanian Leu,2015,Western calendar year
+646,Rwanda,2000s,2000,2009,4,2006,2009,8.564448599652753,real|646|102|1000|rwanda franc|2017|Western calendar year,1.2,1000,Rwanda franc,2017,Western calendar year
+662,Saint Lucia,2000s,2000,2009,3,2007,2009,1.763235793353446,real|662|205|1000|ec dollar|2018|Western calendar year,2.5,1000,EC dollar,2018,Western calendar year
+670,Saint Vincent and the Grenadines,2000s,2000,2009,9,2001,2009,3.3035283884810607,real|670|205|1000|ec dollar|2018|Western calendar year,2.5,1000,EC dollar,2018,Western calendar year
+882,Samoa,2000s,2000,2009,2,2008,2009,-1.8235501860318193,real|882|205|1000|tala|2013|Western calendar year,2.5,1000,Tala,2013,Western calendar year
+682,Saudi Arabia,2000s,2000,2009,10,2000,2009,3.519590708990342,real|682|102|1100|saudi arabian riyal|2010|Western calendar year,1.2,1100,Saudi Arabian riyal,2010,Western calendar year
+686,Senegal,2000s,2000,2009,10,2000,2009,3.4427406140153183,real|686|102|1000|cfa franc|2014|Western calendar year,1.2,1000,CFA franc,2014,Western calendar year
+688,Serbia,2000s,2000,2009,10,2000,2009,5.795508990084341,real|688|102|1000|dinar|2010|Western calendar year,1.2,1000,Dinar,2010,Western calendar year
+694,Sierra Leone,2000s,2000,2009,3,2007,2009,2.988873674899432,real|694|205|1000|leone|2018|Western calendar year,2.5,1000,Leone,2018,Western calendar year
+702,Singapore,2000s,2000,2009,10,2000,2009,5.376509727366167,real|702|102|1000|singapore dollar|2015|Western calendar year,1.2,1000,Singapore dollar,2015,Western calendar year
+703,Slovakia,2000s,2000,2009,10,2000,2009,4.446512389953969,real|703|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+705,Slovenia,2000s,2000,2009,10,2000,2009,3.0034031028940698,real|705|102|1100|euro|2010|Western calendar year,1.2,1100,Euro,2010,Western calendar year
+710,South Africa,2000s,2000,2009,10,2000,2009,3.599829701472337,real|710|102|1100|rand|2015|Western calendar year,1.2,1100,rand,2015,Western calendar year
+724,Spain,2000s,2000,2009,10,2000,2009,2.6056200805705587,real|724|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+275,State of Palestine,2000s,2000,2009,10,2000,2009,3.569014113905159,real|275|102|1000|us dollar|2015|Western calendar year,1.2,1000,US dollar,2015,Western calendar year
+752,Sweden,2000s,2000,2009,10,2000,2009,1.9845622127267704,real|752|102|1000|swedish krona|2020|Western calendar year,1.2,1000,Swedish Krona,2020,Western calendar year
+756,Switzerland,2000s,2000,2009,10,2000,2009,1.9380787589547446,real|756|102|1000|swiss franc|2015|Western calendar year,1.2,1000,Swiss franc,2015,Western calendar year
+764,Thailand,2000s,2000,2009,10,2000,2009,4.315279891225286,real|764|205|1000|baht|2002|Western calendar year,2.5,1000,baht,2002,Western calendar year
+626,Timor-Leste,2000s,2000,2009,9,2001,2009,4.282262849998862,real|626|102|1200|us dollars|2015|Western calendar year,1.2,1200,US dollars,2015,Western calendar year
+768,Togo,2000s,2000,2009,2,2008,2009,4.744734633546521,real|768|102|1000|cfa franc|2016|Western calendar year,1.2,1000,CFA franc,2016,Western calendar year
+776,Tonga,2000s,2000,2009,10,2000,2009,0.23350782159627376,real|776|102|1000|pa'anga|2017|Fiscal year ending 30 June,1.2,1000,Pa'anga,2017,Fiscal year ending 30 June
+792,Türkiye,2000s,2000,2009,10,2000,2009,4.016576934758275,real|792|102|1000|new turkish lira|2009|Western calendar year,1.2,1000,New Turkish lira,2009,Western calendar year
+826,United Kingdom,2000s,2000,2009,10,2000,2009,1.7189210108381225,real|826|102|1000|pound sterling|2022|Western calendar year,1.2,1000,pound sterling,2022,Western calendar year
+840,United States,2000s,2000,2009,10,2000,2009,1.9098642627595652,real|840|102|1000|us dollar|2009|Western calendar year,1.2,1000,US dollar,2009,Western calendar year
+894,Zambia,2000s,2000,2009,10,2000,2009,6.818354856621715,real|894|202|1000|zambian kwacha|2010|Western calendar year,2.2,1000,Zambian Kwacha,2010,Western calendar year
+4,Afghanistan,2010s,2010,2019,3,2017,2019,2.5826115832950616,real|4|102|1000|afghani|2016|Western calendar year,1.2,1000,Afghani,2016,Western calendar year
+20,Andorra,2010s,2010,2019,10,2010,2019,0.1093341000348413,real|20|102|1100|euro|2010|Western calendar year,1.2,1100,Euro,2010,Western calendar year
+660,Anguilla,2010s,2010,2019,8,2012,2019,1.0768123372278158,real|660|205|1000|ec dollar|2018|Western calendar year,2.5,1000,EC dollar,2018,Western calendar year
+28,Antigua and Barbuda,2010s,2010,2019,8,2012,2019,2.880163644075523,real|28|205|1000|ec dollar|2018|Western calendar year,2.5,1000,EC dollar,2018,Western calendar year
+32,Argentina,2010s,2010,2019,10,2010,2019,1.384671534801395,real|32|102|1100|argentine peso|2004|Western calendar year,1.2,1100,Argentine peso,2004,Western calendar year
+533,Aruba,2010s,2010,2019,6,2014,2019,2.197510367021268,real|533|205|1000|aruban florin|2013|Western calendar year,2.5,1000,Aruban florin,2013,Western calendar year
+36,Australia,2010s,2010,2019,4,2010,2013,2.7249290931857297,real|36|102|1000|australian dollar|2011|Fiscal year beginning 1 July,1.2,1000,Australian dollar,2011,Fiscal year beginning 1 July
+40,Austria,2010s,2010,2019,10,2010,2019,1.5801959499962581,real|40|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+44,Bahamas,2010s,2010,2019,7,2013,2019,0.5364902442192883,real|44|102|1000|bahamian dollar|2018|Western calendar year,1.2,1000,Bahamian dollar,2018,Western calendar year
+50,Bangladesh,2010s,2010,2019,3,2017,2019,7.263854732720013,real|50|102|1000|taka|2016|Fiscal year ending 30 June,1.2,1000,taka,2016,Fiscal year ending 30 June
+52,Barbados,2010s,2010,2019,9,2011,2019,-0.15776927910997607,real|52|205|1000|barbados dollar|2016|Western calendar year,2.5,1000,Barbados dollar,2016,Western calendar year
+56,Belgium,2010s,2010,2019,10,2010,2019,1.5391298270934972,real|56|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+84,Belize,2010s,2010,2019,10,2010,2019,2.176885640380728,real|84|102|1000|belize dollar|2014|Western calendar year,1.2,1000,Belize dollar,2014,Western calendar year
+204,Benin,2010s,2010,2019,4,2016,2019,5.665720749678655,real|204|102|1000|cfa franc|2015|Western calendar year,1.2,1000,CFA franc,2015,Western calendar year
+60,Bermuda,2010s,2010,2019,9,2011,2019,-1.0472892887324003,real|60|102|1000|bermuda dollar|2013|Western calendar year,1.2,1000,Bermuda dollar,2013,Western calendar year
+64,Bhutan,2010s,2010,2019,10,2010,2019,6.044497714336485,real|64|102|1000|ngultrum|2017|Western calendar year,1.2,1000,ngultrum,2017,Western calendar year
+535,"Bonaire, Sint Eustatius and Saba",2010s,2010,2019,7,2013,2019,1.3639509599407629,real|535|102|1100|us dollar|2017|Western calendar year,1.2,1100,US dollar,2017,Western calendar year
+72,Botswana,2010s,2010,2019,10,2010,2019,4.727612801644617,real|72|102|1000|pula|2016|Western calendar year,1.2,1000,pula,2016,Western calendar year
+76,Brazil,2010s,2010,2019,10,2010,2019,1.4471632094041376,real|76|102|1000|real|1995|Western calendar year,1.2,1000,real,1995,Western calendar year
+92,British Virgin Islands,2010s,2010,2019,9,2011,2019,2.123439888653203,real|92|205|1000|us dollar|2012|Western calendar year,2.5,1000,US dollar,2012,Western calendar year
+96,Brunei Darussalam,2010s,2010,2019,9,2011,2019,0.2671679764476181,real|96|102|1000|brunei dollar|2010|Western calendar year,1.2,1000,Brunei dollar,2010,Western calendar year
+100,Bulgaria,2010s,2010,2019,10,2010,2019,2.0309379069315536,real|100|102|1000|lev|2015|Western calendar year,1.2,1000,lev,2015,Western calendar year
+854,Burkina Faso,2010s,2010,2019,10,2010,2019,6.021737241009624,real|854|102|1000|cfa franc|2015|Western calendar year,1.2,1000,CFA franc,2015,Western calendar year
+132,Cabo Verde,2010s,2010,2019,10,2010,2019,2.8596436522348223,real|132|102|1000|escudo|2015|Western calendar year,1.2,1000,escudo,2015,Western calendar year
+120,Cameroon,2010s,2010,2019,10,2010,2019,4.279403705431372,real|120|102|1100|cfa franc|2016|Western calendar year,1.2,1100,CFA franc,2016,Western calendar year
+124,Canada,2010s,2010,2019,8,2010,2017,2.3454103109070563,real|124|102|1000|canadian dollar|2007|Western calendar year,1.2,1000,Canadian dollar,2007,Western calendar year
+136,Cayman Islands,2010s,2010,2019,10,2010,2019,2.1057082520621093,real|136|205|1000|cayman islands dollar|2015|Western calendar year,2.5,1000,Cayman Islands dollar,2015,Western calendar year
+148,Chad,2010s,2010,2019,1,2018,2018,6.042513872993527,real|148|102|1000|cfa franc|2017|Western calendar year,1.2,1000,CFA franc,2017,Western calendar year
+152,Chile,2010s,2010,2019,10,2010,2019,3.3219119178643175,real|152|102|1000|chilean peso|2018|Western calendar year,1.2,1000,Chilean peso,2018,Western calendar year
+344,"China, Hong Kong Special Administrative Region",2010s,2010,2019,10,2010,2019,2.8680476387947826,real|344|102|1000|hong kong dollar|2023|Western calendar year,1.2,1000,Hong Kong dollar,2023,Western calendar year
+446,"China, Macao Special Administrative Region",2010s,2010,2019,10,2010,2019,5.619467449105658,real|446|102|1100|pataca|2022|Western calendar year,1.2,1100,Pataca,2022,Western calendar year
+170,Colombia,2010s,2010,2019,10,2010,2019,3.7142034660695367,real|170|102|1000|colombian peso|2015|Western calendar year,1.2,1000,Colombian peso,2015,Western calendar year
+184,Cook Islands,2010s,2010,2019,10,2010,2019,3.3045630101386614,real|184|205|1000|new zealander dollars|2016|Western calendar year,2.5,1000,New Zealander Dollars,2016,Western calendar year
+188,Costa Rica,2010s,2010,2019,10,2010,2019,3.773049052409216,real|188|102|1100|costa rican colon|2017|Western calendar year,1.2,1100,Costa Rican colon,2017,Western calendar year
+191,Croatia,2010s,2010,2019,10,2010,2019,1.070222439801406,real|191|102|1100|euro|2015|Western calendar year,1.2,1100,Euro,2015,Western calendar year
+196,Cyprus,2010s,2010,2019,10,2010,2019,1.8779059318121782,real|196|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+203,Czechia,2010s,2010,2019,10,2010,2019,2.5029053936430445,real|203|102|1000|czech koruna|2020|Western calendar year,1.2,1000,Czech koruna,2020,Western calendar year
+208,Denmark,2010s,2010,2019,10,2010,2019,1.7364287479170515,real|208|102|1000|danish krone|2020|Western calendar year,1.2,1000,Danish krone,2020,Western calendar year
+214,Dominican Republic,2010s,2010,2019,10,2010,2019,5.640373005904145,real|214|102|1000|dominican peso|2007|Western calendar year,1.2,1000,Dominican peso,2007,Western calendar year
+218,Ecuador,2010s,2010,2019,10,2010,2019,3.6342963712869234,real|218|205|1100|us dollar|2018|Western calendar year,2.5,1100,US dollar,2018,Western calendar year
+233,Estonia,2010s,2010,2019,10,2010,2019,3.6800218520917567,real|233|102|1100|euro|2020|Western calendar year,1.2,1100,Euro,2020,Western calendar year
+748,Eswatini,2010s,2010,2019,10,2010,2019,2.661099248895995,real|748|205|1000|lilangeni|2011|Western calendar year,2.5,1000,Lilangeni,2011,Western calendar year
+231,Ethiopia [from 1993],2010s,2010,2019,3,2017,2019,8.248219447369998,real|231|202|1000|ethiopian birr|2016|Fiscal year ending 7 July,2.2,1000,Ethiopian birr,2016,Fiscal year ending 7 July
+234,Faroe Islands,2010s,2010,2019,10,2010,2019,3.4515917932988573,real|234|102|1000|danish krone|2010|Western calendar year,1.2,1000,Danish Krone,2010,Western calendar year
+242,Fiji,2010s,2010,2019,5,2015,2019,3.10615005484024,real|242|205|1000|fiji dollar|2014|Western calendar year,2.5,1000,Fiji dollar,2014,Western calendar year
+246,Finland,2010s,2010,2019,10,2010,2019,1.1462556896564569,real|246|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+250,France,2010s,2010,2019,10,2010,2019,1.4085081827563717,real|250|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+270,Gambia,2010s,2010,2019,10,2010,2019,2.876581231416351,real|270|205|1000|dalasi|2013|Western calendar year,2.5,1000,dalasi,2013,Western calendar year
+268,Georgia,2010s,2010,2019,9,2011,2019,5.239628919684858,real|268|102|1000|lari|2019|Western calendar year,1.2,1000,Lari,2019,Western calendar year
+276,Germany,2010s,2010,2019,10,2010,2019,1.970254266223521,real|276|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+288,Ghana,2010s,2010,2019,6,2014,2019,4.8645354348122005,real|288|102|1000|cedi (third)|2013|Western calendar year,1.2,1000,Cedi (Third),2013,Western calendar year
+300,Greece,2010s,2010,2019,10,2010,2019,-1.9826665318438408,real|300|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+320,Guatemala,2010s,2010,2019,6,2014,2019,3.6197623243248156,real|320|102|1000|quetzal|2013|Western calendar year,1.2,1000,quetzal,2013,Western calendar year
+328,Guyana,2010s,2010,2019,10,2010,2019,3.7974054558695336,real|328|205|1000|guyana dollar|2012|Western calendar year,2.5,1000,Guyana dollar,2012,Western calendar year
+332,Haiti,2010s,2010,2019,10,2010,2019,1.286494013149253,real|332|102|1000|gourde|2012|Fiscal year ending 30 September,1.2,1000,gourde,2012,Fiscal year ending 30 September
+348,Hungary,2010s,2010,2019,10,2010,2019,2.8917663481595834,real|348|102|1000|forint|2021|Western calendar year,1.2,1000,Forint,2021,Western calendar year
+352,Iceland,2010s,2010,2019,10,2010,2019,2.800196677869015,real|352|102|1100|icelandic króna|2015|Western calendar year,1.2,1100,Icelandic króna,2015,Western calendar year
+356,India,2010s,2010,2019,10,2010,2019,6.636485345926251,real|356|102|1000|indian rupee|2011|Fiscal year beginning 1 April,1.2,1000,Indian rupee,2011,Fiscal year beginning 1 April
+360,Indonesia,2010s,2010,2019,9,2011,2019,5.326280397757397,real|360|102|1000|indonesian rupiah|2010|Western calendar year,1.2,1000,Indonesian Rupiah,2010,Western calendar year
+364,Iran (Islamic Republic of),2010s,2010,2019,8,2012,2019,0.6194669820679135,real|364|102|1000|iranian rial|2016|Fiscal year beginning 21 March,1.2,1000,Iranian rial,2016,Fiscal year beginning 21 March
+372,Ireland,2010s,2010,2019,10,2010,2019,6.293372502451058,real|372|102|1000|euro|2022|Western calendar year,1.2,1000,Euro,2022,Western calendar year
+376,Israel,2010s,2010,2019,7,2010,2016,3.878631979092097,real|376|102|1000|new sheqel|2010|Western calendar year,1.2,1000,new sheqel,2010,Western calendar year
+380,Italy,2010s,2010,2019,10,2010,2019,0.2261315308701628,real|380|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+392,Japan,2010s,2010,2019,10,2010,2019,1.2028791150133722,real|392|102|1000|yen|2015|Western calendar year,1.2,1000,yen,2015,Western calendar year
+404,Kenya,2010s,2010,2019,10,2010,2019,5.034759375642535,real|404|102|1100|kenya shillings|2016|Western calendar year,1.2,1100,Kenya Shillings,2016,Western calendar year
+418,Lao People's Democratic Republic,2010s,2010,2019,7,2013,2019,6.932690441834351,real|418|205|1000|kip|2012|Western calendar year,2.5,1000,kip,2012,Western calendar year
+428,Latvia,2010s,2010,2019,10,2010,2019,2.5590464357426512,real|428|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+422,Lebanon,2010s,2010,2019,10,2010,2019,1.1839468806135933,real|422|102|1000|lebanese pound|2010|Western calendar year,1.2,1000,Lebanese Pound,2010,Western calendar year
+430,Liberia,2010s,2010,2019,9,2011,2019,0.6858795937404891,real|430|205|1000|us dollar|2016|Western calendar year,2.5,1000,US dollar,2016,Western calendar year
+440,Lithuania,2010s,2010,2019,10,2010,2019,3.8665891554467913,real|440|102|1000|euro|2021|Western calendar year,1.2,1000,Euro,2021,Western calendar year
+442,Luxembourg,2010s,2010,2019,10,2010,2019,2.5175268404549556,real|442|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+458,Malaysia,2010s,2010,2019,4,2016,2019,4.879699499692697,real|458|102|1000|ringgit|2015|Western calendar year,1.2,1000,ringgit,2015,Western calendar year
+462,Maldives,2010s,2010,2019,10,2010,2019,6.4613301091390145,real|462|205|1000|rufiyaa|2014|Western calendar year,2.5,1000,rufiyaa,2014,Western calendar year
+470,Malta,2010s,2010,2019,10,2010,2019,6.315948303220278,real|470|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+478,Mauritania,2010s,2010,2019,10,2010,2019,4.050963512130372,real|478|205|1000|ouguiya|2014|Western calendar year,2.5,1000,Ouguiya,2014,Western calendar year
+480,Mauritius,2010s,2010,2019,10,2010,2019,3.70329844441871,real|480|102|1000|mauritian rupee|2006|Western calendar year,1.2,1000,Mauritian rupee,2006,Western calendar year
+484,Mexico,2010s,2010,2019,7,2010,2016,3.1035944365833203,real|484|102|1000|mexican new peso|2008|Western calendar year,1.2,1000,Mexican new peso,2008,Western calendar year
+496,Mongolia,2010s,2010,2019,9,2011,2019,7.826187081096328,real|496|102|1000|togrog|2010|Western calendar year,1.2,1000,Togrog,2010,Western calendar year
+499,Montenegro,2010s,2010,2019,10,2010,2019,2.8768714777774482,real|499|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+500,Montserrat,2010s,2010,2019,10,2010,2019,0.9244104964172151,real|500|205|1000|ec dollar|2018|Western calendar year,2.5,1000,EC dollar,2018,Western calendar year
+504,Morocco,2010s,2010,2019,10,2010,2019,4.294508604209124,real|504|102|1000|moroccan dirham|2007|Western calendar year,1.2,1000,Moroccan dirham,2007,Western calendar year
+508,Mozambique,2010s,2010,2019,10,2010,2019,5.558752715562694,real|508|102|1000|metical|2014|Western calendar year,1.2,1000,Metical,2014,Western calendar year
+516,Namibia,2010s,2010,2019,10,2010,2019,3.1913185719835035,real|516|102|1000|namibia dollar|2015|Western calendar year,1.2,1000,Namibia dollar,2015,Western calendar year
+524,Nepal,2010s,2010,2019,8,2012,2019,3.871187210783823,real|524|102|1000|nepalese rupee|2011|Fiscal year ending 15 July,1.2,1000,Nepalese rupee,2011,Fiscal year ending 15 July
+528,Netherlands,2010s,2010,2019,10,2010,2019,1.5582435152296692,real|528|102|1000|euro|2021|Western calendar year,1.2,1000,Euro,2021,Western calendar year
+554,New Zealand,2010s,2010,2019,10,2010,2019,3.028426565564337,real|554|102|1000|new zealand dollar|2009|Fiscal year beginning 1 April,1.2,1000,New Zealand dollar,2009,Fiscal year beginning 1 April
+562,Niger,2010s,2010,2019,10,2010,2019,6.568151533236066,real|562|102|1000|cfa franc|2015|Western calendar year,1.2,1000,CFA franc,2015,Western calendar year
+566,Nigeria,2010s,2010,2019,10,2010,2019,3.6643354356286295,real|566|102|1000|naira|2010|Western calendar year,1.2,1000,Naira,2010,Western calendar year
+570,Niue,2010s,2010,2019,8,2011,2018,3.382763300437529,real|570|202|1000|new zealand dollar|2009|Fiscal year ending 30 June,2.2,1000,New Zealand Dollar,2009,Fiscal year ending 30 June
+807,North Macedonia,2010s,2010,2019,10,2010,2019,2.637354080775657,real|807|102|1000|tfyr macedonian denar|2005|Western calendar year,1.2,1000,TFYR Macedonian Denar,2005,Western calendar year
+578,Norway,2010s,2010,2019,10,2010,2019,1.5113478657154755,real|578|102|1000|norwegian krone|2015|Western calendar year,1.2,1000,Norwegian krone,2015,Western calendar year
+586,Pakistan,2010s,2010,2019,10,2010,2019,3.956645733596189,real|586|102|1100|pakistan rupee|2016|Fiscal year ending 30 June,1.2,1100,Pakistan Rupee,2016,Fiscal year ending 30 June
+591,Panama,2010s,2010,2019,1,2019,2019,3.1030679327247013,real|591|102|1000|balboa|2018|Western calendar year,1.2,1000,balboa,2018,Western calendar year
+598,Papua New Guinea,2010s,2010,2019,9,2010,2018,5.398346916244274,real|598|205|1000|kina|2013|Western calendar year,2.5,1000,kina,2013,Western calendar year
+600,Paraguay,2010s,2010,2019,10,2010,2019,4.310552610985102,real|600|102|1000|guarani|2014|Western calendar year,1.2,1000,guarani,2014,Western calendar year
+604,Peru,2010s,2010,2019,10,2010,2019,4.496843383720501,real|604|102|1000|new sol|2007|Western calendar year,1.2,1000,new sol,2007,Western calendar year
+608,Philippines,2010s,2010,2019,10,2010,2019,6.407697174418013,real|608|102|1100|philippine peso|2018|Western calendar year,1.2,1100,Philippine peso,2018,Western calendar year
+616,Poland,2010s,2010,2019,10,2010,2019,3.798263502282251,real|616|102|1000|zloty|2020|Western calendar year,1.2,1000,Zloty,2020,Western calendar year
+620,Portugal,2010s,2010,2019,10,2010,2019,0.833110648244294,real|620|102|1000|euro|2021|Western calendar year,1.2,1000,Euro,2021,Western calendar year
+410,Republic of Korea,2010s,2010,2019,10,2010,2019,3.4738364820235352,real|410|102|1100|korean won|2020|Western calendar year,1.2,1100,Korean won,2020,Western calendar year
+642,Romania,2010s,2010,2019,10,2010,2019,3.114481283053517,real|642|102|1000|new romanian leu|2015|Western calendar year,1.2,1000,New Romanian Leu,2015,Western calendar year
+643,Russian Federation,2010s,2010,2019,2,2012,2013,2.889754154010593,real|643|102|1000|russian ruble|2021|Western calendar year,1.2,1000,Russian Ruble,2021,Western calendar year
+646,Rwanda,2010s,2010,2019,10,2010,2019,7.159258879832677,real|646|102|1000|rwanda franc|2017|Western calendar year,1.2,1000,Rwanda franc,2017,Western calendar year
+662,Saint Lucia,2010s,2010,2019,10,2010,2019,1.3045698349397095,real|662|205|1000|ec dollar|2018|Western calendar year,2.5,1000,EC dollar,2018,Western calendar year
+670,Saint Vincent and the Grenadines,2010s,2010,2019,10,2010,2019,1.2076321867408946,real|670|205|1000|ec dollar|2018|Western calendar year,2.5,1000,EC dollar,2018,Western calendar year
+882,Samoa,2010s,2010,2019,10,2010,2019,1.5045215482266872,real|882|205|1000|tala|2013|Western calendar year,2.5,1000,Tala,2013,Western calendar year
+682,Saudi Arabia,2010s,2010,2019,10,2010,2019,3.8916688690324124,real|682|102|1100|saudi arabian riyal|2010|Western calendar year,1.2,1100,Saudi Arabian riyal,2010,Western calendar year
+686,Senegal,2010s,2010,2019,10,2010,2019,4.8317901441686555,real|686|102|1000|cfa franc|2014|Western calendar year,1.2,1000,CFA franc,2014,Western calendar year
+688,Serbia,2010s,2010,2019,10,2010,2019,1.9134204553398113,real|688|102|1000|dinar|2010|Western calendar year,1.2,1000,Dinar,2010,Western calendar year
+690,Seychelles,2010s,2010,2019,5,2015,2019,7.687892150896775,real|690|205|1000|seychelles rupee|2014|Western calendar year,2.5,1000,Seychelles rupee,2014,Western calendar year
+694,Sierra Leone,2010s,2010,2019,10,2010,2019,4.55614920216854,real|694|205|1000|leone|2018|Western calendar year,2.5,1000,Leone,2018,Western calendar year
+702,Singapore,2010s,2010,2019,10,2010,2019,4.988464685170621,real|702|102|1000|singapore dollar|2015|Western calendar year,1.2,1000,Singapore dollar,2015,Western calendar year
+534,Sint Maarten,2010s,2010,2019,5,2015,2019,-0.29903750656689054,real|534|205|1200|netherlands antillean guilder (ang)|2018|Western calendar year,2.5,1200,Netherlands Antillean guilder (ANG),2018,Western calendar year
+703,Slovakia,2010s,2010,2019,10,2010,2019,3.0670902136511513,real|703|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+705,Slovenia,2010s,2010,2019,10,2010,2019,1.9277555469932406,real|705|102|1100|euro|2010|Western calendar year,1.2,1100,Euro,2010,Western calendar year
+706,Somalia,2010s,2010,2019,3,2017,2019,7.906755775537788,real|706|102|1000|us dollar|2022|Western calendar year,1.2,1000,US dollar,2022,Western calendar year
+710,South Africa,2010s,2010,2019,10,2010,2019,1.7464896925159024,real|710|102|1100|rand|2015|Western calendar year,1.2,1100,rand,2015,Western calendar year
+724,Spain,2010s,2010,2019,10,2010,2019,1.0910906220187644,real|724|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+144,Sri Lanka,2010s,2010,2019,9,2011,2019,5.060138782125155,real|144|102|1000|sri lanka rupee|2015|Western calendar year,1.2,1000,Sri Lanka rupee,2015,Western calendar year
+275,State of Palestine,2010s,2010,2019,10,2010,2019,4.261038122082146,real|275|102|1000|us dollar|2015|Western calendar year,1.2,1000,US dollar,2015,Western calendar year
+740,Suriname,2010s,2010,2019,4,2016,2019,0.6925595433295213,real|740|205|1000|suriname dollar|2015|Western calendar year,2.5,1000,Suriname dollar,2015,Western calendar year
+752,Sweden,2010s,2010,2019,10,2010,2019,2.4714425069440824,real|752|102|1000|swedish krona|2020|Western calendar year,1.2,1000,Swedish Krona,2020,Western calendar year
+756,Switzerland,2010s,2010,2019,10,2010,2019,1.945632972382656,real|756|102|1000|swiss franc|2015|Western calendar year,1.2,1000,Swiss franc,2015,Western calendar year
+835,Tanzania - Mainland,2010s,2010,2019,7,2013,2019,6.74465664040572,real|835|102|1000|tanzanian shilling|2015|Western calendar year,1.2,1000,Tanzanian Shilling,2015,Western calendar year
+764,Thailand,2010s,2010,2019,10,2010,2019,3.635259345229835,real|764|205|1000|baht|2002|Western calendar year,2.5,1000,baht,2002,Western calendar year
+626,Timor-Leste,2010s,2010,2019,10,2010,2019,5.3467627201647,real|626|102|1200|us dollars|2015|Western calendar year,1.2,1200,US dollars,2015,Western calendar year
+768,Togo,2010s,2010,2019,10,2010,2019,5.436587046026451,real|768|102|1000|cfa franc|2016|Western calendar year,1.2,1000,CFA franc,2016,Western calendar year
+776,Tonga,2010s,2010,2019,10,2010,2019,2.2258990188617576,real|776|102|1000|pa'anga|2017|Fiscal year ending 30 June,1.2,1000,Pa'anga,2017,Fiscal year ending 30 June
+780,Trinidad and Tobago,2010s,2010,2019,7,2013,2019,-0.9267783864090153,real|780|205|1000|trinidad and tobago dollar|2012|Western calendar year,2.5,1000,Trinidad and Tobago dollar,2012,Western calendar year
+792,Türkiye,2010s,2010,2019,10,2010,2019,5.858249337009347,real|792|102|1000|new turkish lira|2009|Western calendar year,1.2,1000,New Turkish lira,2009,Western calendar year
+800,Uganda,2010s,2010,2019,10,2010,2019,6.358122692135693,real|800|102|1100|uganda shilling|2017|Western calendar year,1.2,1100,Uganda shilling,2017,Western calendar year
+804,Ukraine,2010s,2010,2019,9,2011,2019,0.09341239949085035,real|804|102|1000|hryvnia|2021|Western calendar year,1.2,1000,hryvnia,2021,Western calendar year
+784,United Arab Emirates,2010s,2010,2019,9,2011,2019,3.9404256286958983,real|784|102|1100|uae dirham|2010|Western calendar year,1.2,1100,UAE dirham,2010,Western calendar year
+826,United Kingdom,2010s,2010,2019,10,2010,2019,1.9706003496301114,real|826|102|1000|pound sterling|2022|Western calendar year,1.2,1000,pound sterling,2022,Western calendar year
+840,United States,2010s,2010,2019,9,2010,2018,2.2422589769792527,real|840|102|1000|us dollar|2009|Western calendar year,1.2,1000,US dollar,2009,Western calendar year
+858,Uruguay,2010s,2010,2019,3,2017,2019,0.9445047143478528,real|858|102|1000|uruguayan peso|2016|Western calendar year,1.2,1000,Uruguayan peso,2016,Western calendar year
+894,Zambia,2010s,2010,2019,5,2010,2014,7.1358408029050056,real|894|202|1000|zambian kwacha|2010|Western calendar year,2.2,1000,Zambian Kwacha,2010,Western calendar year
+4,Afghanistan,2020s,2020,2029,2,2020,2021,-11.54412423063711,real|4|102|1000|afghani|2016|Western calendar year,1.2,1000,Afghani,2016,Western calendar year
+20,Andorra,2020s,2020,2029,5,2020,2024,2.524800941947121,real|20|102|1100|euro|2010|Western calendar year,1.2,1100,Euro,2010,Western calendar year
+660,Anguilla,2020s,2020,2029,4,2020,2023,3.001544590139721,real|660|205|1000|ec dollar|2018|Western calendar year,2.5,1000,EC dollar,2018,Western calendar year
+28,Antigua and Barbuda,2020s,2020,2029,4,2020,2023,0.23881379403241132,real|28|205|1000|ec dollar|2018|Western calendar year,2.5,1000,EC dollar,2018,Western calendar year
+32,Argentina,2020s,2020,2029,5,2020,2024,0.6726707598858693,real|32|102|1100|argentine peso|2004|Western calendar year,1.2,1100,Argentine peso,2004,Western calendar year
+533,Aruba,2020s,2020,2029,1,2020,2020,-23.53146375320967,real|533|205|1000|aruban florin|2013|Western calendar year,2.5,1000,Aruban florin,2013,Western calendar year
+40,Austria,2020s,2020,2029,5,2020,2024,0.36225669877575795,real|40|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+44,Bahamas,2020s,2020,2029,5,2020,2024,2.9604158198027823,real|44|102|1000|bahamian dollar|2018|Western calendar year,1.2,1000,Bahamian dollar,2018,Western calendar year
+50,Bangladesh,2020s,2020,2029,5,2020,2024,5.4969809120528,real|50|102|1000|taka|2016|Fiscal year ending 30 June,1.2,1000,taka,2016,Fiscal year ending 30 June
+52,Barbados,2020s,2020,2029,4,2020,2023,1.6543386344724433,real|52|205|1000|barbados dollar|2016|Western calendar year,2.5,1000,Barbados dollar,2016,Western calendar year
+56,Belgium,2020s,2020,2029,5,2020,2024,1.5789134095955304,real|56|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+84,Belize,2020s,2020,2029,4,2020,2023,3.6615604180261556,real|84|102|1000|belize dollar|2014|Western calendar year,1.2,1000,Belize dollar,2014,Western calendar year
+204,Benin,2020s,2020,2029,5,2020,2024,6.195637195373784,real|204|102|1000|cfa franc|2015|Western calendar year,1.2,1000,CFA franc,2015,Western calendar year
+60,Bermuda,2020s,2020,2029,4,2020,2023,2.29351751937131,real|60|102|1000|bermuda dollar|2013|Western calendar year,1.2,1000,Bermuda dollar,2013,Western calendar year
+64,Bhutan,2020s,2020,2029,4,2020,2023,1.0748506916143317,real|64|102|1000|ngultrum|2017|Western calendar year,1.2,1000,ngultrum,2017,Western calendar year
+535,"Bonaire, Sint Eustatius and Saba",2020s,2020,2029,3,2020,2022,2.2068635981149205,real|535|102|1100|us dollar|2017|Western calendar year,1.2,1100,US dollar,2017,Western calendar year
+72,Botswana,2020s,2020,2029,5,2020,2024,1.7782337036563376,real|72|102|1000|pula|2016|Western calendar year,1.2,1000,pula,2016,Western calendar year
+76,Brazil,2020s,2020,2029,3,2020,2022,1.5008466306656014,real|76|102|1000|real|1995|Western calendar year,1.2,1000,real,1995,Western calendar year
+92,British Virgin Islands,2020s,2020,2029,1,2020,2020,-3.1741589160638406,real|92|205|1000|us dollar|2012|Western calendar year,2.5,1000,US dollar,2012,Western calendar year
+96,Brunei Darussalam,2020s,2020,2029,5,2020,2024,0.6484992622825292,real|96|102|1000|brunei dollar|2010|Western calendar year,1.2,1000,Brunei dollar,2010,Western calendar year
+100,Bulgaria,2020s,2020,2029,5,2020,2024,2.6602611950723487,real|100|102|1000|lev|2015|Western calendar year,1.2,1000,lev,2015,Western calendar year
+854,Burkina Faso,2020s,2020,2029,3,2020,2022,3.5279330566143705,real|854|102|1000|cfa franc|2015|Western calendar year,1.2,1000,CFA franc,2015,Western calendar year
+132,Cabo Verde,2020s,2020,2029,5,2020,2024,2.9469911295861873,real|132|102|1000|escudo|2015|Western calendar year,1.2,1000,escudo,2015,Western calendar year
+120,Cameroon,2020s,2020,2029,4,2020,2023,2.6707672146058012,real|120|102|1100|cfa franc|2016|Western calendar year,1.2,1100,CFA franc,2016,Western calendar year
+136,Cayman Islands,2020s,2020,2029,4,2020,2023,2.876467719751383,real|136|205|1000|cayman islands dollar|2015|Western calendar year,2.5,1000,Cayman Islands dollar,2015,Western calendar year
+152,Chile,2020s,2020,2029,5,2020,2024,2.0982237566836615,real|152|102|1000|chilean peso|2018|Western calendar year,1.2,1000,Chilean peso,2018,Western calendar year
+344,"China, Hong Kong Special Administrative Region",2020s,2020,2029,5,2020,2024,0.390940672992075,real|344|102|1000|hong kong dollar|2023|Western calendar year,1.2,1000,Hong Kong dollar,2023,Western calendar year
+446,"China, Macao Special Administrative Region",2020s,2020,2029,5,2020,2024,6.692084376985187,real|446|102|1100|pataca|2022|Western calendar year,1.2,1100,Pataca,2022,Western calendar year
+170,Colombia,2020s,2020,2029,5,2020,2024,2.679940074035237,real|170|102|1000|colombian peso|2015|Western calendar year,1.2,1000,Colombian peso,2015,Western calendar year
+184,Cook Islands,2020s,2020,2029,3,2020,2022,-4.602659172050221,real|184|205|1000|new zealander dollars|2016|Western calendar year,2.5,1000,New Zealander Dollars,2016,Western calendar year
+188,Costa Rica,2020s,2020,2029,5,2020,2024,3.5294091668518917,real|188|102|1100|costa rican colon|2017|Western calendar year,1.2,1100,Costa Rican colon,2017,Western calendar year
+191,Croatia,2020s,2020,2029,5,2020,2024,3.770779203971626,real|191|102|1100|euro|2015|Western calendar year,1.2,1100,Euro,2015,Western calendar year
+196,Cyprus,2020s,2020,2029,5,2020,2024,4.316886707249081,real|196|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+203,Czechia,2020s,2020,2029,5,2020,2024,0.5272864462337501,real|203|102|1000|czech koruna|2020|Western calendar year,1.2,1000,Czech koruna,2020,Western calendar year
+208,Denmark,2020s,2020,2029,5,2020,2024,1.8492809503474117,real|208|102|1000|danish krone|2020|Western calendar year,1.2,1000,Danish krone,2020,Western calendar year
+214,Dominican Republic,2020s,2020,2029,4,2020,2023,3.1926726464548696,real|214|102|1000|dominican peso|2007|Western calendar year,1.2,1000,Dominican peso,2007,Western calendar year
+218,Ecuador,2020s,2020,2029,5,2020,2024,1.2064406856654288,real|218|205|1100|us dollar|2018|Western calendar year,2.5,1100,US dollar,2018,Western calendar year
+233,Estonia,2020s,2020,2029,5,2020,2024,0.20940496184162827,real|233|102|1100|euro|2020|Western calendar year,1.2,1100,Euro,2020,Western calendar year
+748,Eswatini,2020s,2020,2029,3,2020,2022,3.1855842640107284,real|748|205|1000|lilangeni|2011|Western calendar year,2.5,1000,Lilangeni,2011,Western calendar year
+231,Ethiopia [from 1993],2020s,2020,2029,5,2020,2024,6.186704734314681,real|231|202|1000|ethiopian birr|2016|Fiscal year ending 7 July,2.2,1000,Ethiopian birr,2016,Fiscal year ending 7 July
+234,Faroe Islands,2020s,2020,2029,4,2020,2023,2.477292003391893,real|234|102|1000|danish krone|2010|Western calendar year,1.2,1000,Danish Krone,2010,Western calendar year
+242,Fiji,2020s,2020,2029,4,2020,2023,1.3494307714379876,real|242|205|1000|fiji dollar|2014|Western calendar year,2.5,1000,Fiji dollar,2014,Western calendar year
+246,Finland,2020s,2020,2029,5,2020,2024,0.08315858776877683,real|246|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+250,France,2020s,2020,2029,5,2020,2024,0.9576275006230972,real|250|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+270,Gambia,2020s,2020,2029,5,2020,2024,4.342530061065566,real|270|205|1000|dalasi|2013|Western calendar year,2.5,1000,dalasi,2013,Western calendar year
+268,Georgia,2020s,2020,2029,5,2020,2024,6.5145184252723,real|268|102|1000|lari|2019|Western calendar year,1.2,1000,Lari,2019,Western calendar year
+276,Germany,2020s,2020,2029,5,2020,2024,0.0879256307822196,real|276|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+288,Ghana,2020s,2020,2029,5,2020,2024,3.6440443077057694,real|288|102|1000|cedi (third)|2013|Western calendar year,1.2,1000,Cedi (Third),2013,Western calendar year
+300,Greece,2020s,2020,2029,5,2020,2024,1.9611552127248235,real|300|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+320,Guatemala,2020s,2020,2029,5,2020,2024,3.5251382620382232,real|320|102|1000|quetzal|2013|Western calendar year,1.2,1000,quetzal,2013,Western calendar year
+328,Guyana,2020s,2020,2029,5,2020,2024,40.848347551448406,real|328|205|1000|guyana dollar|2012|Western calendar year,2.5,1000,Guyana dollar,2012,Western calendar year
+332,Haiti,2020s,2020,2029,5,2020,2024,-2.571422996497603,real|332|102|1000|gourde|2012|Fiscal year ending 30 September,1.2,1000,gourde,2012,Fiscal year ending 30 September
+348,Hungary,2020s,2020,2029,5,2020,2024,1.3648629819755964,real|348|102|1000|forint|2021|Western calendar year,1.2,1000,Forint,2021,Western calendar year
+352,Iceland,2020s,2020,2029,5,2020,2024,2.6470497692354718,real|352|102|1100|icelandic króna|2015|Western calendar year,1.2,1100,Icelandic króna,2015,Western calendar year
+356,India,2020s,2020,2029,4,2020,2023,5.177996923256552,real|356|102|1000|indian rupee|2011|Fiscal year beginning 1 April,1.2,1000,Indian rupee,2011,Fiscal year beginning 1 April
+360,Indonesia,2020s,2020,2029,5,2020,2024,3.404787807626839,real|360|102|1000|indonesian rupiah|2010|Western calendar year,1.2,1000,Indonesian Rupiah,2010,Western calendar year
+364,Iran (Islamic Republic of),2020s,2020,2029,4,2020,2023,4.367617864188289,real|364|102|1000|iranian rial|2016|Fiscal year beginning 21 March,1.2,1000,Iranian rial,2016,Fiscal year beginning 21 March
+372,Ireland,2020s,2020,2029,5,2020,2024,5.544868527888598,real|372|102|1000|euro|2022|Western calendar year,1.2,1000,Euro,2022,Western calendar year
+380,Italy,2020s,2020,2029,5,2020,2024,1.2650364932769385,real|380|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+392,Japan,2020s,2020,2029,5,2020,2024,0.205708324171896,real|392|102|1000|yen|2015|Western calendar year,1.2,1000,yen,2015,Western calendar year
+404,Kenya,2020s,2020,2029,5,2020,2024,4.524487309603861,real|404|102|1100|kenya shillings|2016|Western calendar year,1.2,1100,Kenya Shillings,2016,Western calendar year
+418,Lao People's Democratic Republic,2020s,2020,2029,5,2020,2024,3.9465779248207555,real|418|205|1000|kip|2012|Western calendar year,2.5,1000,kip,2012,Western calendar year
+428,Latvia,2020s,2020,2029,5,2020,2024,1.5383626155247265,real|428|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+422,Lebanon,2020s,2020,2029,1,2020,2020,-25.907731670513424,real|422|102|1000|lebanese pound|2010|Western calendar year,1.2,1000,Lebanese Pound,2010,Western calendar year
+430,Liberia,2020s,2020,2029,4,2020,2023,2.262533640300077,real|430|205|1000|us dollar|2016|Western calendar year,2.5,1000,US dollar,2016,Western calendar year
+440,Lithuania,2020s,2020,2029,5,2020,2024,2.415049803779601,real|440|102|1000|euro|2021|Western calendar year,1.2,1000,Euro,2021,Western calendar year
+442,Luxembourg,2020s,2020,2029,5,2020,2024,1.1325224105705733,real|442|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+458,Malaysia,2020s,2020,2029,5,2020,2024,3.0779913618690813,real|458|102|1000|ringgit|2015|Western calendar year,1.2,1000,ringgit,2015,Western calendar year
+462,Maldives,2020s,2020,2029,2,2020,2021,4.1261523491514005,real|462|205|1000|rufiyaa|2014|Western calendar year,2.5,1000,rufiyaa,2014,Western calendar year
+470,Malta,2020s,2020,2029,5,2020,2024,5.377057694193668,real|470|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+478,Mauritania,2020s,2020,2029,5,2020,2024,4.059031055540885,real|478|205|1000|ouguiya|2014|Western calendar year,2.5,1000,Ouguiya,2014,Western calendar year
+480,Mauritius,2020s,2020,2029,1,2020,2020,-14.894687565182085,real|480|102|1000|mauritian rupee|2006|Western calendar year,1.2,1000,Mauritian rupee,2006,Western calendar year
+496,Mongolia,2020s,2020,2029,1,2020,2020,-5.335555361567856,real|496|102|1000|togrog|2010|Western calendar year,1.2,1000,Togrog,2010,Western calendar year
+499,Montenegro,2020s,2020,2029,5,2020,2024,2.7044293176950918,real|499|102|1000|euro|2015|Western calendar year,1.2,1000,Euro,2015,Western calendar year
+500,Montserrat,2020s,2020,2029,4,2020,2023,2.14176548892544,real|500|205|1000|ec dollar|2018|Western calendar year,2.5,1000,EC dollar,2018,Western calendar year
+504,Morocco,2020s,2020,2029,1,2020,2020,-5.021580469345532,real|504|102|1000|moroccan dirham|2007|Western calendar year,1.2,1000,Moroccan dirham,2007,Western calendar year
+508,Mozambique,2020s,2020,2029,2,2020,2021,0.5644066949633542,real|508|102|1000|metical|2014|Western calendar year,1.2,1000,Metical,2014,Western calendar year
+516,Namibia,2020s,2020,2029,5,2020,2024,1.8111005977531236,real|516|102|1000|namibia dollar|2015|Western calendar year,1.2,1000,Namibia dollar,2015,Western calendar year
+524,Nepal,2020s,2020,2029,4,2020,2023,5.65472055444374,real|524|102|1000|nepalese rupee|2011|Fiscal year ending 15 July,1.2,1000,Nepalese rupee,2011,Fiscal year ending 15 July
+528,Netherlands,2020s,2020,2029,5,2020,2024,1.5798043308593757,real|528|102|1000|euro|2021|Western calendar year,1.2,1000,Euro,2021,Western calendar year
+554,New Zealand,2020s,2020,2029,5,2020,2024,1.976710770192227,real|554|102|1000|new zealand dollar|2009|Fiscal year beginning 1 April,1.2,1000,New Zealand dollar,2009,Fiscal year beginning 1 April
+562,Niger,2020s,2020,2029,2,2020,2021,2.468677229682803,real|562|102|1000|cfa franc|2015|Western calendar year,1.2,1000,CFA franc,2015,Western calendar year
+566,Nigeria,2020s,2020,2029,5,2020,2024,2.278407327555374,real|566|102|1000|naira|2010|Western calendar year,1.2,1000,Naira,2010,Western calendar year
+807,North Macedonia,2020s,2020,2029,5,2020,2024,1.4820355394123963,real|807|102|1000|tfyr macedonian denar|2005|Western calendar year,1.2,1000,TFYR Macedonian Denar,2005,Western calendar year
+578,Norway,2020s,2020,2029,5,2020,2024,1.6092189322768458,real|578|102|1000|norwegian krone|2015|Western calendar year,1.2,1000,Norwegian krone,2015,Western calendar year
+586,Pakistan,2020s,2020,2029,5,2020,2024,2.6425701289219705,real|586|102|1100|pakistan rupee|2016|Fiscal year ending 30 June,1.2,1100,Pakistan Rupee,2016,Fiscal year ending 30 June
+591,Panama,2020s,2020,2029,5,2020,2024,3.935301003884488,real|591|102|1000|balboa|2018|Western calendar year,1.2,1000,balboa,2018,Western calendar year
+600,Paraguay,2020s,2020,2029,5,2020,2024,2.4723970550812235,real|600|102|1000|guarani|2014|Western calendar year,1.2,1000,guarani,2014,Western calendar year
+604,Peru,2020s,2020,2029,5,2020,2024,1.6278099945593305,real|604|102|1000|new sol|2007|Western calendar year,1.2,1000,new sol,2007,Western calendar year
+608,Philippines,2020s,2020,2029,5,2020,2024,2.9976773060212603,real|608|102|1100|philippine peso|2018|Western calendar year,1.2,1100,Philippine peso,2018,Western calendar year
+616,Poland,2020s,2020,2029,5,2020,2024,2.66401442764465,real|616|102|1000|zloty|2020|Western calendar year,1.2,1000,Zloty,2020,Western calendar year
+620,Portugal,2020s,2020,2029,5,2020,2024,1.7756626179442248,real|620|102|1000|euro|2021|Western calendar year,1.2,1000,Euro,2021,Western calendar year
+410,Republic of Korea,2020s,2020,2029,5,2020,2024,2.0139107784420807,real|410|102|1100|korean won|2020|Western calendar year,1.2,1100,Korean won,2020,Western calendar year
+642,Romania,2020s,2020,2029,5,2020,2024,1.8109170562179642,real|642|102|1000|new romanian leu|2015|Western calendar year,1.2,1000,New Romanian Leu,2015,Western calendar year
+646,Rwanda,2020s,2020,2029,5,2020,2024,6.557730899273844,real|646|102|1000|rwanda franc|2017|Western calendar year,1.2,1000,Rwanda franc,2017,Western calendar year
+662,Saint Lucia,2020s,2020,2029,5,2020,2024,3.2095939128647815,real|662|205|1000|ec dollar|2018|Western calendar year,2.5,1000,EC dollar,2018,Western calendar year
+670,Saint Vincent and the Grenadines,2020s,2020,2029,4,2020,2023,1.5777334346599752,real|670|205|1000|ec dollar|2018|Western calendar year,2.5,1000,EC dollar,2018,Western calendar year
+882,Samoa,2020s,2020,2029,1,2020,2020,-9.176151243844776,real|882|205|1000|tala|2013|Western calendar year,2.5,1000,Tala,2013,Western calendar year
+682,Saudi Arabia,2020s,2020,2029,3,2020,2022,2.774830023194959,real|682|102|1100|saudi arabian riyal|2010|Western calendar year,1.2,1100,Saudi Arabian riyal,2010,Western calendar year
+686,Senegal,2020s,2020,2029,5,2020,2024,4.508880001196367,real|686|102|1000|cfa franc|2014|Western calendar year,1.2,1000,CFA franc,2014,Western calendar year
+690,Seychelles,2020s,2020,2029,4,2020,2023,0.9459365780193212,real|690|205|1000|seychelles rupee|2014|Western calendar year,2.5,1000,Seychelles rupee,2014,Western calendar year
+694,Sierra Leone,2020s,2020,2029,5,2020,2024,4.01843939227019,real|694|205|1000|leone|2018|Western calendar year,2.5,1000,Leone,2018,Western calendar year
+702,Singapore,2020s,2020,2029,5,2020,2024,3.251905278525436,real|702|102|1000|singapore dollar|2015|Western calendar year,1.2,1000,Singapore dollar,2015,Western calendar year
+534,Sint Maarten,2020s,2020,2029,3,2020,2022,0.17890564123250355,real|534|205|1200|netherlands antillean guilder (ang)|2018|Western calendar year,2.5,1200,Netherlands Antillean guilder (ANG),2018,Western calendar year
+703,Slovakia,2020s,2020,2029,5,2020,2024,1.5562533115187405,real|703|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+705,Slovenia,2020s,2020,2029,5,2020,2024,2.141498970656468,real|705|102|1100|euro|2010|Western calendar year,1.2,1100,Euro,2010,Western calendar year
+706,Somalia,2020s,2020,2029,4,2020,2023,1.911516702504254,real|706|102|1000|us dollar|2022|Western calendar year,1.2,1000,US dollar,2022,Western calendar year
+710,South Africa,2020s,2020,2029,5,2020,2024,0.3951867453576897,real|710|102|1100|rand|2015|Western calendar year,1.2,1100,rand,2015,Western calendar year
+724,Spain,2020s,2020,2029,5,2020,2024,1.549648975486586,real|724|102|1000|euro|2020|Western calendar year,1.2,1000,Euro,2020,Western calendar year
+144,Sri Lanka,2020s,2020,2029,4,2020,2023,-2.515458924519398,real|144|102|1000|sri lanka rupee|2015|Western calendar year,1.2,1000,Sri Lanka rupee,2015,Western calendar year
+275,State of Palestine,2020s,2020,2029,5,2020,2024,-6.267410859073488,real|275|102|1000|us dollar|2015|Western calendar year,1.2,1000,US dollar,2015,Western calendar year
+740,Suriname,2020s,2020,2029,4,2020,2023,-3.366197110127536,real|740|205|1000|suriname dollar|2015|Western calendar year,2.5,1000,Suriname dollar,2015,Western calendar year
+752,Sweden,2020s,2020,2029,5,2020,2024,1.0704616306293735,real|752|102|1000|swedish krona|2020|Western calendar year,1.2,1000,Swedish Krona,2020,Western calendar year
+756,Switzerland,2020s,2020,2029,5,2020,2024,1.6895211008326672,real|756|102|1000|swiss franc|2015|Western calendar year,1.2,1000,Swiss franc,2015,Western calendar year
+835,Tanzania - Mainland,2020s,2020,2029,5,2020,2024,4.930292260824514,real|835|102|1000|tanzanian shilling|2015|Western calendar year,1.2,1000,Tanzanian Shilling,2015,Western calendar year
+764,Thailand,2020s,2020,2029,4,2020,2023,-0.03406766912053816,real|764|205|1000|baht|2002|Western calendar year,2.5,1000,baht,2002,Western calendar year
+626,Timor-Leste,2020s,2020,2029,4,2020,2023,-0.3646074995647619,real|626|102|1200|us dollars|2015|Western calendar year,1.2,1200,US dollars,2015,Western calendar year
+776,Tonga,2020s,2020,2029,4,2020,2023,0.48007269080718173,real|776|102|1000|pa'anga|2017|Fiscal year ending 30 June,1.2,1000,Pa'anga,2017,Fiscal year ending 30 June
+780,Trinidad and Tobago,2020s,2020,2029,4,2020,2023,-1.642597596078907,real|780|205|1000|trinidad and tobago dollar|2012|Western calendar year,2.5,1000,Trinidad and Tobago dollar,2012,Western calendar year
+792,Türkiye,2020s,2020,2029,5,2020,2024,5.425577818941121,real|792|102|1000|new turkish lira|2009|Western calendar year,1.2,1000,New Turkish lira,2009,Western calendar year
+800,Uganda,2020s,2020,2029,5,2020,2024,4.324925809851445,real|800|102|1100|uganda shilling|2017|Western calendar year,1.2,1100,Uganda shilling,2017,Western calendar year
+804,Ukraine,2020s,2020,2029,5,2020,2024,-4.123445408381805,real|804|102|1000|hryvnia|2021|Western calendar year,1.2,1000,hryvnia,2021,Western calendar year
+784,United Arab Emirates,2020s,2020,2029,5,2020,2024,2.3333680788911315,real|784|102|1100|uae dirham|2010|Western calendar year,1.2,1100,UAE dirham,2010,Western calendar year
+826,United Kingdom,2020s,2020,2029,5,2020,2024,0.923173480244117,real|826|102|1000|pound sterling|2022|Western calendar year,1.2,1000,pound sterling,2022,Western calendar year
+858,Uruguay,2020s,2020,2029,5,2020,2024,1.3647083824780593,real|858|102|1000|uruguayan peso|2016|Western calendar year,1.2,1000,Uruguayan peso,2016,Western calendar year
+716,Zimbabwe,2020s,2020,2029,4,2020,2023,3.0317650070746858,real|716|102|1000|zimbabwe dollar|2023|Western calendar year,1.2,1000,Zimbabwe dollar,2023,Western calendar year
