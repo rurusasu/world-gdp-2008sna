@@ -2,6 +2,18 @@
 
 検証日: 2026-10-14（Asia/Tokyo）
 
+## Linux / Nix環境への移行（2026-10-18）
+
+再実行環境をLinux向けのNix Flakeに統一。uv 0.13.0とPython 3.15.0をNixで提供し、Pythonの要件を `pyproject.toml` の `requires-python = ">=3.15"` に設定した。依存関係は `pyproject.toml` と `uv.lock` で管理し、`requirements.txt` とWindows専用の `run.ps1` は廃止した。MatplotlibはPython 3.15用wheelのある3.11.2へ更新し、Plotly 6.3.1とopenpyxl 3.1.5は維持した。現在の実行手順はREADMEを参照。
+
+- `nix flake check --all-systems`: x86_64-linuxとaarch64-linuxの開発環境の評価に成功。実行検証はx86_64-linuxで実施。
+- `nix develop` 内で `uv sync --locked` と `uv lock --check` に成功。
+- 同環境で `uv run --locked python -m unittest discover -s tests -v`: 全28テスト成功。
+- 保存済み原本を一時ディレクトリへコピーしてCLIの `build --root` を実行し、原本のチェックサム照合と再計算に成功。生成したレポートJSONの内容とダウンロード用CSV/JSONのバイト列は既存成果物と一致。
+- 150か国・地域と対象国集計・参考世界合計について、152 PNGと152 SVGの生成に成功。
+
+検証では `UV_PROJECT_ENVIRONMENT` に `/tmp/world-gdp-2008sna-linux-venv` を指定し、既存のWindows用 `.venv/` を保持した。GitHub Actionsの変更後の配備とaarch64上での実行は未検証。
+
 ## 取得結果
 
 取得スナップショット: `20261014T125544649002Z`。原本のURL、取得日時、SHA-256、提供元の件数表示は `data/raw/` のmanifestに保存。
@@ -34,7 +46,7 @@
 
 ## 自動検証
 
-`./run.ps1 test` / `PYTHONPATH=src python -m unittest discover -s tests -v`。
+現在の実行コマンド: `nix develop --command uv run --locked python -m unittest discover -s tests -v`。
 
 最終修正後28テストが成功。ZIP/HTML区別、元データ件数、重複、脚注、名目表のYear列、GDP項目、IMF為替選択、通信途中切断の再試行、2008SNA抽出、系列分離、欠測をまたがない成長率、非正値、固定ウェイト、暦年、通貨不一致、Franceと包含領域の二重加算防止、JSON/CSVの欠測保持と再構築、Windows CP932のCLI出力を検証。
 

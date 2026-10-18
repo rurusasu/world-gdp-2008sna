@@ -16,21 +16,19 @@ jobs:
   build:
     runs-on: ubuntu-latest
     timeout-minutes: 20
-    env:
-      PYTHONPATH: src
-      MPLBACKEND: Agg
     steps:
       - uses: actions/checkout@v7.0.1
-      - uses: actions/setup-python@v7.0.0
+      - uses: cachix/install-nix-action@v31
         with:
-          python-version: '3.12'
-          cache: pip
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check Nix development environment
+        run: nix flake check
       - name: Install report dependencies
-        run: python -m pip install -r requirements.txt
+        run: nix develop --command uv sync --locked
       - name: Verify acquisition and calculation contracts
-        run: python -m unittest discover -s tests -v
+        run: nix develop --command uv run --locked python -m unittest discover -s tests -v
       - name: Rebuild from checksum-verified committed sources
-        run: python -m gdp_report build
+        run: nix develop --command uv run --locked python -m gdp_report build
       - name: Configure Pages
         uses: actions/configure-pages@v6.0.0
       - name: Upload verified report

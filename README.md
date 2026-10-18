@@ -11,29 +11,37 @@
 - 参考の国連世界合計はAMAの推計・補完を含む系列です。公式値だけの部分集計と分けています。
 - 出典・注記・取得履歴・SHA-256・件数照合結果とCSVを保存しています。原データは `data/raw/`、公開レポートは `site/` です。
 
-## Windowsで再実行
+## Linuxで再実行
 
-Python 3.12以降とPowerShellを使用します。
+Linux（x86_64 / aarch64）と、Flakesを有効にしたNixを使用します。`flake.lock` で固定したNix環境がuv・Python 3.15・必要な共有ライブラリを提供します。Pythonの最低バージョンは `pyproject.toml` の `requires-python = ">=3.15"` で指定し、依存関係はuvで管理します。
 
-```powershell
-./run.ps1 setup
-./run.ps1 test
-./run.ps1 build    # 保存したスナップショットから再計算。データ取得なし
-./run.ps1 serve    # http://127.0.0.1:8000
-./run.ps1 refresh  # 新しい原データを取得して再計算
+```bash
+nix develop
+uv sync --locked
+uv run --locked python -m unittest discover -s tests -v
+uv run --locked python -m gdp_report build    # 保存したスナップショットから再計算。データ取得なし
+uv run --locked python -m http.server 8000 --bind 127.0.0.1 --directory site
+# http://127.0.0.1:8000。Ctrl+Cで終了
+uv run --locked python -m gdp_report refresh  # 新しい原データを取得して再計算
 ```
 
-初回の `setup` はプロジェクト内に仮想環境を作ります。`fetch` は原データ取得だけを実行します。失敗した取得はLATESTを更新しません。
+リポジトリのルートから実行してください。初回の `uv sync --locked` はプロジェクト内に `.venv/` を作成し、`uv.lock` に固定した依存関係をインストールします。Windowsで作成した既存の `.venv/` がある場合は、事前に別の場所へ移動してください。`uv run --locked python -m gdp_report fetch` は原データ取得だけを実行します。失敗した取得はLATESTを更新しません。
 
-## Linux / GitHub Actions
+Nix環境では `UV_PYTHON` がNix提供のPythonを指し、uvによる別のPythonの自動ダウンロードを無効にしています。`PYTHONPATH=src` と描画用の `MPLBACKEND=Agg` も設定されます。Flakesが未有効の場合は、`nix --extra-experimental-features 'nix-command flakes' develop` で起動できます。
 
-```sh
-python -m pip install -r requirements.txt
-PYTHONPATH=src python -m unittest discover -s tests -v
-PYTHONPATH=src python -m gdp_report build
+## GitHub Actions
+
+CIも同じNix環境とロックファイルを使います。シェルに入らず個別に実行する場合:
+
+```bash
+nix develop --command uv sync --locked
+nix develop --command uv run --locked python -m unittest discover -s tests -v
+nix develop --command uv run --locked python -m gdp_report build
 ```
 
 GitHub Actionsはmainへの更新または手動実行で、保存済み原データから検証・再計算・Pages配備を行います。定期取得は行いません。更新時は `refresh` の結果と原データを確認してコミット・pushしてください。
+
+依存関係を変更したら `pyproject.toml` を編集し、`nix develop --command uv lock` で `uv.lock` を更新してください。Nix側のツールは `nix flake update` で更新します。対応するロックファイルも一緒にコミットします。
 
 ## 出典
 
