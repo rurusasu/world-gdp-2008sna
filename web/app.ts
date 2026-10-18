@@ -104,9 +104,8 @@ function chooseCurrent() {
       $(id).max = String(last);
       $(id).setCustomValidity('');
     }
-    if (!$('from-year').value || Number($('from-year').value) < first)
-      $('from-year').value = String(first);
-    if (!$('to-year').value || Number($('to-year').value) > last) $('to-year').value = String(last);
+    $('from-year').value = String(first);
+    $('to-year').value = String(last);
     $('data-badge').classList.remove('reference');
     $('data-badge').textContent = '2008SNA / 公式値';
     $('chart-title').textContent = `${choices.length}か国・地域の実質GDP推移`;
@@ -308,21 +307,27 @@ function renderCharts() {
   }
 }
 function renderCountryChart(codes: Set<string>) {
-  const first = Number($('from-year').value);
-  const last = Number($('to-year').value);
-  if (
-    !Number.isInteger(first) ||
-    !Number.isInteger(last) ||
-    first > last ||
-    first < report.summary.real_first ||
-    last > report.summary.real_last
-  ) {
+  const selected = choices.filter((choice) => codes.has(choice.code));
+  const requestedFirst = Number($('from-year').value);
+  const requestedLast = Number($('to-year').value);
+  const validPeriod =
+    Number.isInteger(requestedFirst) &&
+    Number.isInteger(requestedLast) &&
+    requestedFirst <= requestedLast &&
+    requestedFirst >= report.summary.real_first &&
+    requestedLast <= report.summary.real_last;
+  if (!validPeriod && selected.length > 0) {
     $('from-year').setCustomValidity('収録期間内で、開始年 ≤ 終了年となる整数を指定してください。');
     $('from-year').reportValidity();
     return;
   }
   $('from-year').setCustomValidity('');
-  const selected = choices.filter((choice) => codes.has(choice.code));
+  const first = validPeriod ? requestedFirst : report.summary.real_first;
+  const last = validPeriod ? requestedLast : report.summary.real_last;
+  if (!validPeriod) {
+    $('from-year').value = String(first);
+    $('to-year').value = String(last);
+  }
   const traces = selected.flatMap(({ name, series, color }) => {
     const points = series.points.filter((point) => point.year >= first && point.year <= last);
     return [

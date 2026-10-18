@@ -56,8 +56,8 @@ function decadeTrace(averages: DecadeAverage[], color: string, name: string): Da
     customdata.push([average.count, average.first, average.last]);
     previous = average;
   }
-  if (previous && previous.last < previous.start + 9) {
-    x.push(previous.last + 1);
+  if (previous) {
+    x.push(Math.min(previous.start + 10, previous.last + 1));
     y.push(previous.mean);
     customdata.push([previous.count, previous.first, previous.last]);
   }
