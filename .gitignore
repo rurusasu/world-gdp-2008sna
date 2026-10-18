@@ -10,3 +10,5 @@ work/
 .env
 .env.*
 !*.example
+
+.worktrees/

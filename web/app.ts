@@ -1,5 +1,7 @@
 import type { Annotations, Config, Layout } from 'plotly.js';
-import type { Country, CountrySeries, DisplaySeries, GDPSourceFile, Point, Report } from './report';
+import type { Country, DisplaySeries, GDPSourceFile, Point, Report } from './report';
+import { bindCountryFilter } from './country-filter';
+import { chooseCountrySeries, type CountryChoice } from './country-series';
 
 type PlotlyStatic = typeof import('plotly.js');
 
@@ -9,10 +11,8 @@ declare global {
   }
 }
 
-type Mode = 'panel' | 'country' | 'reference';
+type Mode = 'countries' | 'panel' | 'reference';
 interface Controls {
-  'country-select': HTMLSelectElement;
-  'series-select': HTMLSelectElement;
   'panel-select': HTMLSelectElement;
   'from-year': HTMLInputElement;
   'to-year': HTMLInputElement;
@@ -60,9 +60,11 @@ const format = (value: number | null | undefined, digits = 2) =>
 const signed = (value: number | null | undefined) =>
   value === null || value === undefined ? '欠測' : `${value >= 0 ? '+' : ''}${format(value)}%`;
 let report: Report,
-  mode: Mode = 'panel',
+  mode: Mode = 'countries',
   current: DisplaySeries | null | undefined,
   countries: Country[],
+  choices: CountryChoice[],
+  selectedCodes = new Set<string>(),
   plotly: PlotlyStatic;
 
 function option(select: HTMLSelectElement, value: string, text: string) {
@@ -80,29 +82,6 @@ function cellRow(target: HTMLElement, values: (string | number)[]) {
   });
   target.append(tr);
 }
-function baseLabel(series: CountrySeries) {
-  return series.base_year === '-1' || !series.base_year
-    ? `基準年コード ${series.base_year || '未記載'}`
-    : `価格基準 ${series.base_year}`;
-}
-function selectCountry() {
-  const code = $('country-select').value;
-  const choices = report.series
-    .filter((s) => s.country_code === code)
-    .sort(
-      (a, b) =>
-        Number(b.preferred) - Number(a.preferred) || b.last - a.last || a.id.localeCompare(b.id),
-    );
-  $('series-select').replaceChildren();
-  choices.forEach((s) =>
-    option(
-      $('series-select'),
-      s.id,
-      `表${s.table} / 系列${s.series_number} / ${baseLabel(s)} / ${s.first}–${s.last}${s.preferred ? ' ★' : ''}`,
-    ),
-  );
-  chooseCurrent();
-}
 function switchMode(nextMode: Mode) {
   mode = nextMode;
   document.querySelectorAll<HTMLButtonElement>('[data-mode]').forEach((button) => {
@@ -110,16 +89,43 @@ function switchMode(nextMode: Mode) {
     button.setAttribute('aria-pressed', String(button.dataset.mode === mode));
   });
   $('panel-control').hidden = mode !== 'panel';
-  $('country-control').hidden = $('series-control').hidden = mode !== 'country';
+  $('country-filter').hidden = mode !== 'countries';
+  $('combined-layout').classList.toggle('single-chart', mode !== 'countries');
+  $('index-unit').textContent = mode === 'countries' ? '各系列の起点年 = 100' : '';
+  $('point-details').hidden = mode === 'countries';
   chooseCurrent();
 }
 function chooseCurrent() {
+  if (mode === 'countries') {
+    current = null;
+    const first = report.summary.real_first;
+    const last = report.summary.real_last;
+    for (const id of ['from-year', 'to-year'] as const) {
+      $(id).min = String(first);
+      $(id).max = String(last);
+      $(id).setCustomValidity('');
+    }
+    $('from-year').value = String(first);
+    $('to-year').value = String(last);
+    $('data-badge').classList.remove('reference');
+    $('data-badge').textContent = '2008SNA / 公式値';
+    $('chart-title').textContent = `${choices.length}か国・地域の実質GDP推移`;
+    $('chart-description').textContent =
+      '各国の代表系列を1つずつ表示します。指数は国ごとの系列起点年を100とする推移で、国間のGDP水準比較ではありません。会計年度・基準年・収録期間は国ごとに異なります。';
+    $('series-notes').textContent = '';
+    $('members-details').hidden = true;
+    $('members-table').replaceChildren();
+    $('member-summary').textContent = '';
+    $('excluded').textContent = '';
+    renderCountryChart(selectedCodes);
+    $('reading').replaceChildren();
+    $('point-table').replaceChildren();
+    return;
+  }
   current =
     mode === 'panel'
       ? report.panels.find((p) => p.id === $('panel-select').value)
-      : mode === 'reference'
-        ? report.reference
-        : report.series.find((s) => s.id === $('series-select').value);
+      : report.reference;
   if (!current) {
     $('chart-title').textContent = 'この条件では集計できる系列がありません';
     return;
@@ -134,21 +140,14 @@ function chooseCurrent() {
   $('data-badge').classList.toggle('reference', mode === 'reference');
   $('data-badge').textContent =
     mode === 'reference' ? '参考 / 推計・補完を含む' : '2008SNA / 公式値';
-  $('chart-title').textContent =
-    current.kind === 'real' ? `${current.country} — 公式実質GDP` : current.label;
+  $('chart-title').textContent = current.label;
   $('index-unit').textContent = `${current.index_base}年 = 100`;
   const description =
     current.kind === 'panel'
       ? `${current.country_count}か国・地域を全期間で固定。2020年の公式名目GDPと確認済み為替による固定ウェイト。世界全体の集計ではありません。`
-      : current.kind === 'reference'
-        ? '国連AMAの2020年価格米ドル系列。欠測補完・接続推計を含み、2008SNA公式値だけの集計ではありません。'
-        : `表 ${current.table} / 系列 ${current.series_number} / ${baseLabel(current)} / ${current.currency} / ${current.fiscal_year_type}。指数は${current.index_base}年を100とします。`;
+      : '国連AMAの2020年価格米ドル系列。欠測補完・接続推計を含み、2008SNA公式値だけの集計ではありません。';
   $('chart-description').textContent = description;
-  if (current.kind === 'real' && !current.price_basis_verified)
-    $('chart-description').textContent +=
-      ' 固定価格で比較できる基準年を確認できないため、指数・前年比は未算出です。元の値は表とCSVに保存しています。';
-  const notes =
-    current.kind === 'real' ? [...new Set(current.points.map((p) => p.notes).filter(Boolean))] : [];
+  const notes = [...new Set(current.points.map((p) => p.notes).filter(Boolean))];
   $('series-notes').textContent = notes.length ? `原資料の注記：${notes.join(' / ')}` : '';
   $('members-details').hidden = mode !== 'panel';
   $('members-table').replaceChildren();
@@ -208,7 +207,20 @@ function renderCharts() {
       showgrid: false,
       zeroline: false,
     },
-    yaxis: { gridcolor: '#e9ede7', zerolinecolor: '#d3ddd6', rangemode: 'tozero' },
+    yaxis: {
+      title: { text: `${current.kind === 'panel' ? '実質GDP指数' : '実質GDP指数'}` },
+      gridcolor: '#e9ede7',
+      zerolinecolor: '#d3ddd6',
+      rangemode: 'tozero',
+    },
+    yaxis2: {
+      title: { text: '前年比（%）' },
+      overlaying: 'y',
+      side: 'right',
+      ticksuffix: '%',
+      showgrid: false,
+      zeroline: false,
+    },
     hoverlabel: { bgcolor: '#ffffff', font: { size: 12, color: '#163940' }, bordercolor: color },
   };
   const config: Partial<Config> = {
@@ -218,63 +230,49 @@ function renderCharts() {
     modeBarButtonsToRemove: ['select2d', 'lasso2d'],
     toImageButtonOptions: { format: 'svg', filename: 'gdp-report' },
   };
-  const emptyAnnotations = (field: 'index' | 'growth'): Partial<Annotations>[] =>
-    points.some((p) => p[field] !== null)
-      ? []
-      : [
-          {
-            text: '比較に必要な価格基準または値を確認できません',
-            xref: 'paper',
-            yref: 'paper',
-            x: 0.5,
-            y: 0.5,
-            showarrow: false,
-            font: { size: 11, color: '#647274' },
-          },
-        ];
-  void plotly
-    .react(
-      'index-chart',
-      [
+  const annotations: Partial<Annotations>[] = points.some(
+    (p) => p.index !== null || p.growth !== null,
+  )
+    ? []
+    : [
         {
-          type: 'scatter',
-          mode: 'lines+markers',
-          x: points.map((p) => p.year),
-          y: points.map((p) => p.index),
-          connectgaps: false,
-          line: { color, width: 2.5 },
-          marker: { size: 4, color },
-          customdata: data,
-          hovertemplate: `<b>%{x}年</b><br>指数：%{y:,.2f}<br>実質GDP：%{customdata[0]} ${currency}<br>前年比：%{customdata[1]}<extra></extra>`,
+          text: '比較に必要な値を確認できません',
+          xref: 'paper',
+          yref: 'paper',
+          x: 0.5,
+          y: 0.5,
+          showarrow: false,
         },
-      ],
-      { ...layout, annotations: emptyAnnotations('index') },
-      config,
-    )
-    .catch(showError);
-  void plotly
-    .react(
-      'growth-chart',
-      [
-        {
-          type: 'bar',
-          x: points.map((p) => p.year),
-          y: points.map((p) => p.growth),
-          customdata: data,
-          marker: {
-            color: points.map((p) => (p.growth !== null && p.growth < 0 ? '#b75946' : color)),
-          },
-          hovertemplate: `<b>%{x}年</b><br>前年比：%{y:+.2f}%<br>実質GDP：%{customdata[0]} ${currency}<extra></extra>`,
-        },
-      ],
-      {
-        ...layout,
-        annotations: emptyAnnotations('growth'),
-        yaxis: { ...layout.yaxis, ticksuffix: '%' },
-      },
-      config,
-    )
-    .catch(showError);
+      ];
+  const traces = [
+    {
+      type: 'scatter' as const,
+      mode: 'lines+markers' as const,
+      x: points.map((p) => p.year),
+      y: points.map((p) => p.index),
+      yaxis: 'y',
+      connectgaps: false,
+      line: { color, width: 2.5 },
+      marker: { size: 4, color },
+      customdata: data,
+      name: '実質GDP指数',
+      hovertemplate: `<b>%{x}年</b><br>指数：%{y:,.2f}<br>実質GDP：%{customdata[0]} ${currency}<br>前年比：%{customdata[1]}<extra></extra>`,
+    },
+    {
+      type: 'scatter' as const,
+      mode: 'lines+markers' as const,
+      x: points.map((p) => p.year),
+      y: points.map((p) => p.growth),
+      yaxis: 'y2',
+      connectgaps: false,
+      line: { color, width: 1.8, dash: 'dash' as const },
+      marker: { size: 4, color },
+      customdata: data,
+      name: '前年比',
+      hovertemplate: `<b>%{x}年</b><br>前年比：%{y:+.2f}%<br>実質GDP：%{customdata[0]} ${currency}<extra></extra>`,
+    },
+  ];
+  void plotly.react('combined-chart', traces, { ...layout, annotations }, config).catch(showError);
   $('point-table').replaceChildren();
   points.forEach((p) =>
     cellRow($('point-table'), [
@@ -308,6 +306,117 @@ function renderCharts() {
       $('reading').append(box);
     });
   }
+}
+function renderCountryChart(codes: Set<string>) {
+  const selected = choices.filter((choice) => codes.has(choice.code));
+  const requestedFirst = Number($('from-year').value);
+  const requestedLast = Number($('to-year').value);
+  const validPeriod =
+    Number.isInteger(requestedFirst) &&
+    Number.isInteger(requestedLast) &&
+    requestedFirst <= requestedLast &&
+    requestedFirst >= report.summary.real_first &&
+    requestedLast <= report.summary.real_last;
+  if (!validPeriod && selected.length > 0) {
+    $('from-year').setCustomValidity('収録期間内で、開始年 ≤ 終了年となる整数を指定してください。');
+    $('from-year').reportValidity();
+    return;
+  }
+  $('from-year').setCustomValidity('');
+  const first = validPeriod ? requestedFirst : report.summary.real_first;
+  const last = validPeriod ? requestedLast : report.summary.real_last;
+  if (!validPeriod) {
+    $('from-year').value = String(first);
+    $('to-year').value = String(last);
+  }
+  const traces = selected.flatMap(({ name, series, color }) => {
+    const points = series.points.filter((point) => point.year >= first && point.year <= last);
+    return [
+      {
+        type: 'scatter' as const,
+        mode: 'lines' as const,
+        x: points.map((point) => point.year),
+        y: points.map((point) => point.index),
+        connectgaps: false,
+        yaxis: 'y',
+        name: `${name} 実質GDP指数`,
+        line: { color, width: 1.8 },
+        customdata: points.map((point) => [name, point.year, point.growth]),
+        hovertemplate: '<b>%{customdata[0]} · %{x}年</b><br>指数：%{y:,.2f}<extra></extra>',
+      },
+      {
+        type: 'scatter' as const,
+        mode: 'lines+markers' as const,
+        x: points.map((point) => point.year),
+        y: points.map((point) => point.growth),
+        connectgaps: false,
+        yaxis: 'y2',
+        name: `${name} 前年比`,
+        line: { color, width: 1.3, dash: 'dash' as const },
+        marker: { color, size: 3.5 },
+        customdata: points.map((point) => [name, point.year, point.index]),
+        hovertemplate: '<b>%{customdata[0]} · %{x}年</b><br>前年比：%{y:+.2f}%<extra></extra>',
+      },
+    ];
+  });
+  const annotations: Partial<Annotations>[] =
+    selected.length === 0
+      ? [
+          {
+            text: '表示する国・地域を選択してください',
+            xref: 'paper',
+            yref: 'paper',
+            x: 0.5,
+            y: 0.5,
+            showarrow: false,
+          },
+        ]
+      : traces.some((trace) => trace.y.some((value) => value !== null))
+        ? []
+        : [
+            {
+              text: '選択中の系列に表示できる指数・前年比がありません',
+              xref: 'paper',
+              yref: 'paper',
+              x: 0.5,
+              y: 0.5,
+              showarrow: false,
+            },
+          ];
+  const layout: Partial<Layout> = {
+    autosize: true,
+    margin: { l: 62, r: 62, t: 18, b: 48 },
+    paper_bgcolor: '#ffffff',
+    plot_bgcolor: '#ffffff',
+    font: { family: 'Segoe UI, Yu Gothic, Meiryo, sans-serif', size: 11, color: '#526967' },
+    showlegend: false,
+    hovermode: 'closest',
+    xaxis: {
+      title: { text: '年', standoff: 10 },
+      tickformat: 'd',
+      range: [first - 0.4, last + 0.4],
+      showgrid: false,
+      zeroline: false,
+    },
+    yaxis: { title: { text: '実質GDP指数' }, gridcolor: '#e9ede7', rangemode: 'tozero' },
+    yaxis2: {
+      title: { text: '前年比（%）' },
+      overlaying: 'y',
+      side: 'right',
+      ticksuffix: '%',
+      showgrid: false,
+      zeroline: false,
+    },
+    annotations,
+  };
+  const config: Partial<Config> = {
+    responsive: true,
+    displaylogo: false,
+    scrollZoom: false,
+    modeBarButtonsToRemove: ['select2d', 'lasso2d'],
+  };
+  void plotly.react('combined-chart', traces, layout, config).catch(showError);
+  $('chart-title').textContent = `${selected.length} / ${choices.length}か国・地域を表示中`;
 }
 function renderAudit() {
   const query = $('audit-search').value.trim().toLowerCase();
@@ -362,20 +471,24 @@ async function init() {
       grouped.set(s.country_code, c);
     });
     countries = [...grouped.values()].sort((a, b) => a.name.localeCompare(b.name));
-    countries.forEach((c) => option($('country-select'), c.code, c.name));
-    if (grouped.has('392')) $('country-select').value = '392';
-    selectCountry();
+    choices = chooseCountrySeries(report.series);
+    bindCountryFilter($('country-filter'), choices, (codes) => {
+      selectedCodes = codes;
+      if (mode === 'countries') renderCountryChart(codes);
+    });
     document.querySelectorAll<HTMLButtonElement>('[data-mode]').forEach((button) =>
       button.addEventListener('click', () => {
         const next = button.dataset.mode;
-        if (next === 'panel' || next === 'country' || next === 'reference') switchMode(next);
+        if (next === 'panel' || next === 'countries' || next === 'reference') switchMode(next);
       }),
     );
-    $('country-select').addEventListener('change', selectCountry);
-    $('series-select').addEventListener('change', chooseCurrent);
     $('panel-select').addEventListener('change', chooseCurrent);
-    $('from-year').addEventListener('change', renderCharts);
-    $('to-year').addEventListener('change', renderCharts);
+    $('from-year').addEventListener('change', () =>
+      mode === 'countries' ? renderCountryChart(selectedCodes) : renderCharts(),
+    );
+    $('to-year').addEventListener('change', () =>
+      mode === 'countries' ? renderCountryChart(selectedCodes) : renderCharts(),
+    );
     $('reset').addEventListener('click', chooseCurrent);
     $('audit-search').addEventListener('input', renderAudit);
     const verified = report.source_manifest.files.filter((f): f is GDPSourceFile =>
@@ -386,7 +499,7 @@ async function init() {
       0,
     )}行。${verified.length}表すべてで提供元表示件数と一致。原本のSHA-256を再計算してから分析しています。`;
     renderAudit();
-    switchMode('panel');
+    switchMode('countries');
   } catch (error) {
     showError(error);
   }

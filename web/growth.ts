@@ -1,5 +1,8 @@
-import type { Config, Layout } from 'plotly.js';
-import type { CountrySeries, Point, Report } from './report';
+import type { Config, Data, Layout } from 'plotly.js';
+import { bindCountryFilter } from './country-filter';
+import { chooseCountrySeries, decadeAverages, type CountryChoice } from './country-series';
+import type { DecadeAverage } from './country-series';
+import type { Report } from './report';
 
 type PlotlyStatic = typeof import('plotly.js');
 
@@ -7,14 +10,6 @@ declare global {
   interface Window {
     Plotly?: PlotlyStatic;
   }
-}
-
-interface DecadeAverage {
-  start: number;
-  mean: number;
-  count: number;
-  first: number;
-  last: number;
 }
 
 const base = import.meta.env.BASE_URL;
@@ -42,43 +37,48 @@ function loadPlotly(): Promise<PlotlyStatic> {
   });
 }
 
-function representativeSeries(series: CountrySeries[]): CountrySeries[] {
-  const selected = new Map<string, CountrySeries>();
-  for (const item of series) {
-    const current = selected.get(item.country_code);
-    if (
-      !current ||
-      Number(item.preferred) > Number(current.preferred) ||
-      (item.preferred === current.preferred &&
-        (item.last > current.last ||
-          (item.last === current.last && item.id.localeCompare(current.id) < 0)))
-    ) {
-      selected.set(item.country_code, item);
+function decadeTrace(averages: DecadeAverage[], color: string, name: string): Data {
+  const x: (number | null)[] = [];
+  const y: (number | null)[] = [];
+  const customdata: (number[] | null)[] = [];
+  let previous: DecadeAverage | undefined;
+  for (const average of averages) {
+    if (previous && average.start > previous.start + 10) {
+      x.push(Math.min(previous.start + 10, previous.last + 1));
+      y.push(previous.mean);
+      customdata.push([previous.start, previous.count, previous.first, previous.last]);
+      x.push(average.start);
+      y.push(null);
+      customdata.push(null);
     }
+    x.push(average.start);
+    y.push(average.mean);
+    customdata.push([average.start, average.count, average.first, average.last]);
+    previous = average;
   }
-  return [...selected.values()].sort((a, b) => a.country.localeCompare(b.country, 'ja'));
+  if (previous) {
+    x.push(Math.min(previous.start + 10, previous.last + 1));
+    y.push(previous.mean);
+    customdata.push([previous.start, previous.count, previous.first, previous.last]);
+  }
+  return {
+    type: 'scatter' as const,
+    mode: 'lines' as const,
+    x,
+    y,
+    customdata,
+    connectgaps: false,
+    line: { color, width: 1.7, dash: 'dash' as const, shape: 'hv' as const },
+    name: `${name} 10年平均`,
+    hovertemplate:
+      `<b>${name} · %{customdata[0]}s</b><br>10年平均：%{y:+.2f}%` +
+      '<br>対象：%{customdata[1]}年（%{customdata[2]}–%{customdata[3]}）<extra></extra>',
+  } as Data;
 }
 
-function decadeAverages(points: Point[]): DecadeAverage[] {
-  const grouped = new Map<number, Point[]>();
-  for (const point of points) {
-    if (point.growth === null) continue;
-    const decade = Math.floor(point.year / 10) * 10;
-    grouped.set(decade, [...(grouped.get(decade) ?? []), point]);
-  }
-  return [...grouped.entries()]
-    .sort(([a], [b]) => a - b)
-    .map(([start, values]) => ({
-      start,
-      mean: values.reduce((total, point) => total + (point.growth ?? 0), 0) / values.length,
-      count: values.length,
-      first: values[0].year,
-      last: values[values.length - 1].year,
-    }));
-}
-
-function addTableRow(target: HTMLElement, values: string[]): void {
+function tableRow(target: HTMLElement, values: string[], color?: string): void {
   const row = document.createElement('tr');
+  if (color) row.style.setProperty('--row-country-color', color);
   for (const value of values) {
     const cell = document.createElement('td');
     cell.textContent = value;
@@ -87,15 +87,88 @@ function addTableRow(target: HTMLElement, values: string[]): void {
   target.append(row);
 }
 
-function plot(
+function renderGrowthTables(choices: CountryChoice[]): void {
+  const decadeDetails = byId('decade-details') as HTMLDetailsElement;
+  const annualDetails = byId('annual-details') as HTMLDetailsElement;
+  if (decadeDetails.open) {
+    const body = byId('decade-growth-table');
+    body.replaceChildren();
+    for (const choice of choices) {
+      for (const average of decadeAverages(choice.series.points)) {
+        tableRow(
+          body,
+          [
+            choice.name,
+            `${average.start}s`,
+            signed(average.mean),
+            `${average.count}年`,
+            `${average.first}–${average.last}年`,
+          ],
+          choice.color,
+        );
+      }
+    }
+  }
+  if (annualDetails.open) {
+    const body = byId('annual-growth-table');
+    body.replaceChildren();
+    for (const choice of choices) {
+      for (const point of choice.series.points) {
+        tableRow(body, [choice.name, String(point.year), signed(point.growth)], choice.color);
+      }
+    }
+  }
+}
+
+function renderGrowthChart(
   plotly: PlotlyStatic,
-  item: CountrySeries,
-  points: Point[],
-  averages: DecadeAverage[],
+  countries: CountryChoice[],
+  selectedCodes: Set<string>,
 ): void {
+  const selected = countries.filter((country) => selectedCodes.has(country.code));
+  const traces: Data[] = selected.flatMap(({ name, series, color }) => {
+    const points = series.points;
+    const averages = decadeAverages(points);
+    return [
+      {
+        type: 'scatter' as const,
+        mode: 'lines' as const,
+        x: points.map((point) => point.year),
+        y: points.map((point) => point.growth),
+        connectgaps: false,
+        line: { color, width: 1.1 },
+        name: `${name} 年次成長率`,
+        hovertemplate: `<b>${name} · %{x}年</b><br>年次成長率：%{y:+.2f}%<extra></extra>`,
+      } as Data,
+      decadeTrace(averages, color, name),
+    ];
+  });
+  const annotations = selected.length
+    ? selected.some((country) => country.series.points.some((point) => point.growth !== null))
+      ? []
+      : [
+          {
+            text: '選択中の系列に算出可能な年次成長率がありません',
+            xref: 'paper' as const,
+            yref: 'paper' as const,
+            x: 0.5,
+            y: 0.5,
+            showarrow: false,
+          },
+        ]
+    : [
+        {
+          text: '表示する国・地域を選択してください',
+          xref: 'paper' as const,
+          yref: 'paper' as const,
+          x: 0.5,
+          y: 0.5,
+          showarrow: false,
+        },
+      ];
   const layout: Partial<Layout> = {
     autosize: true,
-    margin: { l: 55, r: 22, t: 18, b: 48 },
+    margin: { l: 62, r: 24, t: 18, b: 48 },
     paper_bgcolor: 'rgba(0,0,0,0)',
     plot_bgcolor: 'rgba(0,0,0,0)',
     font: {
@@ -103,7 +176,7 @@ function plot(
       color: '#647274',
       size: 11,
     },
-    xaxis: { title: { text: '年' }, gridcolor: '#e8e9e3', zeroline: false },
+    xaxis: { title: { text: '年' }, tickformat: 'd', gridcolor: '#e8e9e3', zeroline: false },
     yaxis: {
       title: { text: '成長率（%）' },
       ticksuffix: '%',
@@ -111,99 +184,19 @@ function plot(
       zerolinecolor: '#aebbb4',
     },
     showlegend: false,
+    hovermode: 'closest',
+    annotations,
   };
   const config: Partial<Config> = { responsive: true, displaylogo: false, scrollZoom: false };
-  const validPoints = points.filter((point) => point.growth !== null);
-  void plotly.react(
-    'annual-growth-chart',
-    [
-      {
-        type: 'bar',
-        x: points.map((point) => point.year),
-        y: points.map((point) => point.growth),
-        marker: {
-          color: points.map((point) =>
-            point.growth !== null && point.growth < 0 ? '#b75946' : '#147c75',
-          ),
-        },
-        hovertemplate: '<b>%{x}年</b><br>前年比：%{y:+.2f}%<extra></extra>',
-      },
-    ],
-    {
-      ...layout,
-      annotations: validPoints.length
-        ? []
-        : [
-            {
-              text: '比較可能な価格基準を確認できる成長率がありません',
-              xref: 'paper',
-              yref: 'paper',
-              x: 0.5,
-              y: 0.5,
-              showarrow: false,
-            },
-          ],
-    },
-    config,
-  );
-
-  const decadeLabels = averages.map((row) => `${row.start}s`);
-  void plotly.react(
-    'decade-growth-chart',
-    [
-      {
-        type: 'scatter',
-        mode: 'lines+markers',
-        x: averages.map((row) => row.start),
-        y: averages.map((row) => row.mean),
-        customdata: averages.map((row) => [row.count, row.first, row.last]),
-        connectgaps: false,
-        line: { color: '#147c75', width: 2.5 },
-        marker: { size: 7, color: '#147c75' },
-        hovertemplate:
-          '<b>%{x}s</b><br>平均：%{y:+.2f}%<br>対象：%{customdata[0]}年（%{customdata[1]}–%{customdata[2]}）<extra></extra>',
-      },
-    ],
-    {
-      ...layout,
-      xaxis: {
-        ...layout.xaxis,
-        tickmode: 'array',
-        tickvals: averages.map((row) => row.start),
-        ticktext: decadeLabels,
-      },
-      annotations: averages.length
-        ? []
-        : [
-            {
-              text: '10年平均を計算できる年次データがありません',
-              xref: 'paper',
-              yref: 'paper',
-              x: 0.5,
-              y: 0.5,
-              showarrow: false,
-            },
-          ],
-    },
-    config,
-  );
-
-  byId('decade-growth-table').replaceChildren();
-  for (const row of averages) {
-    addTableRow(byId('decade-growth-table'), [
-      `${row.start}s`,
-      signed(row.mean),
-      `${row.count} / 10年`,
-      `${row.first}–${row.last}年`,
-    ]);
-  }
-  byId('annual-growth-table').replaceChildren();
-  for (const point of points) {
-    addTableRow(byId('annual-growth-table'), [String(point.year), signed(point.growth)]);
-  }
-  byId('growth-meta').textContent =
-    `系列：表${item.table} / 系列${item.series_number} / ${item.currency} / 基準年 ${item.base_year} / ${item.fiscal_year_type}（${item.first}–${item.last}年）。` +
-    (item.price_basis_verified ? '' : '価格基準を確認できないため、成長率は未算出です。');
+  void plotly.react('growth-chart', traces, layout, config);
+  byId('growth-chart-count').textContent =
+    `${selected.length} / ${countries.length}か国・地域を表示中`;
+  byId('growth-meta').textContent = selected.length
+    ? selected.length === 1
+      ? `表示系列：${selected[0].series.table} / 系列${selected[0].series.series_number} / ${selected[0].series.currency} / 基準年 ${selected[0].series.base_year} / ${selected[0].series.fiscal_year_type}（${selected[0].series.first}–${selected[0].series.last}年）。${selected[0].series.price_basis_verified ? '' : '価格基準を確認できないため、成長率は未算出です。'}`
+      : `${selected.length}か国・地域の公式実質GDP系列を比較しています。系列の基準年・会計年度・収録期間は国ごとに異なります。`
+    : '国・地域が選択されていません。';
+  renderGrowthTables(selected);
 }
 
 async function main(): Promise<void> {
@@ -211,24 +204,25 @@ async function main(): Promise<void> {
     const [response, plotly] = await Promise.all([fetch(`${base}report.json`), loadPlotly()]);
     if (!response.ok) throw new Error(`レポートの取得に失敗しました（${response.status}）`);
     const report = (await response.json()) as Report;
-    const countries = representativeSeries(report.series);
-    const selector = byId('growth-country') as HTMLSelectElement;
-    selector.replaceChildren();
-    for (const item of countries) {
-      const option = document.createElement('option');
-      option.value = item.id;
-      option.textContent = item.country;
-      selector.append(option);
-    }
+    const countries = chooseCountrySeries(report.series);
     byId('growth-snapshot').textContent =
       `${countries.length}か国・地域 / 2008SNA公式実質GDP / 取得スナップショット ${report.source_manifest.retrieved_at}`;
-    const update = () => {
-      const item = countries.find((candidate) => candidate.id === selector.value);
-      if (!item) return;
-      plot(plotly, item, item.points, decadeAverages(item.points));
-    };
-    selector.addEventListener('change', update);
-    update();
+
+    const render = (codes: Set<string>) => renderGrowthChart(plotly, countries, codes);
+    bindCountryFilter(byId('growth-country-filter'), countries, render);
+    for (const id of ['decade-details', 'annual-details']) {
+      byId(id).addEventListener('toggle', () => {
+        if ((byId(id) as HTMLDetailsElement).open) {
+          const selected = countries.filter((country) => {
+            const checkbox = byId('growth-country-filter').querySelector<HTMLInputElement>(
+              `input[value="${CSS.escape(country.code)}"]`,
+            );
+            return checkbox?.checked ?? false;
+          });
+          renderGrowthTables(selected);
+        }
+      });
+    }
   } catch (error) {
     const message = error instanceof Error ? error.message : String(error);
     byId('growth-error').hidden = false;
