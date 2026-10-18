@@ -13,30 +13,29 @@
 
 ## Linuxで再実行
 
-Linux（x86_64 / aarch64）と、Flakesを有効にしたNixを使用します。`flake.lock` で固定したNix環境がuv・Python 3.15・必要な共有ライブラリを提供します。Pythonの最低バージョンは `pyproject.toml` の `requires-python = ">=3.15"` で指定し、依存関係はuvで管理します。
+Linux（x86_64 / aarch64）と、Flakesを有効にしたNix、[シェルフックを設定済みのdirenv](https://direnv.net/docs/hook.html)を使用します。`flake.lock` で固定したNix環境がuv・Python 3.15・必要な共有ライブラリを提供します。Pythonの最低バージョンは `pyproject.toml` の `requires-python = ">=3.15"` で指定し、依存関係はuvで管理します。
 
 ```bash
-nix develop
-uv sync --locked
-uv run --locked python -m unittest discover -s tests -v
-uv run --locked python -m gdp_report build    # 保存したスナップショットから再計算。データ取得なし
-uv run --locked python -m http.server 8000 --bind 127.0.0.1 --directory site
+direnv allow  # 初回、および .envrc を変更したときのみ
+uv run --locked -m unittest discover -s tests -v
+uv run --locked -m gdp_report build    # 保存したスナップショットから再計算。データ取得なし
+uv run --locked -m http.server 8000 --bind 127.0.0.1 --directory site
 # http://127.0.0.1:8000。Ctrl+Cで終了
-uv run --locked python -m gdp_report refresh  # 新しい原データを取得して再計算
+uv run --locked -m gdp_report refresh  # 新しい原データを取得して再計算
 ```
 
-リポジトリのルートから実行してください。初回の `uv sync --locked` はプロジェクト内に `.venv/` を作成し、`uv.lock` に固定した依存関係をインストールします。Windowsで作成した既存の `.venv/` がある場合は、事前に別の場所へ移動してください。`uv run --locked python -m gdp_report fetch` は原データ取得だけを実行します。失敗した取得はLATESTを更新しません。
+リポジトリのルートから実行してください。direnvはディレクトリに入るとNix環境を読み込み、`uv sync --locked` で依存関係を同期して `.venv/` を有効化します。`pyproject.toml`・`uv.lock`・`flake.nix`・`flake.lock` の変更時にも再読み込みします。`uv run --locked -m gdp_report fetch` は原データ取得だけを実行します。失敗した取得はLATESTを更新しません。
 
-Nix環境では `UV_PYTHON` がNix提供のPythonを指し、uvによる別のPythonの自動ダウンロードを無効にしています。`PYTHONPATH=src` と描画用の `MPLBACKEND=Agg` も設定されます。Flakesが未有効の場合は、`nix --extra-experimental-features 'nix-command flakes' develop` で起動できます。
+Nix環境では `UV_PYTHON` がNix提供のPythonを指し、uvによる別のPythonの自動ダウンロードを無効にしています。`PYTHONPATH=src` と描画用の `MPLBACKEND=Agg` も設定されます。ロックファイルが依存定義と一致しない場合は自動同期が失敗するので、下記の `uv lock` で明示的に更新してください。
 
 ## GitHub Actions
 
-CIも同じNix環境とロックファイルを使います。シェルに入らず個別に実行する場合:
+CIも同じNix環境とロックファイルを使います。direnvを使わず個別に実行する場合（既定では `.venv/` を使用）:
 
 ```bash
 nix develop --command uv sync --locked
-nix develop --command uv run --locked python -m unittest discover -s tests -v
-nix develop --command uv run --locked python -m gdp_report build
+nix develop --command uv run --locked -m unittest discover -s tests -v
+nix develop --command uv run --locked -m gdp_report build
 ```
 
 GitHub Actionsはmainへの更新または手動実行で、保存済み原データから検証・再計算・Pages配備を行います。定期取得は行いません。更新時は `refresh` の結果と原データを確認してコミット・pushしてください。
