@@ -28,7 +28,9 @@ Node.js 24とnpmを既存のNix Flakeから供給し、Astro 7.4.0・TypeScript 
 - PlotlyとレポートJSONをそれぞれ遮断し、読込失敗の画面表示を確認。通常操作・障害表示とも未処理のJavaScript例外0件。
 - Astro導入とVite+追加後の独立レビューはいずれも指摘なし。最終差分の空白検査に成功し、原本・集計結果に変更がないことを確認。
 
-この時点では変更後のGitHub Actionsとaarch64での実行は未検証。ユーザー指定に従い、ローカル検証済みの変更を `origin/main` へ反映する。
+ユーザー指定に従い、実装コミット `ebdd528` を `origin/main` へpushした。[GitHub Actions](https://github.com/rurusasu/world-gdp-2008sna/actions/runs/39126975663)のbuild・deployがともに成功。CIでは原本のチェックサム照合、28テスト、静止画を含む再生成、Vite+検査、Astroビルドを実行した。
+
+[公開サイト](https://rurusasu.github.io/world-gdp-2008sna/)でも同じブラウザ操作と読込失敗時の表示が成功し、未処理のJavaScript例外は0件。公開HTML・レポートJSON・Plotly・実質GDP CSVはローカルの検証済みビルドとバイト単位で一致した。aarch64上での実行は未検証。
 
 ## 取得結果
 
