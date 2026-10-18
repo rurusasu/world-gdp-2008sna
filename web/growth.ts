@@ -46,20 +46,20 @@ function decadeTrace(averages: DecadeAverage[], color: string, name: string): Da
     if (previous && average.start > previous.start + 10) {
       x.push(Math.min(previous.start + 10, previous.last + 1));
       y.push(previous.mean);
-      customdata.push([previous.count, previous.first, previous.last]);
+      customdata.push([previous.start, previous.count, previous.first, previous.last]);
       x.push(average.start);
       y.push(null);
       customdata.push(null);
     }
     x.push(average.start);
     y.push(average.mean);
-    customdata.push([average.count, average.first, average.last]);
+    customdata.push([average.start, average.count, average.first, average.last]);
     previous = average;
   }
   if (previous) {
     x.push(Math.min(previous.start + 10, previous.last + 1));
     y.push(previous.mean);
-    customdata.push([previous.count, previous.first, previous.last]);
+    customdata.push([previous.start, previous.count, previous.first, previous.last]);
   }
   return {
     type: 'scatter' as const,
@@ -71,8 +71,8 @@ function decadeTrace(averages: DecadeAverage[], color: string, name: string): Da
     line: { color, width: 1.7, dash: 'dash' as const, shape: 'hv' as const },
     name: `${name} 10年平均`,
     hovertemplate:
-      `<b>${name} · %{x}s</b><br>10年平均：%{y:+.2f}%` +
-      '<br>対象：%{customdata[0]}年（%{customdata[1]}–%{customdata[2]}）<extra></extra>',
+      `<b>${name} · %{customdata[0]}s</b><br>10年平均：%{y:+.2f}%` +
+      '<br>対象：%{customdata[1]}年（%{customdata[2]}–%{customdata[3]}）<extra></extra>',
   } as Data;
 }
 

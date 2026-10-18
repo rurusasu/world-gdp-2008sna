@@ -90,6 +90,7 @@ function switchMode(nextMode: Mode) {
   });
   $('panel-control').hidden = mode !== 'panel';
   $('country-filter').hidden = mode !== 'countries';
+  $('combined-layout').classList.toggle('single-chart', mode !== 'countries');
   $('index-unit').textContent = mode === 'countries' ? '各系列の起点年 = 100' : '';
   $('point-details').hidden = mode === 'countries';
   chooseCurrent();

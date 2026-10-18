@@ -310,6 +310,9 @@ select {
   align-items: start;
   gap: 18px;
 }
+.combined-layout.single-chart {
+  grid-template-columns: minmax(0, 1fr);
+}
 .combined-chart-card .chart {
   height: 440px;
 }
