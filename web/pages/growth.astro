@@ -12,7 +12,7 @@ const base = import.meta.env.BASE_URL;
   <script>import '../growth';</script>
 </head>
 <body>
-<header class="topbar"><a class="brand" href={base}><span class="brandmark">↗</span> GDP OBSERVATORY <span class="edition">2008 SNA</span></a><nav><a href={base}>全体レポート</a><a href={`${base}growth/`}>10年平均</a><a href="https://github.com/rurusasu/world-gdp-2008sna">GitHub ↗</a></nav></header>
+<header class="topbar"><a class="brand" href={base}><span class="brandmark">↗</span> GDP OBSERVATORY <span class="edition">2008 SNA</span></a><nav><a href={base}>全体レポート</a><a href={`${base}growth/`}>国別GDP成長率</a><a href="https://github.com/rurusasu/world-gdp-2008sna">GitHub ↗</a></nav></header>
 <main class="growth-page">
   <section class="hero"><div class="eyebrow">COUNTRY GDP GROWTH · DECADE AVERAGES</div><h1>国別のGDP成長率を、<br>年次と10年平均で見る。</h1><p class="lead">2008SNAの公式実質GDPから各年の前年比を示し、同じ10年区分の算術平均を計算します。国・地域を選んで推移を比較できます。</p><div class="snapshot" id="growth-snapshot">データを読み込んでいます…</div></section>
   <div id="growth-error" class="notice" hidden role="alert"></div>
