@@ -304,6 +304,114 @@ select {
   grid-template-columns: 1.35fr 1fr;
   gap: 18px;
 }
+.combined-layout {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 278px;
+  align-items: start;
+  gap: 18px;
+}
+.combined-chart-card .chart {
+  height: 440px;
+}
+.chart-key {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 18px;
+  padding: 0 22px 16px;
+  color: var(--muted);
+  font-size: 10px;
+}
+.chart-key span {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+}
+.chart-key i {
+  display: inline-block;
+  width: 22px;
+  border-top: 2px solid #147c75;
+}
+.chart-key .key-dashed {
+  border-top-style: dashed;
+}
+.country-filter {
+  padding: 15px;
+  border: 1px solid var(--line);
+  border-radius: 5px;
+  background: var(--white);
+  min-width: 0;
+}
+.country-filter[hidden] {
+  display: none;
+}
+.country-filter-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+  font-size: 12px;
+}
+.country-filter-heading .quiet {
+  min-height: 32px;
+  padding: 6px 8px;
+  font-size: 10px;
+}
+.country-filter .small {
+  margin: 8px 0;
+  color: var(--muted);
+  font-size: 10px;
+}
+.country-filter-search {
+  display: grid;
+  gap: 5px;
+  color: var(--muted);
+  font-size: 10px;
+}
+.country-filter-search input {
+  width: 100%;
+  min-height: 34px;
+  padding: 7px 9px;
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  background: #fff;
+  color: var(--ink);
+  font: inherit;
+}
+.country-filter-list {
+  display: grid;
+  gap: 2px;
+  max-height: 345px;
+  overflow: auto;
+  margin-top: 9px;
+  overscroll-behavior: contain;
+}
+.country-filter-option {
+  display: grid;
+  grid-template-columns: 15px 9px minmax(0, 1fr);
+  align-items: center;
+  gap: 7px;
+  min-height: 27px;
+  color: var(--ink);
+  font-size: 10px;
+  cursor: pointer;
+}
+.country-filter-option[hidden] {
+  display: none;
+}
+.country-filter-option input {
+  margin: 0;
+  accent-color: #147c75;
+}
+.country-filter-swatch {
+  width: 8px;
+  height: 8px;
+  border-radius: 50%;
+}
+.country-filter-name {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
 .chart-card {
   background: var(--white);
   border: 1px solid var(--line);
@@ -597,6 +705,16 @@ footer {
   .chart-grid {
     grid-template-columns: 1fr;
   }
+  .combined-layout {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .country-filter {
+    order: -1;
+  }
+  .country-filter-list {
+    max-height: 220px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
   .method {
     grid-template-columns: 1fr;
     gap: 20px;
@@ -618,6 +736,9 @@ footer {
   }
   .chart {
     height: 310px;
+  }
+  .combined-chart-card .chart {
+    height: 360px;
   }
   .growth-charts {
     grid-template-columns: 1fr;

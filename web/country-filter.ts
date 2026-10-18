@@ -27,6 +27,7 @@ export function bindCountryFilter(
     const label = document.createElement('label');
     label.className = 'country-filter-option';
     label.dataset.countryName = country.name.toLocaleLowerCase('ja');
+    label.title = `表${country.series.table} / 系列${country.series.series_number} / ${country.series.currency} / 基準年 ${country.series.base_year} / ${country.series.fiscal_year_type}（${country.series.first}–${country.series.last}年）`;
 
     const input = document.createElement('input');
     input.type = 'checkbox';
