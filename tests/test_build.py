@@ -27,6 +27,9 @@ class ReportBuildTests(unittest.TestCase):
                       'snapshot': 'fixture', 'default_panel': None})
         with tempfile.TemporaryDirectory() as directory:
             root = Path(directory)
+            (root / 'site').mkdir()
+            entry = root / 'site/index.html'
+            entry.write_text('<html>Frontend-owned entry</html>', encoding='utf-8')
             export_report(root, model, static=False)
             payload = (root / 'site/report.json').read_bytes()
             saved = json.loads(payload)
@@ -35,7 +38,7 @@ class ReportBuildTests(unittest.TestCase):
             self.assertNotIn(b'NaN', payload)
             csv = (root / 'site/downloads/real-gdp.csv').read_text(encoding='utf-8-sig')
             self.assertIn('2023,121.0,121.0,', csv)
-            self.assertTrue((root / 'site/index.html').is_file())
+            self.assertEqual(entry.read_text(encoding='utf-8'), '<html>Frontend-owned entry</html>')
             self.assertTrue((root / 'site/plotly.min.js').stat().st_size > 100000)
             export_report(root, model, static=False)
             self.assertEqual((root / 'site/report.json').read_bytes(), payload)

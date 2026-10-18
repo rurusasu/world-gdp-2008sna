@@ -8,9 +8,6 @@ import shutil
 from .acquire import load_snapshot, read_exchange_rates, read_world_reference
 from .analyze import analyze_rows, choose_panels
 
-WEB = Path(__file__).resolve().parents[2] / 'web'
-
-
 def write_csv(path: Path, fields: list[str], rows: list[dict]) -> None:
     with path.open('w', encoding='utf-8-sig', newline='') as stream:
         writer = csv.DictWriter(stream, fieldnames=fields, extrasaction='ignore', lineterminator='\n')
@@ -49,8 +46,6 @@ def export_report(root: Path, model: dict, static: bool = True) -> None:
     processed = root / 'data' / 'processed'
     for directory in (site, downloads, processed):
         directory.mkdir(parents=True, exist_ok=True)
-    for name in ('index.html', 'style.css', 'app.js'):
-        shutil.copyfile(WEB / name, site / name)
     (site / '.nojekyll').write_text('', encoding='utf-8')
     (site / 'plotly.min.js').write_text(get_plotlyjs(), encoding='utf-8')
     model = {**model, 'plotly_python_version': plotly.__version__}

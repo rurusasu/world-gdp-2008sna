@@ -14,6 +14,22 @@
 
 検証では `UV_PROJECT_ENVIRONMENT` に `/tmp/world-gdp-2008sna-linux-venv` を指定し、既存のWindows用 `.venv/` を保持した。GitHub Actionsの変更後の配備とaarch64上での実行は未検証。
 
+## Nix管理のAstro・Vite+導入（2026-10-18）
+
+Node.js 24とnpmを既存のNix Flakeから供給し、Astro 7.4.0・TypeScript 6.0.3・Vite+ 1.3.0を `package-lock.json` で固定した。Astroが利用するViteも同版のVite+ coreに統一。既存画面をAstroと型付きTypeScriptへ移し、Pythonは `site/` へのデータ生成を担当する。公開成果物はAstroが `dist/` に生成する。
+
+- `nix flake check --all-systems`: x86_64-linux・aarch64-linuxの開発環境の評価に成功。実行はx86_64-linuxで検証。
+- Nix環境でNode.js 24.21.0・npm 11.19.0・Python 3.15.0・uv 0.13.0を確認。
+- `direnv exec . vp --version`: ロックファイル変更によるNix環境の再読込、uvとnpmの依存同期、ローカルVite+ 1.3.0の起動に成功。内蔵Vite 8.3.4・Rolldown 1.2.14を確認。
+- `nix develop --command vp run test`: 全28テスト成功。Pythonのデータ出力が画面用HTMLを上書きしないことも検証。
+- `nix develop --command vp run data:build --no-static`: 保存済み原本のチェックサムを照合して再計算に成功。150か国・地域、609実質系列、10固定対象集計を維持。公開レポートJSONとダウンロード用CSV/JSONに差分なし。一時ディレクトリへの再構築でも既存成果物とのバイト一致を確認。
+- `nix develop --command vp run build`: Vite+の整形・lint・型検査とAstroの型検査が警告・エラー0件で成功し、静的ページを生成。
+- `nix develop --command vp run preview --host 127.0.0.1 --port 4327 --ignore-lock` に対し、Chromeで `/world-gdp-2008sna/` を検証。HTML・JS・CSS・CSV等10リンクとJSON・Plotlyの取得、初期45か国集計、実際のホバー、期間変更時の指数起点保持、リセット、Philippinesの1946年、参考世界合計、価格基準未確認系列の未算出表示、Japanの監査検索、幅390pxでの横はみ出し防止が成功。
+- PlotlyとレポートJSONをそれぞれ遮断し、読込失敗の画面表示を確認。通常操作・障害表示とも未処理のJavaScript例外0件。
+- Astro導入とVite+追加後の独立レビューはいずれも指摘なし。最終差分の空白検査に成功し、原本・集計結果に変更がないことを確認。
+
+この時点では変更後のGitHub Actionsとaarch64での実行は未検証。ユーザー指定に従い、ローカル検証済みの変更を `origin/main` へ反映する。
+
 ## 取得結果
 
 取得スナップショット: `20261014T125544649002Z`。原本のURL、取得日時、SHA-256、提供元の件数表示は `data/raw/` のmanifestに保存。

@@ -15,15 +15,17 @@
         in
         {
           default = pkgs.mkShell {
-            packages = [ pkgs.uv pkgs.python315 ];
+            packages = [ pkgs.uv pkgs.python315 pkgs.nodejs_24 ];
 
             UV_PYTHON = "${pkgs.python315}/bin/python3.15";
             UV_PYTHON_DOWNLOADS = "never";
             PYTHONPATH = "src";
             MPLBACKEND = "Agg";
+            ASTRO_TELEMETRY_DISABLED = "1";
 
             # NumPy and Matplotlib wheels need these shared libraries on NixOS.
             shellHook = ''
+              export PATH="$PWD/node_modules/.bin:$PATH"
               export LD_LIBRARY_PATH="${pkgs.lib.makeLibraryPath [ pkgs.stdenv.cc.cc.lib pkgs.zlib ]}''${LD_LIBRARY_PATH:+:$LD_LIBRARY_PATH}"
             '';
           };

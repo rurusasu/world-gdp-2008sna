@@ -1,0 +1,29 @@
+{
+  "name": "world-gdp-2008sna",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "check": "vp check && astro check",
+    "build": "vp run check && astro build",
+    "preview": "astro preview",
+    "test": "uv run --locked python -m unittest discover -s tests -v",
+    "data:build": "uv run --locked python -m gdp_report build"
+  },
+  "dependencies": {
+    "astro": "7.4.0"
+  },
+  "devDependencies": {
+    "@astrojs/check": "0.9.10",
+    "@types/plotly.js": "3.0.15",
+    "typescript": "6.0.3",
+    "vite-plus": "1.3.0"
+  },
+  "overrides": {
+    "vite": "npm:@voidzero-dev/vite-plus-core@1.3.0"
+  },
+  "engines": {
+    "node": ">=24 <25"
+  }
+}
